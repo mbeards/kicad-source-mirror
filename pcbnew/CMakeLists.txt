@@ -44,6 +44,10 @@ include_directories(
     ./import_dxf
     ../utils/idftools
     ${GLM_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
+    ${CMAKE_BINARY_DIR}/include
+    ${CMAKE_BINARY_DIR}/include/pcbnew
+    ${CMAKE_BINARY_DIR}/include/dialogs
     ${INC_AFTER}
     )
 
@@ -519,18 +523,18 @@ endif()
 
 # Create a C++ compilable string initializer containing html text into a *.h file:
 add_custom_command(
-    OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help_html.h
+    OUTPUT ${CMAKE_BINARY_DIR}/include/dialogs/dialog_freeroute_exchange_help_html.h
     COMMAND ${CMAKE_COMMAND}
         -DinputFile=${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help.html
-        -DoutputFile=${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help_html.h
+        -DoutputFile=${CMAKE_BINARY_DIR}/include/dialogs/dialog_freeroute_exchange_help_html.h
         -P ${CMAKE_MODULE_PATH}/Html2C.cmake
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help.html
-    COMMENT "creating ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help_html.h
+    COMMENT "creating ${CMAKE_BINARY_DIR}/include/dialogs/dialog_freeroute_exchange_help_html.h
        from ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help.html"
     )
 
 set_source_files_properties( dialogs/dialog_freeroute_exchange.cpp PROPERTIES
-    OBJECT_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_freeroute_exchange_help_html.h
+    OBJECT_DEPENDS ${CMAKE_BINARY_DIR}/include/dialogs/dialog_freeroute_exchange_help_html.h
     )
 
 add_subdirectory( pcad2kicadpcb_plugin )

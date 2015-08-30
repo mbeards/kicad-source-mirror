@@ -15,6 +15,8 @@ include_directories(
     ./netlist_exporters
     ../common
     ../common/dialogs
+    ${CMAKE_BINARY_DIR}/include
+    ${CMAKE_BINARY_DIR}/include/dialogs
     ${INC_AFTER}
     )
 
@@ -24,7 +26,7 @@ set( EESCHEMA_DLGS
     dialogs/dialog_annotate_base.cpp
     dialogs/dialog_bom.cpp
     dialogs/dialog_bom_base.cpp
-    dialogs/dialog_bom_cfg_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/dialogs/dialog_bom_cfg_keywords.cpp
     dialogs/dialog_color_config.cpp
     dialogs/dialog_color_config_base.cpp
     dialogs/dialog_choose_component.cpp
@@ -84,7 +86,7 @@ set( EESCHEMA_SRCS
     class_libentry.cpp
     class_library.cpp
     class_netlist_object.cpp
-    cmp_library_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/cmp_library_keywords.cpp
     cmp_library_lexer.cpp
     component_references_lister.cpp
     controle.cpp
@@ -162,7 +164,7 @@ set( EESCHEMA_SRCS
     sheetlab.cpp
     symbdraw.cpp
     symbedit.cpp
-    template_fieldnames_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/template_fieldnames_keywords.cpp
     template_fieldnames.cpp
     tool_lib.cpp
     tool_sch.cpp
@@ -196,19 +198,19 @@ endif()
 
 # Create a C++ compilable string initializer containing html text into a *.h file:
 add_custom_command(
-    OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help_html.h
+    OUTPUT ${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_help_html.h
     COMMAND ${CMAKE_COMMAND}
         -DinputFile=${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help.html
-        -DoutputFile=${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help_html.h
+        -DoutputFile=${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_help_html.h
         -P ${CMAKE_MODULE_PATH}/Html2C.cmake
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help.html
-    COMMENT "creating ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help_html.h
+    COMMENT "creating ${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_help_html.h
        from ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help.html"
     )
 
 set_source_files_properties( dialogs/dialog_bom.cpp
     PROPERTIES
-        OBJECT_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_help_html.h
+        OBJECT_DEPENDS ${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_help_html.h
     )
 
 if( APPLE )
@@ -325,24 +327,24 @@ endif()
 # library format.
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/cmp_library.keywords
-    ${CMAKE_CURRENT_SOURCE_DIR}/cmp_library_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/cmp_library_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/cmp_library_lexer.h
+    ${CMAKE_BINARY_DIR}/src/cmp_library_keywords.cpp
     TLIB_T
     )
 
 add_custom_target(
     cmp_library_lexer_source_files ALL
     DEPENDS
-        ${CMAKE_CURRENT_SOURCE_DIR}/cmp_library_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/cmp_library_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/cmp_library_lexer.h
+        ${CMAKE_BINARY_DIR}/src/cmp_library_keywords.cpp
     )
 
 add_dependencies( eeschema_kiface cmp_library_lexer_source_files )
 
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/template_fieldnames.keywords
-    ${CMAKE_CURRENT_SOURCE_DIR}/template_fieldnames_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/template_fieldnames_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/template_fieldnames_lexer.h
+    ${CMAKE_BINARY_DIR}/src/template_fieldnames_keywords.cpp
     TFIELD_T
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -352,16 +354,16 @@ make_lexer(
 add_custom_target(
     field_template_lexer_source_files ALL
     DEPENDS
-        ${CMAKE_CURRENT_SOURCE_DIR}/template_fieldnames_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/template_fieldnames_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/template_fieldnames_lexer.h
+        ${CMAKE_BINARY_DIR}/src/template_fieldnames_keywords.cpp
     )
 
 add_dependencies( eeschema_kiface field_template_lexer_source_files )
 
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_cfg.keywords
-    ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_cfg_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_cfg_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_cfg_lexer.h
+    ${CMAKE_BINARY_DIR}/src/dialogs/dialog_bom_cfg_keywords.cpp
     T_BOMCFG_T
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -371,8 +373,8 @@ make_lexer(
 add_custom_target(
     dialog_bom_cfg_lexer_source_files ALL
     DEPENDS
-        ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_cfg_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/dialogs/dialog_bom_cfg_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/dialogs/dialog_bom_cfg_lexer.h
+        ${CMAKE_BINARY_DIR}/src/dialogs/dialog_bom_cfg_keywords.cpp
     )
 
 add_dependencies( eeschema_kiface dialog_bom_cfg_lexer_source_files )

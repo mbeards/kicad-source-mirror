@@ -9,24 +9,28 @@ include_directories(
     ../3d-viewer
     ../pcbnew
     ../polygon
+    ${CMAKE_BINARY_DIR}
+    ${CMAKE_BINARY_DIR}/include
+    ${CMAKE_BINARY_DIR}/include/common
+    ${CMAKE_BINARY_DIR}/include/pcbnew
+    ${CMAKE_BINARY_DIR}/include/gal/opengl
     ${INC_AFTER}
     )
 
 # Generate header files containing shader programs
 # Order of input files is significant
 add_custom_command(
-    OUTPUT gal/opengl/shader_src.h
+    OUTPUT ${CMAKE_BINARY_DIR}/include/gal/opengl/shader_src.h
     COMMAND ${CMAKE_COMMAND}
         -DinputFiles="${PROJECT_SOURCE_DIR}/common/gal/opengl/shader.vert\\;${PROJECT_SOURCE_DIR}/common/gal/opengl/shader.frag"
-        -DoutputFile="shader_src.h"
+        -DoutputFile="${CMAKE_BINARY_DIR}/include/gal/opengl/shader_src.h"
         -P ${CMAKE_MODULE_PATH}/Shaders.cmake
-    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/common/gal/opengl
     COMMENT "Generating headers containing GLSL source code"
     )
 
 add_custom_target(
     shader_headers ALL
-    DEPENDS gal/opengl/shader_src.h
+    DEPENDS ${CMAKE_BINARY_DIR}/include/gal/opengl/shader_src.h
     )
 
 set( GAL_SRCS
@@ -160,7 +164,7 @@ set( COMMON_PAGE_LAYOUT_SRCS
     page_layout/class_worksheet_layout.cpp
     page_layout/page_layout_default_description.cpp
     page_layout/page_layout_graphic_items.cpp
-    page_layout/page_layout_reader_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/page_layout/page_layout_reader_keywords.cpp
     page_layout/page_layout_reader.cpp
     )
 
@@ -218,7 +222,7 @@ set( COMMON_SRCS
     kiway_player.cpp
     lockfile.cpp
     msgpanel.cpp
-    netlist_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/netlist_keywords.cpp
     newstroke_font.cpp
     prependpath.cpp
     project.cpp
@@ -333,11 +337,11 @@ set( PCB_COMMON_SRCS
     ../pcbnew/pcb_netlist.cpp
     ../pcbnew/specctra.cpp
     ../pcbnew/specctra_export.cpp
-    ../pcbnew/specctra_keywords.cpp
-    pcb_plot_params_keywords.cpp
-    pcb_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/pcbnew/specctra_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/pcb_plot_params_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/pcb_keywords.cpp
     ../pcbnew/pcb_parser.cpp
-    fp_lib_table_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/fp_lib_table_keywords.cpp
     fpid.cpp
     fp_lib_table.cpp
 )
@@ -358,8 +362,8 @@ add_dependencies( pcbcommon lib-dependencies )
 # auto-generate specctra_lexer.h and specctra_keywords.cpp
 make_lexer(
     ${PROJECT_SOURCE_DIR}/pcbnew/specctra.keywords
-    ${PROJECT_SOURCE_DIR}/pcbnew/specctra_lexer.h
-    ${PROJECT_SOURCE_DIR}/pcbnew/specctra_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/pcbnew/specctra_lexer.h
+    ${CMAKE_BINARY_DIR}/src/pcbnew/specctra_keywords.cpp
     DSN
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -369,8 +373,8 @@ make_lexer(
 add_custom_target(
     specctra_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/pcbnew/specctra_lexer.h
-        ${PROJECT_SOURCE_DIR}/pcbnew/specctra_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/pcbnew/specctra_lexer.h
+        ${CMAKE_BINARY_DIR}/src/pcbnew/specctra_keywords.cpp
     )
 
 add_dependencies( pcbcommon specctra_lexer_source_files )
@@ -378,8 +382,8 @@ add_dependencies( pcbcommon specctra_lexer_source_files )
 # auto-generate netlist_lexer.h and netlist_keywords.cpp
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/netlist.keywords
-    ${PROJECT_SOURCE_DIR}/include/netlist_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/netlist_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/netlist_lexer.h
+    ${CMAKE_BINARY_DIR}/src/netlist_keywords.cpp
     NL_T
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -389,8 +393,8 @@ make_lexer(
 add_custom_target(
     netlist_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/include/netlist_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/netlist_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/netlist_lexer.h
+        ${CMAKE_BINARY_DIR}/src/netlist_keywords.cpp
     )
 
 add_dependencies( common netlist_lexer_source_files )
@@ -399,8 +403,8 @@ add_dependencies( pcbcommon netlist_lexer_source_files )
 # auto-generate pcb_plot_params_lexer.h and pcb_plot_params_keywords.cpp
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/pcb_plot_params.keywords
-    ${PROJECT_SOURCE_DIR}/include/pcb_plot_params_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/pcb_plot_params_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/pcb_plot_params_lexer.h
+    ${CMAKE_BINARY_DIR}/src/pcb_plot_params_keywords.cpp
     PCBPLOTPARAMS_T
 
     # Pass header file with dependencies on *_lexer.h as extra_arg
@@ -410,8 +414,8 @@ make_lexer(
 add_custom_target(
     pcb_plot_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/include/pcb_plot_params_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/pcb_plot_params_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/pcb_plot_params_lexer.h
+        ${CMAKE_BINARY_DIR}/src/pcb_plot_params_keywords.cpp
     )
 
 add_dependencies( pcbcommon pcb_plot_lexer_source_files )
@@ -419,8 +423,8 @@ add_dependencies( pcbcommon pcb_plot_lexer_source_files )
 # auto-generate pcbnew_sexpr.h and pcbnew_sexpr.cpp
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/pcb.keywords
-    ${PROJECT_SOURCE_DIR}/include/pcb_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/pcb_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/pcb_lexer.h
+    ${CMAKE_BINARY_DIR}/src/pcb_keywords.cpp
     PCB_KEYS_T
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -430,8 +434,8 @@ make_lexer(
 add_custom_target(
     pcb_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/include/pcb_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/pcb_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/pcb_lexer.h
+        ${CMAKE_BINARY_DIR}/src/pcb_keywords.cpp
     )
 
 add_dependencies( pcbcommon pcb_lexer_source_files )
@@ -439,16 +443,16 @@ add_dependencies( pcbcommon pcb_lexer_source_files )
 # auto-generate pcbnew s-expression footprint library table code.
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/fp_lib_table.keywords
-    ${PROJECT_SOURCE_DIR}/include/fp_lib_table_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/fp_lib_table_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/fp_lib_table_lexer.h
+    ${CMAKE_BINARY_DIR}/src/fp_lib_table_keywords.cpp
     FP_LIB_TABLE_T
     )
 
 add_custom_target(
     fp_lib_table_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/include/fp_lib_table_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/fp_lib_table_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/fp_lib_table_lexer.h
+        ${CMAKE_BINARY_DIR}/src/fp_lib_table_keywords.cpp
     )
 
 add_dependencies( pcbcommon fp_lib_table_lexer_source_files )
@@ -457,16 +461,16 @@ add_dependencies( pcbcommon fp_lib_table_lexer_source_files )
 # and title_block_reader_keywords.cpp.
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/page_layout/page_layout_reader.keywords
-    ${PROJECT_SOURCE_DIR}/include/page_layout_reader_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/page_layout/page_layout_reader_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/page_layout_reader_lexer.h
+    ${CMAKE_BINARY_DIR}/src/page_layout/page_layout_reader_keywords.cpp
     TB_READER_T
     )
 
 add_custom_target(
     page_layout_lexer_source_files ALL
     DEPENDS
-        ${PROJECT_SOURCE_DIR}/include/page_layout_reader_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/page_layout/page_layout_reader_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/page_layout_reader_lexer.h
+        ${CMAKE_BINARY_DIR}/src/page_layout/page_layout_reader_keywords.cpp
     )
 
 add_dependencies( common page_layout_lexer_source_files )

@@ -12,6 +12,7 @@ include_directories(BEFORE ${INC_BEFORE})
 include_directories(
     dialogs
     ../common/dialogs
+    ${CMAKE_BINARY_DIR}/include
     ${INC_AFTER}
     )
 

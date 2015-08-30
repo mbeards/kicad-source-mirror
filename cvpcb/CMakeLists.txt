@@ -17,6 +17,7 @@ include_directories(
     ../polygon
     ../common
     ${GLM_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}/include
     ${INC_AFTER}
     )
 

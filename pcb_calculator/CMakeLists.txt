@@ -7,6 +7,7 @@ include_directories(
     attenuators
     ../polygon
     ../common
+    ${CMAKE_BINARY_DIR}/include
     ${INC_AFTER}
     )
 
@@ -22,7 +23,7 @@ set( PCB_CALCULATOR_SRCS
     tracks_width_versus_current.cpp
     transline_ident.cpp
     UnitSelector.cpp
-    pcb_calculator_datafile_keywords.cpp
+    ${CMAKE_BINARY_DIR}/src/pcb_calculator_datafile_keywords.cpp
     transline/transline.cpp
     transline/c_microstrip.cpp
     transline/microstrip.cpp
@@ -147,8 +148,8 @@ endif()
 # for the storage data file format.
 make_lexer(
     ${CMAKE_CURRENT_SOURCE_DIR}/pcb_calculator_datafile.keywords
-    ${CMAKE_CURRENT_SOURCE_DIR}/pcb_calculator_datafile_lexer.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/pcb_calculator_datafile_keywords.cpp
+    ${CMAKE_BINARY_DIR}/include/pcb_calculator_datafile_lexer.h
+    ${CMAKE_BINARY_DIR}/src/pcb_calculator_datafile_keywords.cpp
     PCBCALC_DATA_T
 
     # Pass header file with dependency on *_lexer.h as extra_arg
@@ -158,8 +159,8 @@ make_lexer(
 add_custom_target(
     pcb_calculator_lexer_source_files ALL
     DEPENDS
-        ${CMAKE_CURRENT_SOURCE_DIR}/pcb_calculator_datafile_lexer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}/pcb_calculator_datafile_keywords.cpp
+        ${CMAKE_BINARY_DIR}/include/pcb_calculator_datafile_lexer.h
+        ${CMAKE_BINARY_DIR}/src/pcb_calculator_datafile_keywords.cpp
 )
 
 add_dependencies( pcb_calculator_kiface pcb_calculator_lexer_source_files )
