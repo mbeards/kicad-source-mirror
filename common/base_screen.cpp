@@ -388,8 +388,8 @@ wxPoint BASE_SCREEN::getCrossHairScreenPosition() const
     wxPoint pos = m_crossHairPosition - m_DrawOrg;
     double  scalar = GetScalingFactor();
 
-    pos.x = KiROUND( (double) pos.x * scalar );
-    pos.y = KiROUND( (double) pos.y * scalar );
+    pos.x = KiROUND( static_cast<double>(pos.x) * scalar );
+    pos.y = KiROUND( static_cast<double>(pos.y) * scalar );
 
     return pos;
 }

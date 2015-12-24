@@ -106,7 +106,7 @@ bool BITMAP_BASE::SaveData( FILE* aFile ) const
 
         // Write binary data in hexadecimal form (ASCII)
         wxStreamBuffer* buffer = stream.GetOutputStreamBuffer();
-        char*           begin  = (char*) buffer->GetBufferStart();
+        char*           begin  = reinterpret_cast<char *>( buffer->GetBufferStart());
         int             ii;
         for( ii = 0; begin <= buffer->GetBufferEnd(); begin++, ii++ )
         {
@@ -133,7 +133,7 @@ void BITMAP_BASE::SaveData( wxArrayString& aPngStrings ) const
 
         // Write binary data in hexadecimal form (ASCII)
         wxStreamBuffer* buffer = stream.GetOutputStreamBuffer();
-        char*           begin  = (char*) buffer->GetBufferStart();
+        char*           begin  = reinterpret_cast<char *>( buffer->GetBufferStart());
         wxString line;
         for( int ii = 0; begin <= buffer->GetBufferEnd(); begin++, ii++ )
         {
@@ -188,7 +188,7 @@ bool BITMAP_BASE::LoadData( LINE_READER& aLine, wxString& aErrorMsg )
         {
             int value = 0;
             if( sscanf( line, "%X", &value ) == 1 )
-                stream.PutC( (char) value );
+                stream.PutC( static_cast<char>( value) );
             else
                 break;
         }

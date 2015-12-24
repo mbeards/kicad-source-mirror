@@ -491,8 +491,8 @@ void EDA_DRAW_PANEL::OnScroll( wxScrollWinEvent& event )
     double scale = GetParent()->GetScreen()->GetScalingFactor();
 
     wxPoint center = GetParent()->GetScrollCenterPosition();
-    center.x += KiROUND( (double) ( x - tmpX ) / scale );
-    center.y += KiROUND( (double) ( y - tmpY ) / scale );
+    center.x += KiROUND( static_cast<double> ( x - tmpX ) / scale );
+    center.y += KiROUND( static_cast<double> ( y - tmpY ) / scale );
     GetParent()->SetScrollCenterPosition( center );
 
     Scroll( x, y );
@@ -735,14 +735,14 @@ void EDA_DRAW_PANEL::DrawGrid( wxDC* aDC )
 #endif
 
     int xpos;
-    double right = ( double ) m_ClipBox.GetRight();
-    double bottom = ( double ) m_ClipBox.GetBottom();
+    double right = static_cast<double>( m_ClipBox.GetRight());
+    double bottom = static_cast<double>( m_ClipBox.GetBottom());
 
-    for( double x = (double) org.x; x <= right; x += gridSize.x )
+    for( double x = static_cast<double>( org.x); x <= right; x += gridSize.x )
     {
         xpos = KiROUND( x );
 
-        for( double y = (double) org.y; y <= bottom; y += gridSize.y )
+        for( double y = static_cast<double>( org.y); y <= bottom; y += gridSize.y )
         {
             aDC->DrawPoint( xpos, KiROUND( y )  );
         }
@@ -1065,7 +1065,7 @@ void EDA_DRAW_PANEL::OnMouseEvent( wxMouseEvent& event )
         kbstat |= GR_KB_ALT;
 
     // Calling Double Click and Click functions :
-    if( localbutt == (int) ( GR_M_LEFT_DOWN | GR_M_DCLICK ) )
+    if( localbutt == static_cast<int> ( GR_M_LEFT_DOWN | GR_M_DCLICK ) )
     {
         GetParent()->OnLeftDClick( &DC, GetParent()->RefPos( true ) );
 
@@ -1184,8 +1184,8 @@ void EDA_DRAW_PANEL::OnMouseEvent( wxMouseEvent& event )
             double scale = GetParent()->GetScreen()->GetScalingFactor();
 
             wxPoint center = GetParent()->GetScrollCenterPosition();
-            center.x += KiROUND( (double) ( x - tmpX ) / scale ) / ppux;
-            center.y += KiROUND( (double) ( y - tmpY ) / scale ) / ppuy;
+            center.x += KiROUND( static_cast<double> ( x - tmpX ) / scale ) / ppux;
+            center.y += KiROUND( static_cast<double> ( y - tmpY ) / scale ) / ppuy;
             GetParent()->SetScrollCenterPosition( center );
 
             Refresh();
@@ -1195,9 +1195,9 @@ void EDA_DRAW_PANEL::OnMouseEvent( wxMouseEvent& event )
         {
             double scale = GetParent()->GetScreen()->GetScalingFactor();
             int x = m_PanStartCenter.x +
-                    KiROUND( (double) ( m_PanStartEventPosition.x - currentPosition.x ) / scale );
+                    KiROUND( static_cast<double> ( m_PanStartEventPosition.x - currentPosition.x ) / scale );
             int y = m_PanStartCenter.y +
-                    KiROUND( (double) ( m_PanStartEventPosition.y - currentPosition.y ) / scale );
+                    KiROUND( static_cast<double> ( m_PanStartEventPosition.y - currentPosition.y ) / scale );
 
             GetParent()->RedrawScreen( wxPoint( x, y ), false );
         }
@@ -1341,7 +1341,7 @@ void EDA_DRAW_PANEL::OnMouseEvent( wxMouseEvent& event )
 
     // End of block command on a double click
     // To avoid an unwanted block move command if the mouse is moved while double clicking
-    if( localbutt == (int) ( GR_M_LEFT_DOWN | GR_M_DCLICK ) )
+    if( localbutt == static_cast<int> ( GR_M_LEFT_DOWN | GR_M_DCLICK ) )
     {
         if( !screen->IsBlockActive() && IsMouseCaptured() )
         {
@@ -1504,8 +1504,8 @@ void EDA_DRAW_PANEL::OnPan( wxCommandEvent& event )
         double scale = GetParent()->GetScreen()->GetScalingFactor();
 
         wxPoint center = GetParent()->GetScrollCenterPosition();
-        center.x += KiROUND( (double) ( x - tmpX ) / scale );
-        center.y += KiROUND( (double) ( y - tmpY ) / scale );
+        center.x += KiROUND( static_cast<double> ( x - tmpX ) / scale );
+        center.y += KiROUND( static_cast<double> ( y - tmpY ) / scale );
         GetParent()->SetScrollCenterPosition( center );
 
         wxLogTrace( KICAD_TRACE_COORDS,

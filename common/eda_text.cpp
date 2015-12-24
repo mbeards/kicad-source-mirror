@@ -132,7 +132,7 @@ EDA_RECT EDA_TEXT::GetTextBox( int aLine, int aThickness, bool aInvertY ) const
 
         if ( strings.GetCount() )     // GetCount() == 0 for void strings
         {
-            if( aLine >= 0 && (aLine < (int)strings.GetCount()) )
+            if( aLine >= 0 && (aLine < static_cast<int>(strings.GetCount())) )
                 text = strings.Item( aLine );
             else
                 text = strings.Item( 0 );

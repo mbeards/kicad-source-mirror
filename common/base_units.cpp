@@ -116,7 +116,7 @@ double To_User_Unit( EDA_UNITS_T aUnit, double aValue )
  */
 wxString CoordinateToString( int aValue, bool aConvertToMils )
 {
-    return LengthDoubleToString( (double) aValue, aConvertToMils );
+    return LengthDoubleToString( static_cast<double>(aValue), aConvertToMils );
 }
 
 wxString LengthDoubleToString( double aValue, bool aConvertToMils )

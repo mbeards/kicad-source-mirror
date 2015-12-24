@@ -385,7 +385,7 @@ void EDA_DRAW_FRAME::OnSelectGrid( wxCommandEvent& event )
          */
         int index = m_gridSelectBox->GetSelection();
         wxASSERT( index != wxNOT_FOUND );
-        clientData = (int*) m_gridSelectBox->wxItemContainer::GetClientData( index );
+        clientData = reinterpret_cast<int *>( m_gridSelectBox->wxItemContainer::GetClientData( index ));
 
         if( clientData != NULL )
             eventId = *clientData;
@@ -418,7 +418,7 @@ void EDA_DRAW_FRAME::OnSelectZoom( wxCommandEvent& event )
 
     int id = m_zoomSelectBox->GetCurrentSelection();
 
-    if( id < 0 || !( id < (int)m_zoomSelectBox->GetCount() ) )
+    if( id < 0 || !( id < static_cast<int>(m_zoomSelectBox->GetCount()) ) )
         return;
 
     if( id == 0 )                      // Auto zoom (Fit in Page)
@@ -576,7 +576,7 @@ void EDA_DRAW_FRAME::SetPresetGrid( int aIndex )
 
     if( m_gridSelectBox )
     {
-        if( glistIdx < 0 || glistIdx >= (int) m_gridSelectBox->GetCount() )
+        if( glistIdx < 0 || glistIdx >= static_cast<int>( m_gridSelectBox->GetCount()) )
         {
             wxASSERT_MSG( false, "Invalid grid index" );
             return;
@@ -643,7 +643,7 @@ const wxString EDA_DRAW_FRAME::GetZoomLevelIndicator() const
     }
     else if( BASE_SCREEN* screen = GetScreen() )
     {
-        level = m_zoomLevelCoeff / (double) screen->GetZoom();
+        level = m_zoomLevelCoeff / screen->GetZoom();
     }
 
     // returns a human readable value which can be displayed as zoom
@@ -660,7 +660,7 @@ void EDA_DRAW_FRAME::LoadSettings( wxConfigBase* aCfg )
 
     wxString baseCfgName = ConfigBaseName();
 
-    aCfg->Read( baseCfgName + CursorShapeEntryKeyword, &m_cursorShape, ( long )0 );
+    aCfg->Read( baseCfgName + CursorShapeEntryKeyword, &m_cursorShape, static_cast<long>(0) );
 
     bool btmp;
     if( aCfg->Read( baseCfgName + ShowGridEntryKeyword, &btmp ) )
@@ -690,7 +690,7 @@ void EDA_DRAW_FRAME::SaveSettings( wxConfigBase* aCfg )
     aCfg->Write( baseCfgName + CursorShapeEntryKeyword, m_cursorShape );
     aCfg->Write( baseCfgName + ShowGridEntryKeyword, IsGridVisible() );
     aCfg->Write( baseCfgName + GridColorEntryKeyword, ( long ) GetGridColor() );
-    aCfg->Write( baseCfgName + LastGridSizeIdKeyword, ( long ) m_LastGridSizeId );
+    aCfg->Write( baseCfgName + LastGridSizeIdKeyword, static_cast<long>( m_LastGridSizeId) );
     aCfg->Write( baseCfgName + MaxUndoItemsEntry, long( GetScreen()->GetMaxUndoItems() ) );
 }
 

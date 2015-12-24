@@ -109,7 +109,7 @@ COLORS_DESIGN_SETTINGS::COLORS_DESIGN_SETTINGS()
 
 EDA_COLOR_T COLORS_DESIGN_SETTINGS::GetLayerColor( LAYER_NUM aLayer ) const
 {
-    if( (unsigned) aLayer < DIM(m_LayersColors) )
+    if( static_cast<unsigned int>( aLayer) < DIM(m_LayersColors) )
     {
         return m_LayersColors[aLayer];
     }
@@ -119,7 +119,7 @@ EDA_COLOR_T COLORS_DESIGN_SETTINGS::GetLayerColor( LAYER_NUM aLayer ) const
 
 void COLORS_DESIGN_SETTINGS::SetLayerColor( LAYER_NUM aLayer, EDA_COLOR_T aColor )
 {
-    if( (unsigned) aLayer < DIM(m_LayersColors) )
+    if( static_cast<unsigned int>( aLayer) < DIM(m_LayersColors) )
     {
         m_LayersColors[aLayer] = aColor;
     }
@@ -128,7 +128,7 @@ void COLORS_DESIGN_SETTINGS::SetLayerColor( LAYER_NUM aLayer, EDA_COLOR_T aColor
 
 EDA_COLOR_T COLORS_DESIGN_SETTINGS::GetItemColor( int aItemIdx ) const
 {
-    if( (unsigned) aItemIdx < DIM( m_ItemsColors ) )
+    if( static_cast<unsigned int>( aItemIdx) < DIM( m_ItemsColors ) )
     {
         return m_ItemsColors[aItemIdx];
     }
@@ -139,7 +139,7 @@ EDA_COLOR_T COLORS_DESIGN_SETTINGS::GetItemColor( int aItemIdx ) const
 
 void COLORS_DESIGN_SETTINGS::SetItemColor( int aItemIdx, EDA_COLOR_T aColor )
 {
-    if( (unsigned) aItemIdx < DIM(m_ItemsColors) )
+    if( static_cast<unsigned int>( aItemIdx) < DIM(m_ItemsColors) )
     {
         m_ItemsColors[aItemIdx] = aColor;
     }
