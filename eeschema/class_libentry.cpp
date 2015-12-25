@@ -34,7 +34,7 @@
 #include <plot_common.h>
 #include <gr_basic.h>
 #include <class_sch_screen.h>
-#include <richio.h>
+#include <common/richio.h>
 
 #include <general.h>
 #include <template_fieldnames.h>

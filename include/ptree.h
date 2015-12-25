@@ -49,7 +49,7 @@ makes it easy to extract a subset of a ptree.
 
 
 #include <boost/property_tree/ptree_fwd.hpp>
-#include <richio.h>
+#include <common/richio.h>
 #include <dsnlexer.h>
 
 typedef boost::property_tree::ptree         PTREE;

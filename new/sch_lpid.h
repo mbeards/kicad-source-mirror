@@ -26,7 +26,7 @@
 #define SCH_LPID_H_
 
 #include <utf8.h>
-#include <richio.h>
+#include <common/richio.h>
 
 namespace SCH {
 

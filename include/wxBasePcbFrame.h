@@ -38,7 +38,7 @@
 #include <draw_frame.h>
 #include <common/base_struct.h>
 #include <eda_text.h>                // EDA_DRAW_MODE_T
-#include <richio.h>
+#include <common/richio.h>
 #include <class_pcb_screen.h>
 #include <pcbstruct.h>
 #include <class_draw_panel_gal.h>

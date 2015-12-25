@@ -38,7 +38,7 @@
 #include <common/confirm.h>
 #include <kicad_string.h>
 #include <colors_selection.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <common/macros.h>
 #include <math_for_graphics.h>
 #include <wxBasePcbFrame.h>

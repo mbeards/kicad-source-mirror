@@ -36,7 +36,7 @@
 #include <drawtxt.h>
 #include <plot_common.h>
 #include <schframe.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <common/base_units.h>
 #include <msgpanel.h>
 

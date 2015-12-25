@@ -28,7 +28,7 @@
 #include <exception>
 #include <stdarg.h>
 #include <sstream>
-#include <richio.h>
+#include <common/richio.h>
 
 static size_t write_callback (void *contents, size_t size, size_t nmemb, void *userp);
 

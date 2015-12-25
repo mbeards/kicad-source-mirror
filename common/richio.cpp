@@ -26,7 +26,7 @@
 
 #include <cstdarg>
 
-#include <richio.h>
+#include <common/richio.h>
 
 
 // Fall back to getc() when getc_unlocked() is not available on the target platform.

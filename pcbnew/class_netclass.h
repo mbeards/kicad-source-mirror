@@ -37,7 +37,7 @@
 
 #include <wx/string.h>
 
-#include <richio.h>
+#include <common/richio.h>
 
 
 class LINE_READER;

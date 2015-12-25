@@ -39,7 +39,7 @@
 #include <kicad_string.h>
 #include <pcbnew.h>
 #include <colors_selection.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <filter_reader.h>
 #include <common/macros.h>
 #include <3d_struct.h>

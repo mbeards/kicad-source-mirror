@@ -29,7 +29,7 @@
 #include <common/common.h>
 #include <kicad_string.h>
 #include <pcbnew.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <common/macros.h>
 
 #include <class_board.h>

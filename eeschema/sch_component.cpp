@@ -32,7 +32,7 @@
 #include <class_drawpanel.h>
 #include <gr_basic.h>
 #include <kicad_string.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <schframe.h>
 #include <plot_common.h>
 #include <msgpanel.h>

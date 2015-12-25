@@ -37,7 +37,7 @@
 #include <gestfich.h>
 #include <wxPcbStruct.h>
 #include <dialog_helpers.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <filter_reader.h>
 #include <gr_basic.h>
 #include <common/macros.h>

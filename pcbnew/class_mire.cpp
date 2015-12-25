@@ -37,7 +37,7 @@
 #include <colors_selection.h>
 #include <trigo.h>
 #include <common/macros.h>
-#include <richio.h>
+#include <common/richio.h>
 
 #include <class_board.h>
 #include <class_mire.h>

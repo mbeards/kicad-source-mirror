@@ -26,7 +26,7 @@
 #define SCH_LIB_H_
 
 #include <utf8.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <import_export.h>
 
 

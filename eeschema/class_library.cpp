@@ -35,7 +35,7 @@
 #include <gestfich.h>
 #include <eda_doc.h>
 #include <wxstruct.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <config_params.h>
 #include <wildcards_and_files_ext.h>
 #include <project_rescue.h>

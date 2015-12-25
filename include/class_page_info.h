@@ -32,7 +32,7 @@
 
 #include <wx/wx.h>
 
-#include <richio.h>         // for OUTPUTFORMATTER and IO_ERROR
+#include <common/richio.h>         // for OUTPUTFORMATTER and IO_ERROR
 #include <common/base_units.h>     // for IU_PER_MILS
 
 

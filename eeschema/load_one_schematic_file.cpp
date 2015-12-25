@@ -32,7 +32,7 @@
 #include <common/confirm.h>
 #include <kicad_string.h>
 #include <schframe.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <project.h>
 
 #include <general.h>

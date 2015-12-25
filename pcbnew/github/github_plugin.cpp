@@ -76,7 +76,7 @@ Vary: Accept-Encoding
 #include <fctsys.h>
 
 #include <io_mgr.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <pcb_parser.h>
 #include <class_board.h>
 #include <github_plugin.h>

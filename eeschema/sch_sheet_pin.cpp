@@ -33,7 +33,7 @@
 #include <drawtxt.h>
 #include <plot_common.h>
 #include <trigo.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <schframe.h>
 
 #include <general.h>

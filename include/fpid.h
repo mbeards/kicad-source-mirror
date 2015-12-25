@@ -26,7 +26,7 @@
 #ifndef _FPID_H_
 #define _FPID_H_
 
-#include <richio.h>
+#include <common/richio.h>
 #include <utf8.h>
 
 /**

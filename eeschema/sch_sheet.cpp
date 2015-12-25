@@ -31,7 +31,7 @@
 #include <class_drawpanel.h>
 #include <drawtxt.h>
 #include <trigo.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <schframe.h>
 #include <plot_common.h>
 #include <kicad_string.h>

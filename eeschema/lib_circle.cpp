@@ -34,7 +34,7 @@
 #include <plot_common.h>
 #include <trigo.h>
 #include <wxstruct.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <common/base_units.h>
 #include <msgpanel.h>
 

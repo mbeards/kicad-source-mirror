@@ -36,7 +36,7 @@
 #include <kicad_string.h>
 #include <pcbcommon.h>
 #include <colors_selection.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <common/macros.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>

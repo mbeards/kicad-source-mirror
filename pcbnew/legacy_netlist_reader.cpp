@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <kicad_string.h>
 
 #include <pcb_netlist.h>

@@ -30,7 +30,7 @@
 #include <vector>
 #include <hashtables.h>
 
-#include <richio.h>
+#include <common/richio.h>
 
 #ifndef SWIG
 /**

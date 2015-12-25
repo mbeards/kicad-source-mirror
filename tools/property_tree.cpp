@@ -29,7 +29,7 @@
 
 #include <assert.h>
 #include <ptree.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <dsnlexer.h>
 #include <common/macros.h>
 #include <boost/property_tree/xml_parser.hpp>

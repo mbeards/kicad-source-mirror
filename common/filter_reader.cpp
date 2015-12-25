@@ -24,7 +24,7 @@
  */
 
 #include <string.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <filter_reader.h>
 
 

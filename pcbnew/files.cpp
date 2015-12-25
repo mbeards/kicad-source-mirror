@@ -36,7 +36,7 @@
 #include <wxPcbStruct.h>
 #include <common/macros.h>
 #include <3d_viewer.h>
-#include <richio.h>
+#include <common/richio.h>
 #include <filter_reader.h>
 #include <pgm_base.h>
 #include <msgpanel.h>

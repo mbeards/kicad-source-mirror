@@ -26,7 +26,7 @@
 #ifndef _TEMPLATE_FIELDNAME_H_
 #define _TEMPLATE_FIELDNAME_H_
 
-#include <richio.h>
+#include <common/richio.h>
 #include <wxstruct.h>
 #include <common/macros.h>
 #include <template_fieldnames_lexer.h>

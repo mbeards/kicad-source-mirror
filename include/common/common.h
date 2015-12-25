@@ -38,7 +38,7 @@
 #include <wx/confbase.h>
 #include <wx/fileconf.h>
 
-#include <richio.h>
+#include <common/richio.h>
 #include <common/colors.h>
 
 
