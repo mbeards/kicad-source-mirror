@@ -32,7 +32,7 @@
 #ifndef BASE_STRUCT_H_
 #define BASE_STRUCT_H_
 
-#include <core/typeinfo.h>
+#include <common/core/typeinfo.h>
 
 #include <common/colors.h>
 #include <bitmaps.h>

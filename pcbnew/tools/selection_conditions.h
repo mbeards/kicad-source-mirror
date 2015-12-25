@@ -26,7 +26,7 @@
 #define SELECTION_CONDITIONS_H_
 
 #include <boost/function.hpp>
-#include <core/typeinfo.h>
+#include <common/core/typeinfo.h>
 #include <vector>
 
 struct SELECTION;
