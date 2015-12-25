@@ -24,7 +24,7 @@
 
 
 #include <fctsys.h>
-#include <grid_tricks.h>
+#include <common/grid_tricks.h>
 #include <wx/tokenzr.h>
 #include <wx/arrstr.h>
 #include <wx/clipbrd.h>
