@@ -23,7 +23,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <gr_basic.h>
 #include <common/base_units.h>
 

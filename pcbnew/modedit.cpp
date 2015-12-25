@@ -37,7 +37,7 @@
 #include <3d_viewer.h>
 #include <wxPcbStruct.h>
 #include <kicad_device_context.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <invoke_pcb_dialog.h>
 #include <class_pcb_layer_widget.h>
 

@@ -30,7 +30,7 @@
 #include <fctsys.h>
 
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <bitmaps.h>
 #include <pl_editor_id.h>
 #include <pl_editor_frame.h>

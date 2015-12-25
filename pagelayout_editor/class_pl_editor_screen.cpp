@@ -27,7 +27,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_pl_editor_screen.h>
 #include <common/base_units.h>
 #include <pl_editor_id.h>

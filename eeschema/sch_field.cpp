@@ -40,7 +40,7 @@
 #include <common/base_struct.h>
 #include <gr_basic.h>
 #include <drawtxt.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <schframe.h>
 #include <plot_common.h>
 

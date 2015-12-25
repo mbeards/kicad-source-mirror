@@ -29,7 +29,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pcbnew.h>
 
 #include <class_board.h>

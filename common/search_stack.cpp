@@ -22,7 +22,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <macros.h>
+#include <common/macros.h>
 #include <search_stack.h>
 #include <wx/tokenzr.h>
 

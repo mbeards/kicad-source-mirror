@@ -29,7 +29,7 @@
 
 #include <wxPcbStruct.h>
 #include <id.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pcbnew_id.h>
 #include <view/view_controls.h>
 #include <pcbcommon.h>

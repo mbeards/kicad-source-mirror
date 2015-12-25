@@ -24,7 +24,7 @@
 
 #include <string.h>
 
-#include <macros.h>
+#include <common/macros.h>
 #include <kiway.h>
 #include <kiway_player.h>
 #include <kiway_express.h>

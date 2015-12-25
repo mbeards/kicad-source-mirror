@@ -35,7 +35,7 @@
 
 
 #include <typeinfo>
-#include <macros.h>
+#include <common/macros.h>
 #include <fctsys.h>
 #include <wx/filename.h>
 #include <wx/stdpaths.h>

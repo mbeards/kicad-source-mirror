@@ -32,7 +32,7 @@
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
 #include <gendrill_Excellon_writer.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_board.h>
 #include <class_track.h>

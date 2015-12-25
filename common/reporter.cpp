@@ -25,7 +25,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <macros.h>
+#include <common/macros.h>
 #include <reporter.h>
 #include <wx_html_report_panel.h>
 

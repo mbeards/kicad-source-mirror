@@ -32,7 +32,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <trigo.h>
 #include <class_pcb_screen.h>
 #include <eda_text.h>                // FILLED

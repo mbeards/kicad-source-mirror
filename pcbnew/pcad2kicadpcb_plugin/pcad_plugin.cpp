@@ -38,7 +38,7 @@
 #include <pcb.h>
 
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fctsys.h>
 
 using namespace PCAD2KICAD;

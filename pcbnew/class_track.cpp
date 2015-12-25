@@ -33,7 +33,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_drawpanel.h>
 #include <class_pcb_screen.h>
 #include <drawtxt.h>

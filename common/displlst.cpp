@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <draw_frame.h>
 #include <kicad_string.h>
 #include <dialog_helpers.h>

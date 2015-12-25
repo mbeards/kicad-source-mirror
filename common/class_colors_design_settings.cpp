@@ -28,7 +28,7 @@
  */
 #include <fctsys.h>
 #include <colors.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_colors_design_settings.h>
 

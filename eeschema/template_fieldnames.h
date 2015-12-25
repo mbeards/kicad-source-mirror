@@ -28,7 +28,7 @@
 
 #include <richio.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <template_fieldnames_lexer.h>
 
 class TEMPLATE_FIELDNAMES_LEXER;

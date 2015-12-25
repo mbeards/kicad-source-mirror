@@ -31,7 +31,7 @@
 
 #include <fctsys.h>
 #include <gestfich.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <kicad.h>
 #include <project.h>

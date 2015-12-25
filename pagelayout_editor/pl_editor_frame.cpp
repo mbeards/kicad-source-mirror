@@ -30,7 +30,7 @@
 #include <kiface_i.h>
 #include <class_drawpanel.h>
 #include <build_version.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_units.h>
 #include <msgpanel.h>
 

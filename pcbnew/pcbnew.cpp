@@ -36,7 +36,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <confirm.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <eda_dde.h>

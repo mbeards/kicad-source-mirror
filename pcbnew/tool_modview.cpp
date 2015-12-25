@@ -30,7 +30,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pcbnew_id.h>
 
 #include <pcbnew.h>

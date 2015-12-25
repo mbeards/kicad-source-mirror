@@ -44,7 +44,7 @@
 #include <id.h>
 #include <eda_doc.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <menus_helpers.h>
 #include <dialog_shim.h>
 

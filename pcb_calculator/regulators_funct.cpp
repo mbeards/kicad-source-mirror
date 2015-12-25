@@ -27,7 +27,7 @@
 #include <wx/wx.h>
 #include <wx/config.h>
 
-#include <macros.h>
+#include <common/macros.h>
 #include <pcb_calculator.h>
 #include <class_regulator_data.h>
 #include <dialog_regulator_data_base.h>

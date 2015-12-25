@@ -22,7 +22,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <macros.h>
+#include <common/macros.h>
 #include <general.h>
 #include <transform.h>
 #include <lib_collectors.h>

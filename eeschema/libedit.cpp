@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <kiway.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <confirm.h>

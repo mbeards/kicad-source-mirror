@@ -36,7 +36,7 @@
 #include <confirm.h>            // DisplayError()
 #include <gestfich.h>           // EDA_FileSelector()
 #include <trigo.h>              // RotatePoint()
-#include <macros.h>
+#include <common/macros.h>
 
 #include <set>                  // std::set
 #include <map>                  // std::map

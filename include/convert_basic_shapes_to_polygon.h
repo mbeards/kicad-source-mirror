@@ -32,7 +32,7 @@
 
 #include <fctsys.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <geometry/shape_poly_set.h>
 /**

@@ -24,7 +24,7 @@
 
 #include <wxPcbStruct.h>
 #include <common/base_units.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <module_editor_frame.h>
 

@@ -33,7 +33,7 @@
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
 #include <confirm.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <bitmaps.h>
 #include <msgpanel.h>
 #include <wildcards_and_files_ext.h>

@@ -41,7 +41,7 @@
 #include <pcb_plot_params.h>
 #include <wx/ffile.h>
 #include <dialog_plot.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <build_version.h>
 
 

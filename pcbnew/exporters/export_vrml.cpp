@@ -32,7 +32,7 @@
 #include <trigo.h>
 #include <pgm_base.h>
 #include <3d_struct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <exception>
 #include <fstream>
 #include <iomanip>

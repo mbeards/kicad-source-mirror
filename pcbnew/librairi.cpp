@@ -40,7 +40,7 @@
 #include <wxPcbStruct.h>
 #include <dialog_helpers.h>
 #include <filter_reader.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fp_lib_table.h>
 #include <validators.h>
 

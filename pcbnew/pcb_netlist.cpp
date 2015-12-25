@@ -27,7 +27,7 @@
  */
 
 
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <reporter.h>
 

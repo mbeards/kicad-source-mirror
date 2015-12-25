@@ -27,7 +27,7 @@
 #include <pcb_plot_params.h>
 #include <layers_id_colors_and_visibility.h>
 #include <plot_common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <convert_to_biu.h>
 
 

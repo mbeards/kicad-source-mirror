@@ -36,7 +36,7 @@
 #include <class_board.h>
 #include <kicad_string.h>
 #include <io_mgr.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <stdlib.h>
 
 static PCB_EDIT_FRAME* PcbEditFrame = NULL;

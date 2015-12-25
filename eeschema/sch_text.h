@@ -31,7 +31,7 @@
 #define CLASS_TEXT_LABEL_H
 
 
-#include <macros.h>
+#include <common/macros.h>
 #include <eda_text.h>
 #include <sch_item_struct.h>
 

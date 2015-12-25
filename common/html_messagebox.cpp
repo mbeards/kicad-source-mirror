@@ -24,7 +24,7 @@
 
 #include <fctsys.h>
 #include <html_messagebox.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/common.h>
 
 

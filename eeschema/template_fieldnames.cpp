@@ -25,7 +25,7 @@
 #include <template_fieldnames.h>
 #include <dsnlexer.h>
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 
 using namespace TFIELD_T;
 

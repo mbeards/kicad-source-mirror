@@ -34,7 +34,7 @@
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxPcbStruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <3d_viewer.h>
 #include <richio.h>
 #include <filter_reader.h>

@@ -26,7 +26,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>              // DIM()
+#include <common/macros.h>              // DIM()
 #include <common/common.h>
 #include <project.h>
 #include <confirm.h>

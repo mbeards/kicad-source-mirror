@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_drawpanel.h>
 #include <plot_common.h>
 #include <trigo.h>

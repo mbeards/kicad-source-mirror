@@ -42,7 +42,7 @@
 #include <dialog_helpers.h>
 #include <filter_reader.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fp_lib_table.h>
 #include <fpid.h>
 

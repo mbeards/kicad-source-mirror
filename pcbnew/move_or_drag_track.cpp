@@ -34,7 +34,7 @@
 #include <confirm.h>
 #include <wxPcbStruct.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <gr_basic.h>
 
 #include <class_board.h>

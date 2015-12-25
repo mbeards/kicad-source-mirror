@@ -32,7 +32,7 @@
 #include <gestfich.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_board.h>
 
 #include <../common/dialogs/dialog_display_info_HTML_base.h>

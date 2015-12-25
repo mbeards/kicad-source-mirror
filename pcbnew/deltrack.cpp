@@ -32,7 +32,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <wxPcbStruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <ratsnest_data.h>
 
 #include <class_board.h>

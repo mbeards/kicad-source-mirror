@@ -23,7 +23,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pgm_base.h>
 #include <wxstruct.h>

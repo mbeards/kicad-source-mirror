@@ -41,7 +41,7 @@
 #include <3d_viewer.h>
 #include <wxPcbStruct.h>
 #include <common/base_units.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <validators.h>
 #include <kicad_string.h>
 

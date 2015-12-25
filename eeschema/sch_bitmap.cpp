@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <sch_bitmap.h>
 
 #include <wx/mstream.h>

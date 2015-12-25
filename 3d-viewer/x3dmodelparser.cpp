@@ -27,7 +27,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <info3d_visu.h>
 #include <wx/xml/xml.h>
 #include <wx/tokenzr.h>

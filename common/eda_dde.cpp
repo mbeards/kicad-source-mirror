@@ -31,7 +31,7 @@
 #include <draw_frame.h>
 #include <id.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 
 static const wxString HOSTNAME( wxT( "localhost" ) );
 

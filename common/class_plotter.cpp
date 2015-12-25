@@ -44,7 +44,7 @@
 #include <common/base_struct.h>
 #include <common/common.h>
 #include <plot_common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_base_screen.h>
 #include <drawtxt.h>
 

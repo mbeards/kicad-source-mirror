@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_drawpanel.h>
 #include <trigo.h>
 #include <common/common.h>

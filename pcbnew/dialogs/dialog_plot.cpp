@@ -32,7 +32,7 @@
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
 #include <common/base_units.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <reporter.h>
 
 #include <class_board.h>

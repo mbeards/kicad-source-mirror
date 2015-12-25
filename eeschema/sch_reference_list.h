@@ -32,7 +32,7 @@
 #define _SCH_REFERENCE_LIST_H_
 
 
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_libentry.h>
 #include <sch_sheet_path.h>

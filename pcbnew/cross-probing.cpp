@@ -16,7 +16,7 @@
 #include <kiway_express.h>
 #include <wxPcbStruct.h>
 #include <eda_dde.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew_id.h>
 #include <class_board.h>

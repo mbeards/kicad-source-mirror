@@ -33,7 +33,7 @@
 #include <common/base_struct.h>
 #include <common/common.h>
 #include <plot_common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 
 /* Forward declaration of the font width metrics

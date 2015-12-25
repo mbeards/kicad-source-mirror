@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pgm_base.h>
 #include <wildcards_and_files_ext.h>
 

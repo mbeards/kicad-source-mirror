@@ -43,7 +43,7 @@
 
 #include <pgm_base.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <config_params.h>
 #include <id.h>
 #include <build_version.h>

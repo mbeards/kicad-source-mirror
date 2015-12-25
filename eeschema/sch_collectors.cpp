@@ -26,7 +26,7 @@
  * @file sch_collectors.cpp
  */
 
-#include <macros.h>
+#include <common/macros.h>
 
 #include <sch_sheet_path.h>
 #include <transform.h>

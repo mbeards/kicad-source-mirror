@@ -34,7 +34,7 @@
  *       depending on the application.
  */
 
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_struct.h>
 #include <class_title_block.h>
 #include <common/common.h>

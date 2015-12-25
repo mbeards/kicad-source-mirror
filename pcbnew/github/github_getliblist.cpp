@@ -45,7 +45,7 @@
 #include <wx/uri.h>
 
 #include <github_getliblist.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/common.h>
 #include <html_link_parser.h>
 

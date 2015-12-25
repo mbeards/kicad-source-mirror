@@ -39,7 +39,7 @@
 #include <kicad_string.h>
 #include <colors_selection.h>
 #include <richio.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <math_for_graphics.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>

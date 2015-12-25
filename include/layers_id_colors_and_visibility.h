@@ -34,7 +34,7 @@
 #include <vector>
 #include <bitset>
 #include <wx/string.h>
-#include <macros.h>
+#include <common/macros.h>
 
 class BOARD;
 

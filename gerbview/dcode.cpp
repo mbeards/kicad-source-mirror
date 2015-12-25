@@ -32,7 +32,7 @@
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <confirm.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <trigo.h>
 #include <gr_basic.h>
 #include <common/base_units.h>

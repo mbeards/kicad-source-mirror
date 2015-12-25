@@ -33,7 +33,7 @@
 #include <wx/txtstrm.h>
 #include <wx/wfstream.h>
 
-#include <macros.h>
+#include <common/macros.h>
 
 
 #define SEP()   wxFileName::GetPathSeparator()

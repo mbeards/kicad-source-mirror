@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <gerbview.h>
 #include <gerbview_frame.h>

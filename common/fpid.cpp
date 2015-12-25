@@ -27,7 +27,7 @@
 #include <memory>
 #include <wx/wx.h>      // _()
 
-#include <macros.h>     // TO_UTF8()
+#include <common/macros.h>     // TO_UTF8()
 #include <fpid.h>
 #include <kicad_string.h>
 

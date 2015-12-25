@@ -33,7 +33,7 @@
 #include <wx/arrstr.h>
 
 #include <class_library.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <eda_pattern_match.h>
 

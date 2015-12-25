@@ -31,7 +31,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <kiway_express.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <eda_dde.h>
 #include <schframe.h>
 

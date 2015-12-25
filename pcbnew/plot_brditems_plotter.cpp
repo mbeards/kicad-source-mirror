@@ -33,7 +33,7 @@
 #include <common/base_struct.h>
 #include <drawtxt.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <wxBasePcbFrame.h>
 
 #include <class_board.h>

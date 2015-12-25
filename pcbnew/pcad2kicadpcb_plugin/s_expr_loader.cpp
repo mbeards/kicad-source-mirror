@@ -27,7 +27,7 @@
  */
 
 #include <dsnlexer.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <wx/xml/xml.h>
 #include <xnode.h>
 

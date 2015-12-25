@@ -36,7 +36,7 @@
 #include "gr_basic.h"
 #include "class_base_screen.h"
 #include <common/common.h>
-#include "macros.h"
+#include <common/macros.h>
 #include "class_drawpanel.h"
 #include "class_marker_base.h"
 #include "dialog_display_info_HTML_base.h"

@@ -37,7 +37,7 @@
 #include <pcbcommon.h>
 #include <colors_selection.h>
 #include <richio.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>
 

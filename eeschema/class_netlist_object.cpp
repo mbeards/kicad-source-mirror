@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <schframe.h>
 
 #include <sch_component.h>

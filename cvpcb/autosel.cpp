@@ -38,7 +38,7 @@
 #include <gestfich.h>
 #include <pgm_base.h>
 #include <kicad_string.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <cvpcb.h>
 #include <cvpcb_mainframe.h>

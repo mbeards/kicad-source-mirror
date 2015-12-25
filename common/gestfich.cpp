@@ -34,7 +34,7 @@
 #include <confirm.h>
 
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <gestfich.h>
 
 #include <wx/mimetype.h>

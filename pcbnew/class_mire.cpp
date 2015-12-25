@@ -36,7 +36,7 @@
 #include <kicad_string.h>
 #include <colors_selection.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <richio.h>
 
 #include <class_board.h>

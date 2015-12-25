@@ -61,10 +61,10 @@ Load() TODO's
 #include <eagle_plugin.h>
 
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fctsys.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <wx/filename.h>
 

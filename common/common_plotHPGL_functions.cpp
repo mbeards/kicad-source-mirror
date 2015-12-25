@@ -195,7 +195,7 @@
 #include <wxstruct.h>
 #include <common/base_struct.h>
 #include <plot_common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 
 // HPGL scale factor (1 PLU = 1/40mm = 25 micrometers)

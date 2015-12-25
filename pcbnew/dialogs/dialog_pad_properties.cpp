@@ -36,7 +36,7 @@
 #include <confirm.h>
 #include <pcbnew.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <wxBasePcbFrame.h>
 #include <pcbcommon.h>
 #include <common/base_units.h>

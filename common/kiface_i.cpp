@@ -23,7 +23,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <macros.h>             // FROM_UTF8()
+#include <common/macros.h>             // FROM_UTF8()
 #include <wx/config.h>
 #include <wx/stdpaths.h>
 

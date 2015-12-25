@@ -30,7 +30,7 @@
 #ifndef CLASS_SCREEN_H
 #define CLASS_SCREEN_H
 
-#include <macros.h>
+#include <common/macros.h>
 #include <dlist.h>
 #include <sch_item_struct.h>
 #include <class_base_screen.h>

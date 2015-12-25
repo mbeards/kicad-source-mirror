@@ -67,7 +67,7 @@
 #include <legacy_plugin.h>   // implement this here
 
 #include <kicad_string.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <zones.h>
 
 #include <class_board.h>

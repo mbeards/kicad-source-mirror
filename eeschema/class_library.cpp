@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <eda_doc.h>

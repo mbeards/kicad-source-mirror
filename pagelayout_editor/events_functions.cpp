@@ -31,7 +31,7 @@
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pl_editor_frame.h>
 #include <kicad_device_context.h>

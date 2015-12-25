@@ -27,7 +27,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <richio.h>                        // StrPrintf
 #include <kicad_string.h>
 

@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/common.h>
 #include <convert_basic_shapes_to_polygon.h>
 

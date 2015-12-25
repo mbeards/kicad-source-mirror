@@ -28,7 +28,7 @@
  */
 
 
-#include <macros.h>
+#include <common/macros.h>
 #include <fctsys.h>
 #include <wx/stdpaths.h>
 #include <kicad.h>

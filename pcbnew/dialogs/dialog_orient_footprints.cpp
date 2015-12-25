@@ -32,7 +32,7 @@
 #include <kicad_string.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_board.h>
 #include <class_module.h>

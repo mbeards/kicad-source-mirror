@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <pgm_base.h>
 #define GLM_FORCE_RADIANS

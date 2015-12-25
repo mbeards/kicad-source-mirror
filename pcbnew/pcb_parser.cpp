@@ -31,7 +31,7 @@
 #include <errno.h>
 #include <common/common.h>
 #include <confirm.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <convert_from_iu.h>
 #include <trigo.h>
 #include <3d_struct.h>

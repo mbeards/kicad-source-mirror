@@ -33,7 +33,7 @@
 #include <wxBasePcbFrame.h>
 #include <common/base_units.h>
 #include <kicad_string.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

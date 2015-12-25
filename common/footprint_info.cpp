@@ -37,7 +37,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pgm_base.h>
 #include <wildcards_and_files_ext.h>
 #include <footprint_info.h>

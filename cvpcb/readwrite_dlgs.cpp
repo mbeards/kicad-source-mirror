@@ -32,7 +32,7 @@
 #include <common/common.h>
 #include <confirm.h>
 #include <build_version.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fpid.h>
 #include <fp_lib_table.h>
 #include <reporter.h>

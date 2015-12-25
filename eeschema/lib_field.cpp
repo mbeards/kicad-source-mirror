@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_struct.h>
 #include <drawtxt.h>
 #include <kicad_string.h>

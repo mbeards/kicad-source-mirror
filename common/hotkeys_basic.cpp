@@ -36,7 +36,7 @@
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <dialog_hotkeys_editor.h>
 #include <menus_helpers.h>
 #include <tool/tool_manager.h>

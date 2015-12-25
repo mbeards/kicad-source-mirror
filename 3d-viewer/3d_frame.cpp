@@ -28,7 +28,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <pgm_base.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <3d_viewer.h>
 #include <3d_canvas.h>

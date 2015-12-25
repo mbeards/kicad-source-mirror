@@ -33,7 +33,7 @@
 #include <boost/ptr_container/ptr_vector.hpp>
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fpid.h>
 
 #include <netlist_lexer.h>    // netlist_lexer is common to Eeschema and Pcbnew

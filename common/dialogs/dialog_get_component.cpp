@@ -4,7 +4,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <draw_frame.h>
 #include <dialog_get_component.h>
 

@@ -33,7 +33,7 @@
 #include <wxstruct.h>
 #include <common/base_struct.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <build_version.h>
 #include <confirm.h>
 #include <common/base_units.h>

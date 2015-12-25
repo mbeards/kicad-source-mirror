@@ -26,7 +26,7 @@
 #include <wx/stdpaths.h>
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <pgm_base.h>
 #include <project.h>
 #include <common/common.h>         // NAMELESS_PROJECT

@@ -40,7 +40,7 @@
 #include <richio.h>
 #include <filter_reader.h>
 #include <gr_basic.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_units.h>
 #include <validators.h>
 

@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fp_lib_table.h>
 #include <kiface_i.h>
 #include <pgm_base.h>

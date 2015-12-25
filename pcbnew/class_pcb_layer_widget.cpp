@@ -39,7 +39,7 @@
 #include <wxPcbStruct.h>
 #include <pcbstruct.h>      // enum PCB_VISIBLE
 #include <layer_widget.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_board.h>
 #include <class_pcb_layer_widget.h>

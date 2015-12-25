@@ -35,7 +35,7 @@
  * Pcb texts are not always graphic items and are not handled here
  */
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <gr_basic.h>
 #include <confirm.h>
 #include <class_drawpanel.h>

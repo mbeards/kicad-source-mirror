@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <trigo.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <wxstruct.h>
 #include <class_drawpanel.h>

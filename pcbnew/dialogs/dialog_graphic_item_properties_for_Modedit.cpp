@@ -34,7 +34,7 @@
  * Footprint texts are not graphic items and are not handled here
  */
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <confirm.h>
 #include <class_drawpanel.h>
 #include <pcbnew.h>

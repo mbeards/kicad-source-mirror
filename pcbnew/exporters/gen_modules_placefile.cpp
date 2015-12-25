@@ -37,7 +37,7 @@
 #include <trigo.h>
 #include <pgm_base.h>
 #include <build_version.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <reporter.h>
 
 #include <class_board.h>

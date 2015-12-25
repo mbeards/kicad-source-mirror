@@ -30,7 +30,7 @@
 #include <gal/definitions.h>
 
 #include <wx/log.h>
-#include <macros.h>
+#include <common/macros.h>
 #ifdef __WXDEBUG__
 #include <profile.h>
 #endif /* __WXDEBUG__ */

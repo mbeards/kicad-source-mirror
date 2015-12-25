@@ -35,7 +35,7 @@
 #include <wx/mimetype.h>
 #include <wx/tokenzr.h>
 #include <wx/filename.h>
-#include <macros.h>
+#include <common/macros.h>
 
 
 void PGM_BASE::ReadPdfBrowserInfos()

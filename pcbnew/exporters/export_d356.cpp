@@ -35,7 +35,7 @@
 #include <wxPcbStruct.h>
 #include <trigo.h>
 #include <build_version.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew.h>
 

@@ -33,7 +33,7 @@
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <pcbstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <class_gbr_layer_box_selector.h>
 
 #include <gerbview.h>

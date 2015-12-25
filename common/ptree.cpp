@@ -25,7 +25,7 @@
 
 // Something in either <boost/property_tree/ptree.hpp> causes a bunch of compiler
 // errors in <wx/msw/winundef.h> version 2.9 on MinGW.
-#include <macros.h>
+#include <common/macros.h>
 
 #include <boost/property_tree/ptree.hpp>
 

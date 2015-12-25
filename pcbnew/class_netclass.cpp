@@ -30,7 +30,7 @@
 #include <kicad_string.h>
 #include <pcbnew.h>
 #include <richio.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_board.h>
 #include <class_netclass.h>

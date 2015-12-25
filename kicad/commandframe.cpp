@@ -29,7 +29,7 @@
 
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <kicad.h>
 #include <menus_helpers.h>

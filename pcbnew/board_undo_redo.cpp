@@ -27,7 +27,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

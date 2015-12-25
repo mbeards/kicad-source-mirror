@@ -41,7 +41,7 @@
 #include <colors_selection.h>
 #include <richio.h>
 #include <filter_reader.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <3d_struct.h>
 #include <msgpanel.h>
 

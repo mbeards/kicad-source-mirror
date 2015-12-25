@@ -25,7 +25,7 @@
 
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <confirm.h>
 #include <pcbnew.h>

@@ -29,7 +29,7 @@
 
 #include <eda_text.h>
 #include <drawtxt.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <trigo.h>               // RotatePoint
 #include <class_drawpanel.h>     // EDA_DRAW_PANEL
 

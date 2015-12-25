@@ -35,7 +35,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <block_commande.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <wxPcbStruct.h>
 #include <module_editor_frame.h>

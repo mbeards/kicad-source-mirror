@@ -40,7 +40,7 @@
 
 #include <pcbnew_id.h>
 #include <class_track.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <html_messagebox.h>
 
 #include <dialog_design_rules.h>

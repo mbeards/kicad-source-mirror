@@ -34,7 +34,7 @@
 #include <class_draw_panel_gal.h>
 #include <ratsnest_data.h>
 #include <wxPcbStruct.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <class_board.h>
 #include <class_track.h>

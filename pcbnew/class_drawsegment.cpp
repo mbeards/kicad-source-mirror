@@ -30,7 +30,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <wxstruct.h>
 #include <gr_basic.h>
 #include <bezier_curves.h>

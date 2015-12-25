@@ -32,7 +32,7 @@
 #include <confirm.h>
 #include <gestfich.h>
 #include <pgm_base.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <tree_project_frame.h>
 #include <class_treeprojectfiles.h>

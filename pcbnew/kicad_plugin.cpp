@@ -27,7 +27,7 @@
 #include <kicad_string.h>
 #include <common/common.h>
 #include <build_version.h>      // LEGACY_BOARD_FILE_VERSION
-#include <macros.h>
+#include <common/macros.h>
 #include <3d_struct.h>
 #include <wildcards_and_files_ext.h>
 #include <common/base_units.h>

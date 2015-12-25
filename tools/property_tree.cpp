@@ -31,7 +31,7 @@
 #include <ptree.h>
 #include <richio.h>
 #include <dsnlexer.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <boost/property_tree/xml_parser.hpp>
 
 

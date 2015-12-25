@@ -27,7 +27,7 @@
 #include <sch_lib_table.h>
 #include <sch_lpid.h>
 
-#include <macros.h>
+#include <common/macros.h>
 
 using namespace SCH;
 using namespace PR;

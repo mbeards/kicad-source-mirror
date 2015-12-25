@@ -69,7 +69,7 @@
 #include <gerbview.h>
 #include <gerbview_frame.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_units.h>
 #include <class_gerber_draw_item.h>
 #include <class_GERBER.h>

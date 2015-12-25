@@ -32,7 +32,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <trigo.h>
 #include <math_for_graphics.h>
 #include <class_board.h>

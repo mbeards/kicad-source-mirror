@@ -26,10 +26,10 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/common.h>
 #include <common/base_units.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew.h>
 #include <pcbnew_id.h>

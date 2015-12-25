@@ -81,7 +81,7 @@ Vary: Accept-Encoding
 #include <class_board.h>
 #include <github_plugin.h>
 #include <class_module.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <fp_lib_table.h>       // ExpandSubstitutions()
 #include <github_getliblist.h>
 

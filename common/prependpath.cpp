@@ -23,7 +23,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <macros.h>
+#include <common/macros.h>
 #include <fctsys.h>
 #include <wx/filename.h>
 

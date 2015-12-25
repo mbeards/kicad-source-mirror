@@ -36,7 +36,7 @@
 #include <trigo.h>
 #include <richio.h>
 #include <wxstruct.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <msgpanel.h>
 #include <common/base_units.h>
 

@@ -26,7 +26,7 @@
 #ifndef FP_LIB_TABLE_H_
 #define FP_LIB_TABLE_H_
 
-#include <macros.h>
+#include <common/macros.h>
 #include <vector>
 #include <map>
 #include <io_mgr.h>

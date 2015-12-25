@@ -37,7 +37,7 @@
 #include <wxPcbStruct.h>
 #include <collectors.h>
 #include <build_version.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <3d_viewer.h>
 #include <msgpanel.h>
 #include <fp_lib_table.h>

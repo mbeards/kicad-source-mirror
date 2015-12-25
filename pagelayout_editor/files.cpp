@@ -31,7 +31,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <gestfich.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <worksheet_shape_builder.h>
 
 #include <pl_editor_frame.h>

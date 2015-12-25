@@ -34,7 +34,7 @@
 #include <drawtxt.h>
 #include <trigo.h>
 #include <wxBasePcbFrame.h>
-#include <macros.h>
+#include <common/macros.h>
 
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

@@ -31,7 +31,7 @@
 #include <common/common.h>
 #include <trigo.h>
 #include <class_drawpanel.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <msgpanel.h>
 
 #include <gerbview.h>

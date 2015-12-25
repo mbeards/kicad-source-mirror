@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <eeschema_id.h>
 
 #include <general.h>

@@ -32,7 +32,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <confirm.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <trigo.h>

@@ -7,7 +7,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <trigo.h>
-#include <macros.h>
+#include <common/macros.h>
 #include <common/base_struct.h>
 #include <class_base_screen.h>
 #include <bezier_curves.h>
