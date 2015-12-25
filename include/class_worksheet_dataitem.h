@@ -32,7 +32,7 @@
 
 #include <math/vector2d.h>
 #include <eda_text.h>
-#include <class_bitmap_base.h>
+#include <common/class_bitmap_base.h>
 
 class WS_DRAW_ITEM_TEXT;            // Forward declaration
 

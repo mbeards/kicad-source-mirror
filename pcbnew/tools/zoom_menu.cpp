@@ -25,7 +25,7 @@
 #include "zoom_menu.h"
 #include <common/id.h>
 #include <draw_frame.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <tools/common_actions.h>
 
 #include <boost/bind.hpp>

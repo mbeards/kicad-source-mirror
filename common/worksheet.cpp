@@ -35,7 +35,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <drawtxt.h>
 #include <draw_frame.h>
 #include <worksheet.h>

@@ -34,7 +34,7 @@
 #include <kicad_string.h>
 #include <wxstruct.h>
 #include <class_drawpanel.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 
 #include "../eeschema/dialogs/dialog_schematic_find.h"
 

@@ -27,7 +27,7 @@
  */
 
 #include <common/fctsys.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 
 #include <dialog_eeschema_options.h>
 

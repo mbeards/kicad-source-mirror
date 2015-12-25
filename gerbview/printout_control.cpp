@@ -38,7 +38,7 @@
 #include <common/confirm.h>
 #include <common/base_units.h>
 #include <wxstruct.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <layers_id_colors_and_visibility.h>
 
 #include <gerbview_frame.h>

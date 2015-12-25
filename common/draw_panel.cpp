@@ -36,7 +36,7 @@
 #include <common/id.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <draw_frame.h>
 #include <view/view_controls.h>
 

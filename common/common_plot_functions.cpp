@@ -31,7 +31,7 @@
 #include <common/base_struct.h>
 #include <plot_common.h>
 #include <worksheet.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <drawtxt.h>
 #include <class_title_block.h>
 #include "worksheet_shape_builder.h"

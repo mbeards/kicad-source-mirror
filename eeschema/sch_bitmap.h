@@ -32,7 +32,7 @@
 
 
 #include <sch_item_struct.h>
-#include <class_bitmap_base.h>
+#include <common/class_bitmap_base.h>
 
 
 class SCH_BITMAP : public SCH_ITEM

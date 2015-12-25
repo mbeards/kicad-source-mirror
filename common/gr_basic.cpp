@@ -9,7 +9,7 @@
 #include <trigo.h>
 #include <common/macros.h>
 #include <common/base_struct.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <bezier_curves.h>
 #include <math_for_graphics.h>
 #include <wx/graphics.h>

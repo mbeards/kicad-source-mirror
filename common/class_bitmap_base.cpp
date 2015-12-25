@@ -35,7 +35,7 @@
 #include <common/richio.h>
 #include "plot_common.h"
 
-#include "class_bitmap_base.h"
+#include <common/class_bitmap_base.h>
 
 #include <wx/mstream.h>
 

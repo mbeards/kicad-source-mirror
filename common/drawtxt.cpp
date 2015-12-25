@@ -37,7 +37,7 @@
 #include <trigo.h>
 #include <common/macros.h>
 #include <class_drawpanel.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 
 
 #include <newstroke_font.h>

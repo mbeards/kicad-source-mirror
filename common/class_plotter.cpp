@@ -45,7 +45,7 @@
 #include <common/common.h>
 #include <plot_common.h>
 #include <common/macros.h>
-#include <class_base_screen.h>
+#include <common/class_base_screen.h>
 #include <drawtxt.h>
 
 PLOTTER::PLOTTER( )
