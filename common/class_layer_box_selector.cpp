@@ -26,7 +26,7 @@
 #include <colors_selection.h>
 #include <layers_id_colors_and_visibility.h>
 #include <bitmaps.h>
-#include <colors.h>
+#include <common/colors.h>
 
 #include <wx/wx.h>
 #include <wx/ownerdrw.h>

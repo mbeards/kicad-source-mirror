@@ -42,7 +42,7 @@
 #include <wx/aui/aui.h>
 #include <wx/docview.h>
 
-#include <colors.h>
+#include <common/colors.h>
 #include <fctsys.h>
 #include <common/common.h>
 #include <layers_id_colors_and_visibility.h>

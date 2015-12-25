@@ -37,7 +37,7 @@
 
 #include <common/macros.h>
 #include <common/common.h>
-#include <colors.h>
+#include <common/colors.h>
 #include <wx/colour.h>
 
 #define BUTT_SIZE_X             20

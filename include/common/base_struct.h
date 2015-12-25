@@ -34,7 +34,7 @@
 
 #include <core/typeinfo.h>
 
-#include <colors.h>
+#include <common/colors.h>
 #include <bitmaps.h>
 #include <richio.h>
 #include <view/view_item.h>

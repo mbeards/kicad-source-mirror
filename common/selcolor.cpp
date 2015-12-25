@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <colors.h>
+#include <common/colors.h>
 
 #include <wx/statline.h>
 

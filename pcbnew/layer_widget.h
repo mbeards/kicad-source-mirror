@@ -42,7 +42,7 @@
 #include <wx/image.h>
 #include <wx/icon.h>
 #include <layers_id_colors_and_visibility.h>
-#include <colors.h>
+#include <common/colors.h>
 
 #define LYR_COLUMN_COUNT        4           ///< Layer tab column count
 #define RND_COLUMN_COUNT        2           ///< Rendering tab column count

@@ -31,7 +31,7 @@
 #include <set>
 
 #include <gal/color4d.h>
-#include <colors.h>
+#include <common/colors.h>
 #include <worksheet_shape_builder.h>
 #include <boost/shared_ptr.hpp>
 

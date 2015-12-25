@@ -32,7 +32,7 @@
 #define  _MSGPANEL_H_
 
 
-#include <colors.h>
+#include <common/colors.h>
 
 #include <wx/window.h>
 

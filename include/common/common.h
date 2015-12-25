@@ -39,7 +39,7 @@
 #include <wx/fileconf.h>
 
 #include <richio.h>
-#include <colors.h>
+#include <common/colors.h>
 
 
 class wxAboutDialogInfo;

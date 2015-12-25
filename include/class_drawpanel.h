@@ -31,7 +31,7 @@
 #ifndef  PANEL_WXSTRUCT_H
 #define  PANEL_WXSTRUCT_H
 
-#include <colors.h>
+#include <common/colors.h>
 #include <common/base_struct.h>
 #include <gr_basic.h>
 

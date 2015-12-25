@@ -34,7 +34,7 @@
 #include <fctsys.h>
 #include <wxstruct.h>
 #include <common/common.h>
-#include <colors.h>
+#include <common/colors.h>
 #include <common/macros.h>
 
 /* init functions defined by swig */

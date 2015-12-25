@@ -21,7 +21,7 @@
 #include <boost/foreach.hpp>
 #include <boost/optional.hpp>
 
-#include <colors.h>
+#include <common/colors.h>
 #include <class_board.h>
 #include <class_board_item.h>
 #include <class_netinfo.h>

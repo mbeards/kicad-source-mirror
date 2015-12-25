@@ -26,7 +26,7 @@
 #ifndef __PROTOS_H__
 #define __PROTOS_H__
 
-#include <colors.h>
+#include <common/colors.h>
 
 class EDA_DRAW_PANEL;
 class PICKED_ITEMS_LIST;

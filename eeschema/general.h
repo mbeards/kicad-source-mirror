@@ -29,7 +29,7 @@
 #ifndef _GENERAL_H_
 #define _GENERAL_H_
 
-#include <colors.h>     // for EDA_COLOR_T
+#include <common/colors.h>     // for EDA_COLOR_T
 
 class TRANSFORM;
 class SCH_SHEET;

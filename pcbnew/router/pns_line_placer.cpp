@@ -21,7 +21,7 @@
 #include <boost/foreach.hpp>
 #include <boost/optional.hpp>
 
-#include <colors.h>
+#include <common/colors.h>
 
 #include "trace.h"
 

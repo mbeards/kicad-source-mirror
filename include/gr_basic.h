@@ -30,7 +30,7 @@
 #ifndef GR_BASIC
 #define GR_BASIC
 
-#include <colors.h>
+#include <common/colors.h>
 #include <vector>
 class EDA_RECT;
 

@@ -7,7 +7,7 @@
 #ifndef WORKSHEET_H_
 #define WORKSHEET_H_
 
-#include <colors.h>     // EDA_COLOR_T definition
+#include <common/colors.h>     // EDA_COLOR_T definition
 #include <class_page_info.h>
 
 // Forward declarations:

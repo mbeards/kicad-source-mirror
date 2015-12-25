@@ -33,7 +33,7 @@
 #include <wx/confbase.h>
 #include <wx/fileconf.h>
 #include <boost/ptr_container/ptr_vector.hpp>
-#include <colors.h>
+#include <common/colors.h>
 #include <limits>
 
 /// Names of sub sections where to store project info in *.pro project config files

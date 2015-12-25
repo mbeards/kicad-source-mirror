@@ -21,7 +21,7 @@
 #include <boost/foreach.hpp>
 
 #include <common/base_units.h> // God forgive me doing this...
-#include <colors.h>
+#include <common/colors.h>
 
 #include "trace.h"
 

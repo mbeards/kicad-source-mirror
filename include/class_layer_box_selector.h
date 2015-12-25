@@ -26,7 +26,7 @@
 #define CLASS_LAYER_BOX_SELECTOR_H 1
 
 #include <wx/bmpcbox.h>
-#include <colors.h>     // EDA_COLOR_T definition
+#include <common/colors.h>     // EDA_COLOR_T definition
 #include <layers_id_colors_and_visibility.h>
 
 struct EDA_HOTKEY_CONFIG;

@@ -26,7 +26,7 @@
 
 #include "class_track.h"
 #include <pcb_painter.h>
-#include <colors.h>
+#include <common/colors.h>
 
 #include "router_preview_item.h"
 

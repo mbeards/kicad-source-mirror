@@ -27,7 +27,7 @@
 #ifndef COLOR4D_H_
 #define COLOR4D_H_
 
-#include <colors.h>
+#include <common/colors.h>
 #include <cassert>
 
 namespace KIGFX
