@@ -28,7 +28,7 @@
 
 #include <wx/wx.h>
 #include <frame_type.h>
-#include <mail_type.h>
+#include <common/mail_type.h>
 
 
 /**

@@ -102,7 +102,7 @@ as such!  As such, it is OK to use UTF8 characters:
 #include <search_stack.h>
 #include <project.h>
 #include <frame_type.h>
-#include <mail_type.h>
+#include <common/mail_type.h>
 
 
 #define VTBL_ENTRY          virtual
