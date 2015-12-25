@@ -33,7 +33,7 @@
 
 #include <wxPcbStruct.h>
 #include <pcbstruct.h>          // HISTORY_NUMBER
-#include <confirm.h>            // DisplayError()
+#include <common/confirm.h>            // DisplayError()
 #include <gestfich.h>           // EDA_FileSelector()
 #include <trigo.h>              // RotatePoint()
 #include <common/macros.h>

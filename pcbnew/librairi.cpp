@@ -34,7 +34,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxPcbStruct.h>

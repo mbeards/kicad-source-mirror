@@ -29,7 +29,7 @@
 #include <common/macros.h>              // DIM()
 #include <common/common.h>
 #include <project.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gr_basic.h>
 #include <common/base_struct.h>
 #include <class_drawpanel.h>

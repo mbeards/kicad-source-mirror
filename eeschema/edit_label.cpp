@@ -32,7 +32,7 @@
 #include <common/base_struct.h>
 #include <drawtxt.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <schframe.h>
 #include <kicad_device_context.h>
 

@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <schframe.h>
 #include <common/base_units.h>
 #include <kiface_i.h>

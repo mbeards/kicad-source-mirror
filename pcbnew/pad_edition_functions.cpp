@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <trigo.h>
 #include <common/macros.h>
 #include <wxBasePcbFrame.h>

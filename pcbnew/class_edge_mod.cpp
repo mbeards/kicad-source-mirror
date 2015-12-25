@@ -35,7 +35,7 @@
 #include <trigo.h>
 #include <class_drawpanel.h>
 #include <class_pcb_screen.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <colors_selection.h>
 #include <richio.h>

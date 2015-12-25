@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxBasePcbFrame.h>
 #include <class_layer_box_selector.h>
 #include <class_board.h>

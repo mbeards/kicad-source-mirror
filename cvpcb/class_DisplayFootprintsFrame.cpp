@@ -32,7 +32,7 @@
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 #include <bitmaps.h>
 #include <msgpanel.h>

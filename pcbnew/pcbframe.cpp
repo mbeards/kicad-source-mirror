@@ -33,7 +33,7 @@
 #include <kiface_i.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <collectors.h>
 #include <build_version.h>

@@ -312,7 +312,7 @@ bool FOOTPRINT_INFO::InLibrary( const wxString& aLibrary ) const
 }
 
 
-#include <confirm.h>    // until scaffolding goes.
+#include <common/confirm.h>    // until scaffolding goes.
 
 void FOOTPRINT_LIST::DisplayErrors( wxTopLevelWindow* aWindow )
 {

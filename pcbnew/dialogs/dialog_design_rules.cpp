@@ -33,7 +33,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <common/base_units.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <class_board_design_settings.h>

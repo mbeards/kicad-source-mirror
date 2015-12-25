@@ -31,7 +31,7 @@
 // For compilers that support precompilation, includes "wx.h".
 #include <fctsys.h>
 #include <pgm_base.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <common/common.h>
 #include <common/macros.h>

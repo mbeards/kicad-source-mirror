@@ -37,7 +37,7 @@
 #include <fctsys.h>
 #include <common/macros.h>
 #include <gr_basic.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <class_drawpanel.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

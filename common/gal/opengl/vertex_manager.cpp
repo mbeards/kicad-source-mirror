@@ -33,7 +33,7 @@
 #include <gal/opengl/noncached_container.h>
 #include <gal/opengl/gpu_manager.h>
 #include <gal/opengl/vertex_item.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 using namespace KIGFX;
 

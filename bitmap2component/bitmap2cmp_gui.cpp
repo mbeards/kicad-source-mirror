@@ -27,7 +27,7 @@
 
 #include <pgm_base.h>
 #include <wxstruct.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <wildcards_and_files_ext.h>
 

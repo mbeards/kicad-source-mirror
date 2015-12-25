@@ -35,7 +35,7 @@
 #include <pgm_base.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/base_units.h>
 #include <wxstruct.h>
 #include <class_base_screen.h>

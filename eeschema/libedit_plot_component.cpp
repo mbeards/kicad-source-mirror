@@ -31,7 +31,7 @@
 #include <gr_basic.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <eeschema_id.h>
 #include <class_sch_screen.h>

@@ -33,7 +33,7 @@
 #include <pgm_base.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <block_commande.h>
 #include <common/macros.h>
 

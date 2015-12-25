@@ -44,7 +44,7 @@
 #include <kiway.h>
 #include <pgm_base.h>
 #include <kiway_player.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 
 // The functions we use will cause the program launcher to pull stuff in

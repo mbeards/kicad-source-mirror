@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <kiway.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <schframe.h>
 #include <invoke_sch_dialog.h>

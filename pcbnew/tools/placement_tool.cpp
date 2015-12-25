@@ -31,7 +31,7 @@
 #include <class_board.h>
 #include <ratsnest_data.h>
 
-#include <confirm.h>
+#include <common/confirm.h>
 #include <boost/foreach.hpp>
 
 PLACEMENT_TOOL::PLACEMENT_TOOL() :

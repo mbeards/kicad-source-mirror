@@ -24,7 +24,7 @@
 
 #include <class_drawpanel.h>
 #include <class_library.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <invoke_sch_dialog.h>
 #include <kicad_device_context.h>
 #include <project_rescue.h>

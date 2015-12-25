@@ -32,7 +32,7 @@
 #include <pgm_kicad.h>
 #include <kiway.h>
 #include <kiway_player.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <common/macros.h>
 

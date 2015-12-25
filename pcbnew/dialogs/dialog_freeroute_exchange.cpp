@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <kiface_i.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

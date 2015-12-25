@@ -33,7 +33,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <pcb_draw_panel_gal.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <eda_doc.h>
 #include <kicad_string.h>
 #include <pgm_base.h>

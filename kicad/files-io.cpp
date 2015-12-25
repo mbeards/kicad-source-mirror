@@ -36,7 +36,7 @@
 #include <wx/zstream.h>
 #include <wx/dir.h>
 
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <common/macros.h>
 

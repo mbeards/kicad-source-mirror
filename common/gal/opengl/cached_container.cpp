@@ -33,7 +33,7 @@
 #include <gal/opengl/vertex_manager.h>
 #include <gal/opengl/vertex_item.h>
 #include <gal/opengl/shader.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wx/log.h>
 #include <list>
 #ifdef __WXDEBUG__

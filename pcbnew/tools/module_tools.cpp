@@ -36,7 +36,7 @@
 #include <kicad_plugin.h>
 #include <pcbnew_id.h>
 #include <collectors.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <dialogs/dialog_enum_pads.h>
 
 #include <wxPcbStruct.h>

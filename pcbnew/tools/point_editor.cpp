@@ -29,7 +29,7 @@
 #include <view/view_controls.h>
 #include <gal/graphics_abstraction_layer.h>
 #include <geometry/seg.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include "common_actions.h"
 #include "selection_tool.h"

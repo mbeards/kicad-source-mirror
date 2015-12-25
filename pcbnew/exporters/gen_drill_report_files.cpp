@@ -32,7 +32,7 @@
 #include <plot_common.h>
 #include <common/base_struct.h>
 #include <drawtxt.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <common/macros.h>
 

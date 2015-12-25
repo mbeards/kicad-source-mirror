@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 
 #include <gerbview.h>

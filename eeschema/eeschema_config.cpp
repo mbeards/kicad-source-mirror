@@ -29,7 +29,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <schframe.h>
 #include <invoke_sch_dialog.h>

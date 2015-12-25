@@ -30,7 +30,7 @@
 #include <pgm_base.h>
 #include <project.h>
 #include <common/common.h>         // NAMELESS_PROJECT
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <config_params.h>
 #include <wildcards_and_files_ext.h>

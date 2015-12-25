@@ -36,7 +36,7 @@
 #include <kicad_plugin.h>
 #include <class_drawpanel.h>
 #include <pcb_draw_panel_gal.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <dialog_helpers.h>
 #include <3d_viewer.h>

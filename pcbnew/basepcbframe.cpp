@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <wxstruct.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kiface_i.h>
 #include <dialog_helpers.h>
 #include <kicad_device_context.h>

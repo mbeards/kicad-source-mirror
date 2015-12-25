@@ -28,7 +28,7 @@
 
 #include <kiface_i.h>
 #include <plot_common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
 #include <common/base_units.h>

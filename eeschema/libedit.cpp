@@ -34,7 +34,7 @@
 #include <common/macros.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <class_sch_screen.h>
 

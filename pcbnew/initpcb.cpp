@@ -27,7 +27,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 
 #include <class_board.h>

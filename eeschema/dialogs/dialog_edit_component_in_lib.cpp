@@ -28,7 +28,7 @@
 #include <fctsys.h>
 #include <kiway.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <pgm_base.h>
 

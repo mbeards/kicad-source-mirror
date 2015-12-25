@@ -44,7 +44,7 @@
 #include <properties_frame.h>
 
 #include <wildcards_and_files_ext.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 /*************************/
 /* class PL_EDITOR_FRAME */

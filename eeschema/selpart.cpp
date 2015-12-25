@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <pgm_base.h>
 #include <sch_base_frame.h>
 

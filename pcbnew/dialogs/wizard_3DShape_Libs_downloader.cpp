@@ -40,7 +40,7 @@
 #include <pgm_base.h>
 #include <project.h>
 #include <wizard_3DShape_Libs_downloader.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <3d_viewer.h>
 
 #include <../github/github_getliblist.h>

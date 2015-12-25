@@ -51,7 +51,7 @@
 #include <online_help.h>
 #include <gestfich.h>
 #include <menus_helpers.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <dialog_env_var_config.h>
 
 

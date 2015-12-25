@@ -42,7 +42,7 @@
 #include <fp_lib_table_lexer.h>
 #include <invoke_pcb_dialog.h>
 #include <common/grid_tricks.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wizard_add_fplib.h>
 
 

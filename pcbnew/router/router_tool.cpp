@@ -39,7 +39,7 @@
 #include <dialogs/dialog_track_via_size.h>
 #include <common/base_units.h>
 #include <hotkeys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <tool/context_menu.h>
 #include <tool/tool_manager.h>

@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <dialog_hotkeys_editor.h>
 

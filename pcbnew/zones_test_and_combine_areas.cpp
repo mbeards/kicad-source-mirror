@@ -32,7 +32,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <class_undoredo_container.h>
 
 #include <class_board.h>

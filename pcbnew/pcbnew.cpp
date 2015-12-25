@@ -35,7 +35,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>

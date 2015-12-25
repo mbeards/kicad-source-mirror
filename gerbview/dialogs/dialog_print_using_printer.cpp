@@ -30,7 +30,7 @@
 #include <kiface_i.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <dialog_print_using_printer_base.h>
 #include <printout_controler.h>

@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <wxPcbStruct.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <class_board.h>
 #include <class_module.h>

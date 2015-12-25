@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <schframe.h>
 #include <pgm_base.h>

@@ -38,7 +38,7 @@
 #include <view/view_controls.h>
 #include <gal/graphics_abstraction_layer.h>
 #include <ratsnest_data.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <cassert>
 #include <boost/foreach.hpp>

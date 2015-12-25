@@ -33,7 +33,7 @@
 
 
 #include <class_drawpanel.h>    // m_canvas
-#include <confirm.h>            // DisplayError()
+#include <common/confirm.h>            // DisplayError()
 #include <gestfich.h>           // EDA_FileSelector()
 #include <wxPcbStruct.h>
 #include <common/macros.h>

@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <project.h>
 #include <kiface_i.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 #include <dialog_helpers.h>
 #include <html_messagebox.h>

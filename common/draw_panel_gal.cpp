@@ -29,7 +29,7 @@
 #include <wx/event.h>
 #include <wx/colour.h>
 #include <wx/filename.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <class_draw_panel_gal.h>
 #include <view/view.h>

@@ -26,7 +26,7 @@
 
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <pcbnew.h>

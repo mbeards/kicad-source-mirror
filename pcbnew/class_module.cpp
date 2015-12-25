@@ -35,7 +35,7 @@
 #include <plot_common.h>
 #include <class_drawpanel.h>
 #include <trigo.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <pcbnew.h>
 #include <colors_selection.h>

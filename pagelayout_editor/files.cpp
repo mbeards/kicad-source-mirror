@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <common/macros.h>
 #include <worksheet_shape_builder.h>

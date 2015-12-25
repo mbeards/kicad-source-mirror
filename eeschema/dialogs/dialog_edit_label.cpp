@@ -36,7 +36,7 @@
 #include <class_drawpanel.h>
 #include <general.h>
 #include <drawtxt.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <sch_text.h>
 #include <typeinfo>
 

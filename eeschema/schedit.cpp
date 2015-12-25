@@ -32,7 +32,7 @@
 #include <gr_basic.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <eda_doc.h>
 #include <schframe.h>
 #include <kicad_device_context.h>

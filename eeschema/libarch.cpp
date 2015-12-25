@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <class_sch_screen.h>
 #include <wxstruct.h>
 #include <schframe.h>

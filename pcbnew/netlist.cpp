@@ -32,7 +32,7 @@
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <dialog_helpers.h>
 #include <wxPcbStruct.h>
 #include <pcb_netlist.h>

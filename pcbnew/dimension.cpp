@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>

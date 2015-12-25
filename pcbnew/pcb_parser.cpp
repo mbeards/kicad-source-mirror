@@ -30,7 +30,7 @@
 
 #include <errno.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 #include <convert_from_iu.h>
 #include <trigo.h>

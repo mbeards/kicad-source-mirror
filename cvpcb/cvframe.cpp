@@ -33,7 +33,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <common/macros.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <eda_doc.h>
 #include <eda_dde.h>
 #include <gestfich.h>

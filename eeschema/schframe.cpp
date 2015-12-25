@@ -32,7 +32,7 @@
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <gestfich.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/base_units.h>
 #include <msgpanel.h>
 #include <html_messagebox.h>

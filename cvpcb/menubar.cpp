@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <menus_helpers.h>
 

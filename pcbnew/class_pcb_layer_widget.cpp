@@ -35,7 +35,7 @@
 #include <view/view.h>
 #include <painter.h>
 
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbstruct.h>      // enum PCB_VISIBLE
 #include <layer_widget.h>

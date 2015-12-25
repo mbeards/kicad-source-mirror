@@ -30,7 +30,7 @@
 #include <wx/wx.h>
 #include <fctsys.h>
 #include <kiface_i.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <PolyLine.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

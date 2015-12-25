@@ -40,7 +40,7 @@
 #include <class_base_screen.h>
 #include <msgpanel.h>
 #include <draw_frame.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_device_context.h>
 #include <dialog_helpers.h>
 #include <common/base_units.h>

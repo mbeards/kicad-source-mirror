@@ -27,7 +27,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <eeschema_id.h>
 #include <hotkeys.h>
 #include <class_drawpanel.h>

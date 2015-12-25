@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <schframe.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <netlist_exporter_kicad.h>
 #include <kiway.h>
 

@@ -38,7 +38,7 @@
 #include <wildcards_and_files_ext.h>
 #include <common/macros.h>
 #include <reporter.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <pcbnew.h>
 #include <pcbplot.h>

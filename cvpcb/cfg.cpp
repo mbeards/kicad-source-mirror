@@ -35,7 +35,7 @@
 #include <config_params.h>
 #include <wildcards_and_files_ext.h>
 #include <fp_lib_table.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <cvpcb.h>
 #include <cvpcb_mainframe.h>

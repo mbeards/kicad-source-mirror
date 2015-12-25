@@ -27,7 +27,7 @@
 #include <fctsys.h>
 #include <common/macros.h>
 
-#include <confirm.h>
+#include <common/confirm.h>
 #include <pcbnew.h>
 #include <invoke_pcb_dialog.h>
 

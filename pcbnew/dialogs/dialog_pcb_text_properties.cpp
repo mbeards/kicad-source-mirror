@@ -32,7 +32,7 @@
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <drawtxt.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/base_units.h>
 
 #include <class_board.h>

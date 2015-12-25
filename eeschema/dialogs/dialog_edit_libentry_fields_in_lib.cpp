@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <kiway.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <class_drawpanel.h>
 #include <schframe.h>
 #include <common/id.h>

@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <common/id.h>
 #include <project.h>            // For PROJECT_VAR_NAME definition

@@ -35,7 +35,7 @@
 #include <common/base_struct.h>
 #include <class_base_screen.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <block_commande.h>
 
 

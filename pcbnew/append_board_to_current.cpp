@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbnew.h>
 #include <io_mgr.h>

@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <pgm_kicad.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 
 #include <kicad.h>

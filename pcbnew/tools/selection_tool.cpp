@@ -37,7 +37,7 @@
 
 #include <wxPcbStruct.h>
 #include <collectors.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <dialog_find.h>
 
 #include <class_draw_panel_gal.h>

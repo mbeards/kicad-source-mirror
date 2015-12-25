@@ -31,7 +31,7 @@
 
 #include <fctsys.h>
 #include <common/common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/macros.h>
 #include <kicad_string.h>
 #include <gestfich.h>

@@ -36,7 +36,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <schframe.h>

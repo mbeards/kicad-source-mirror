@@ -26,7 +26,7 @@
 
 #include <fctsys.h>
 #include <build_version.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <schframe.h>
 #include "netlist_exporter_kicad.h"

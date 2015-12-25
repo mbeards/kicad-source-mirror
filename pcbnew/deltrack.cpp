@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <common/macros.h>
 #include <ratsnest_data.h>

@@ -34,7 +34,7 @@
 #include <class_zone.h>
 #include <class_pcb_screen.h>
 
-#include <confirm.h>
+#include <common/confirm.h>
 #include <hotkeys_basic.h>
 #include <io_mgr.h>
 

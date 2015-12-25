@@ -33,7 +33,7 @@
 #include <kiway.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <schframe.h>
 #include <kicad_device_context.h>
 #include <msgpanel.h>

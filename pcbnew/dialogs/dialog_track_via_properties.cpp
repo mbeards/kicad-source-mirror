@@ -27,7 +27,7 @@
 #include <tools/selection_tool.h>
 #include <class_track.h>
 #include <wxPcbStruct.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 DIALOG_TRACK_VIA_PROPERTIES::DIALOG_TRACK_VIA_PROPERTIES( PCB_BASE_FRAME* aParent, const SELECTION& aItems ) :
     DIALOG_TRACK_VIA_PROPERTIES_BASE( aParent ), m_items( aItems ),

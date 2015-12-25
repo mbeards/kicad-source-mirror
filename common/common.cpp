@@ -35,7 +35,7 @@
 #include <common/common.h>
 #include <common/macros.h>
 #include <build_version.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <common/base_units.h>
 #include <reporter.h>
 

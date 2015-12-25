@@ -32,7 +32,7 @@
 #include <module_editor_frame.h>
 #include <pcbnew_id.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <class_board_design_settings.h>
 
 #include <hotkeys.h>

@@ -31,7 +31,7 @@
 #include <pgm_kicad.h>
 #include <kiway.h>
 #include <project.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <kicad.h>
 #include <config_params.h>

@@ -32,7 +32,7 @@
 #include <kiface_i.h>
 #include <hotkeys_basic.h>
 #include <common/id.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxstruct.h>

@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 
 #include <class_board.h>

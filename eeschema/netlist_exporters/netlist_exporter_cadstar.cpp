@@ -25,7 +25,7 @@
 
 #include <fctsys.h>
 #include <build_version.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <schframe.h>
 #include <sch_reference_list.h>

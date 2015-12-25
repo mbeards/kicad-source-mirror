@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <plot_common.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
 #include <pcbstruct.h>

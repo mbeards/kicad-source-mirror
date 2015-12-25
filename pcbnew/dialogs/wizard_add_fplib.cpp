@@ -41,7 +41,7 @@
 #include <project.h>
 #include <wizard_add_fplib.h>
 #include <fp_lib_table.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <class_module.h>
 

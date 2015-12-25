@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <gestfich.h>
 #include <pgm_base.h>
 #include <common/macros.h>

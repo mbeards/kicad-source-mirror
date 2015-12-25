@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <kicad_string.h>
 #include <wxPcbStruct.h>
 #include <common/macros.h>

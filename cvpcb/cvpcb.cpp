@@ -33,7 +33,7 @@
 #include <kiface_i.h>
 #include <pgm_base.h>
 #include <wxstruct.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <3d_viewer.h>
 #include <pcbcommon.h>
 

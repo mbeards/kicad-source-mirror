@@ -33,7 +33,7 @@
 #include <gal/opengl/shader.h>
 #include <typeinfo>
 #include <wx/msgdlg.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #ifdef PROFILE
 #include <profile.h>
 #include <wx/debug.h>

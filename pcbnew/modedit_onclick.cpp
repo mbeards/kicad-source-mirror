@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <3d_viewer.h>
 #include <wxPcbStruct.h>
 #include <gr_basic.h>

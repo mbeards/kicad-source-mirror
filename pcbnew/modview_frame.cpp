@@ -38,7 +38,7 @@
 #include <msgpanel.h>
 #include <fp_lib_table.h>
 #include <fpid.h>
-#include <confirm.h>
+#include <common/confirm.h>
 
 #include <class_board.h>
 #include <class_module.h>

@@ -34,7 +34,7 @@
 #include <common/id.h>
 #include <class_drawpanel.h>
 #include <class_base_screen.h>
-#include <confirm.h>
+#include <common/confirm.h>
 #include <draw_frame.h>
 
 static bool DrawPageOnClipboard( EDA_DRAW_FRAME* aFrame );
