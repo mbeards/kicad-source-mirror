@@ -6,6 +6,7 @@ include_directories(
     ../../include
     ../../pcbnew
     ../../polygon
+    ${TTL_INCLUDE_DIRECTORY}
     ${INC_AFTER}
 )
 

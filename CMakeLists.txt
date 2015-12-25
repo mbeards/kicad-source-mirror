@@ -650,6 +650,7 @@ endif()
 # Binaries ( CMake targets ) #
 ############################
 
+add_subdirectory( third_party/ttl )
 add_subdirectory( bitmaps_png )
 add_subdirectory( common )
 add_subdirectory( 3d-viewer )

@@ -14,6 +14,7 @@ include_directories(
     ${CMAKE_BINARY_DIR}/include/common
     ${CMAKE_BINARY_DIR}/include/pcbnew
     ${CMAKE_BINARY_DIR}/include/gal/opengl
+    ${TTL_INCLUDE_DIRECTORY}
     ${INC_AFTER}
     )
 
