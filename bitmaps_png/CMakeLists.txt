@@ -71,9 +71,10 @@ option( MAINTAIN_PNGS
 # Used Only to maintain PNG files (and therefore to recreate .cpp files)
 # The png2cpp creates files with native End of Line format.
 
-include_directories(BEFORE ${INC_BEFORE})
 include_directories(
-    ${INC_AFTER}
+    ${CMAKE_SOURCE_DIR}/include
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 

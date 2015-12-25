@@ -1,6 +1,7 @@
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     bitmaps
     dialogs
     transline
@@ -8,7 +9,8 @@ include_directories(
     ../polygon
     ../common
     ${CMAKE_BINARY_DIR}/include
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 set( PCB_CALCULATOR_SRCS

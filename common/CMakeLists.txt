@@ -1,5 +1,5 @@
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    ${CMAKE_SOURCE_DIR}/include
     ./dialogs
     ./dialog_about
     ${CAIRO_INCLUDE_DIR}
@@ -15,7 +15,8 @@ include_directories(
     ${CMAKE_BINARY_DIR}/include/pcbnew
     ${CMAKE_BINARY_DIR}/include/gal/opengl
     ${TTL_INCLUDE_DIRECTORY}
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 # Generate header files containing shader programs

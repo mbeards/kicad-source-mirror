@@ -8,8 +8,9 @@ endif()
 
 add_definitions( -DCVPCB )
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     ./dialogs
     ../3d-viewer
     ../pcbnew
@@ -18,7 +19,8 @@ include_directories(
     ../common
     ${GLM_INCLUDE_DIR}
     ${CMAKE_BINARY_DIR}/include
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 

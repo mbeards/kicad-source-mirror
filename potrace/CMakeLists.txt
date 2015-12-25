@@ -1,6 +1,8 @@
-include_directories(BEFORE ${INC_BEFORE})
 include_directories(
-    ${INC_AFTER}
+    .
+    ${CMAKE_SOURCE_DIR}/include
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 set(POTRACE_SRCS

@@ -1,10 +1,12 @@
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     ../potrace
     ../common
     ../polygon
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 set( BITMAP2COMPONENT_SRCS

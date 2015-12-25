@@ -1,13 +1,15 @@
 add_definitions(-DPCBNEW)
 
-include_directories(BEFORE ${INC_BEFORE})
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     textures
     ../pcbnew
     ../polygon
     ${GLEW_INCLUDE_DIR}
     ${GLM_INCLUDE_DIR}
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 set(3D-VIEWER_SRCS

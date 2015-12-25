@@ -8,12 +8,14 @@ endif()
 
 add_definitions(-DPL_EDITOR)
 
-include_directories(BEFORE ${INC_BEFORE})
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     dialogs
     ../common/dialogs
     ${CMAKE_BINARY_DIR}/include
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 set( PL_EDITOR_SRCS

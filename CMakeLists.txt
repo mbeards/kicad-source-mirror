@@ -503,27 +503,6 @@ if( MINGW AND USE_WX_GRAPHICS_CONTEXT )
     check_find_package_result( GDI_PLUS_FOUND "GDI+" )
 endif()
 
-# Assist with header file searching optimization:
-# INC_BEFORE and INC_AFTER are two lists which go at the front and back of the
-# header file search lists, respectively.
-# INC_BEFORE is for use with "include_directories( BEFORE ...)", which _reverses_
-# the order during insertion.  (So put first wanted last, which is
-# ${CMAKE_SOURCE_DIR/include.)  Use '.' for current source dir since
-# we don't want expansion here and now, which would happen if using ${CMAKE_CURRENT_SOURCE_DIR}.
-# Instead we use '.' which is applicable to any source directory below here as a result of
-# this lack of expansion.
-set( INC_BEFORE
-    .
-    ${CMAKE_SOURCE_DIR}/include
-    )
-
-set( INC_AFTER
-    ${Boost_INCLUDE_DIR}
-    #include <config.h>
-    ${CMAKE_BINARY_DIR}
-    )
-
-
 # Find Python and other scripting resources
 if( KICAD_SCRIPTING OR KICAD_SCRIPTING_MODULES )
     # force a python version < 3.0

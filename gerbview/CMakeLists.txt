@@ -8,13 +8,15 @@ endif()
 
 add_definitions(-DGERBVIEW)
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     ../pcbnew
     dialogs
     ../3d-viewer
     ../polygon
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 

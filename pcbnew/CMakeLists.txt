@@ -31,8 +31,9 @@ if( BUILD_GITHUB_PLUGIN )
             dialogs/wizard_3DShape_Libs_downloader.cpp )
 endif()
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     ./dialogs
     ./autorouter
     ../3d-viewer
@@ -49,6 +50,8 @@ include_directories(
     ${CMAKE_BINARY_DIR}/include/pcbnew
     ${CMAKE_BINARY_DIR}/include/dialogs
     ${TTL_INCLUDE_DIRECTORY}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     ${INC_AFTER}
     )
 

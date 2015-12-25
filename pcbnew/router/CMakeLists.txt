@@ -1,13 +1,13 @@
-include_directories( BEFORE ${INC_BEFORE} )
-
 include_directories(
+    ${CMAKE_SOURCE_DIR}/include
     ./
     ../
     ../../include
     ../../pcbnew
     ../../polygon
     ${TTL_INCLUDE_DIRECTORY}
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
 )
 
 set( PCBNEW_PNS_SRCS

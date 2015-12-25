@@ -9,15 +9,17 @@ endif()
 add_definitions( -DEESCHEMA )
 
 
-include_directories( BEFORE ${INC_BEFORE} )
 include_directories(
+    .
+    ${CMAKE_SOURCE_DIR}/include
     ./dialogs
     ./netlist_exporters
     ../common
     ../common/dialogs
     ${CMAKE_BINARY_DIR}/include
     ${CMAKE_BINARY_DIR}/include/dialogs
-    ${INC_AFTER}
+    ${Boost_INCLUDE_DIR}
+    ${CMAKE_BINARY_DIR}
     )
 
 
