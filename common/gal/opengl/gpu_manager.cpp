@@ -35,7 +35,7 @@
 #include <wx/msgdlg.h>
 #include <common/confirm.h>
 #ifdef PROFILE
-#include <profile.h>
+#include <common/profile.h>
 #include <wx/debug.h>
 #include <wx/log.h>
 #endif /* PROFILE */

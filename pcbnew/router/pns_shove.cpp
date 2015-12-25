@@ -43,7 +43,7 @@
 
 #include "time_limit.h"
 
-#include <profile.h>
+#include <common/profile.h>
 
 void PNS_SHOVE::replaceItems( PNS_ITEM* aOld, PNS_ITEM* aNew )
 {

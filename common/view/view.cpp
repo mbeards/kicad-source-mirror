@@ -35,7 +35,7 @@
 #include <painter.h>
 
 #ifdef PROFILE
-#include <profile.h>
+#include <common/profile.h>
 #endif /* PROFILE  */
 
 using namespace KIGFX;

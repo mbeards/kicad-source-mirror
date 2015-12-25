@@ -37,7 +37,7 @@
 #include <wx/log.h>
 #include <list>
 #ifdef __WXDEBUG__
-#include <profile.h>
+#include <common/profile.h>
 #endif /* __WXDEBUG__ */
 
 using namespace KIGFX;

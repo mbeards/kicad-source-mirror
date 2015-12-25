@@ -51,7 +51,7 @@
 #include <limits>
 
 #ifdef PROFILE
-#include <profile.h>
+#include <common/profile.h>
 #endif
 
 static uint64_t getDistance( const RN_NODE_PTR& aNode1, const RN_NODE_PTR& aNode2 )

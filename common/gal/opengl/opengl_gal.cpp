@@ -32,7 +32,7 @@
 #include <wx/log.h>
 #include <common/macros.h>
 #ifdef __WXDEBUG__
-#include <profile.h>
+#include <common/profile.h>
 #endif /* __WXDEBUG__ */
 
 #include <limits>

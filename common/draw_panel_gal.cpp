@@ -46,7 +46,7 @@
 #include <boost/foreach.hpp>
 
 #ifdef __WXDEBUG__
-#include <profile.h>
+#include <common/profile.h>
 #endif /* __WXDEBUG__ */
 
 EDA_DRAW_PANEL_GAL::EDA_DRAW_PANEL_GAL( wxWindow* aParentWindow, wxWindowID aWindowId,
