@@ -27,7 +27,7 @@
 
 #include <utf8.h>
 #include <common/richio.h>
-#include <import_export.h>
+#include <common/import_export.h>
 
 
 namespace SCH {

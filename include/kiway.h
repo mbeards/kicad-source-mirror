@@ -98,7 +98,7 @@ as such!  As such, it is OK to use UTF8 characters:
 
 #include <wx/event.h>
 #include <wx/dynlib.h>
-#include <import_export.h>
+#include <common/import_export.h>
 #include <search_stack.h>
 #include <project.h>
 #include <frame_type.h>

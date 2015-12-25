@@ -99,7 +99,7 @@ add_library( singletop STATIC EXCLUDE_FROM_ALL
 # A shared library used by multiple *.kiface files and one or two program
 # launchers.  Object files can migrate into here over time, but only if they are
 # surely needed and certainly used from more than one place without recompilation.
-# Functions and data all need to use the #include <import_export.h> and be declared
+# Functions and data all need to use the #include <common/import_export.h> and be declared
 # as APIEXPORT
 set( LIB_KICAD_SRCS
     colors.cpp

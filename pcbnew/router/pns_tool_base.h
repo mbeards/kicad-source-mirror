@@ -22,7 +22,7 @@
 #ifndef __PNS_TOOL_BASE_H
 #define __PNS_TOOL_BASE_H
 
-#include <import_export.h>
+#include <common/import_export.h>
 
 #include <math/vector2d.h>
 #include <tool/tool_interactive.h>

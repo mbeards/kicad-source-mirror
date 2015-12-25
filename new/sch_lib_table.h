@@ -28,7 +28,7 @@
 #include <string>
 #include <boost/ptr_container/ptr_map.hpp>
 
-#include <import_export.h>
+#include <common/import_export.h>
 #include <sch_lib.h>
 
 class OUTPUTFORMATTER;
