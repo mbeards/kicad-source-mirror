@@ -41,7 +41,7 @@
 #include <vector>
 #include <build_version.h>
 #include <macros.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <wx/dir.h>
 #include <wx/filename.h>

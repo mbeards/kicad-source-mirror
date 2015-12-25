@@ -25,7 +25,7 @@
 #include <fctsys.h>
 #include <macros.h>
 #include <gr_basic.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <libeditframe.h>
 #include <class_libentry.h>

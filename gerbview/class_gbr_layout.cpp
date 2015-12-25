@@ -31,7 +31,7 @@
 #include <algorithm>
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_gbr_layout.h>
 
 GBR_LAYOUT::GBR_LAYOUT()

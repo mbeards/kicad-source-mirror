@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <pgm_base.h>
-#include <common.h>
+#include <common/common.h>
 #include <confirm.h>
 #include <gestfich.h>
 #include <id.h>

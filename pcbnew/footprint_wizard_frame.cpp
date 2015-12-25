@@ -47,7 +47,7 @@
 
 #include <hotkeys.h>
 #include <wildcards_and_files_ext.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 BEGIN_EVENT_TABLE( FOOTPRINT_WIZARD_FRAME, EDA_DRAW_FRAME )

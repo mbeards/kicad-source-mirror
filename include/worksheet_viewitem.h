@@ -30,7 +30,7 @@
 #ifndef WORKSHEET_VIEWITEM_H
 #define WORKSHEET_VIEWITEM_H
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 
 class BOARD;
 class PAGE_INFO;

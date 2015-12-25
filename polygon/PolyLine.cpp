@@ -39,7 +39,7 @@
 #include <algorithm>
 
 #include <fctsys.h>
-#include <common.h>     // KiROUND
+#include <common/common.h>     // KiROUND
 
 #include <PolyLine.h>
 #include <bezier_curves.h>

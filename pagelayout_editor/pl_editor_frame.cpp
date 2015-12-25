@@ -31,7 +31,7 @@
 #include <class_drawpanel.h>
 #include <build_version.h>
 #include <macros.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <pl_editor_frame.h>

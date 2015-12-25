@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <wx/valgen.h>
 #include <schframe.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_drawpanel.h>
 #include <general.h>

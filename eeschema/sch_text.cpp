@@ -37,7 +37,7 @@
 #include <drawtxt.h>
 #include <schframe.h>
 #include <plot_common.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <general.h>

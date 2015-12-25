@@ -32,7 +32,7 @@
 
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <kiface_i.h>
 #include <project.h>
 #include <gestfich.h>

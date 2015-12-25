@@ -45,7 +45,7 @@
 #include <class_board.h>
 #include <class_module.h>
 #include <class_drawsegment.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 DRAWSEGMENT::DRAWSEGMENT( BOARD_ITEM* aParent, KICAD_T idtype ) :

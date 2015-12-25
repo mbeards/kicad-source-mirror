@@ -33,7 +33,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <class_sch_screen.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <eeschema_id.h>

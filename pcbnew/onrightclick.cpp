@@ -32,7 +32,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <macros.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_module.h>

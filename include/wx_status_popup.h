@@ -26,7 +26,7 @@
 #define __WX_STATUS_POPUP_H_
 
 
-#include <common.h>
+#include <common/common.h>
 #include <wx/popupwin.h>
 
 class PCB_EDIT_FRAME;

@@ -36,7 +36,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <pgm_base.h>
 #include <wildcards_and_files_ext.h>

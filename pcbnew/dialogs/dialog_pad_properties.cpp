@@ -30,7 +30,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <confirm.h>
@@ -39,7 +39,7 @@
 #include <macros.h>
 #include <wxBasePcbFrame.h>
 #include <pcbcommon.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <wx/dcbuffer.h>
 

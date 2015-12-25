@@ -30,7 +30,7 @@
 #include <wx/treectrl.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 
 #include <pl_editor_frame.h>

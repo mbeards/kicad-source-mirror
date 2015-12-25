@@ -31,7 +31,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <trigo.h>
 #include <macros.h>
 #include <class_drawpanel.h>
@@ -43,7 +43,7 @@
 #include <class_board.h>
 #include <class_track.h>
 #include <pcbnew.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 

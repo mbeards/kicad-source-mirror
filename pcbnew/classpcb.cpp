@@ -31,12 +31,12 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <trigo.h>
 #include <class_pcb_screen.h>
 #include <eda_text.h>                // FILLED
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <pcbnew.h>
 #include <class_board_design_settings.h>

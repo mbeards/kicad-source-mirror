@@ -29,7 +29,7 @@
 #include <algorithm> // sort
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 
 #include <class_board.h>

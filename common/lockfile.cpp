@@ -24,7 +24,7 @@
 
 #include <wx/filename.h>
 #include <wx/snglinst.h>
-#include <common.h>
+#include <common/common.h>
 
 
 wxSingleInstanceChecker* LockFile( const wxString& aFileName )

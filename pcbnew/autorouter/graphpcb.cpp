@@ -31,7 +31,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <trigo.h>
 #include <math_for_graphics.h>

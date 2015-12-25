@@ -37,7 +37,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <gr_basic.h>
 #include <drawtxt.h>
 #include <macros.h>

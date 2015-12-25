@@ -30,7 +30,7 @@
 #include <eda_dde.h>
 #include <draw_frame.h>
 #include <id.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 
 static const wxString HOSTNAME( wxT( "localhost" ) );

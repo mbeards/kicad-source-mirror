@@ -27,11 +27,11 @@
 
 #include <fctsys.h>
 #include <macros.h>              // DIM()
-#include <common.h>
+#include <common/common.h>
 #include <project.h>
 #include <confirm.h>
 #include <gr_basic.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_drawpanel.h>
 #include <class_title_block.h>
 #include <draw_frame.h>

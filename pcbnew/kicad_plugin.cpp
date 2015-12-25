@@ -25,12 +25,12 @@
 
 #include <fctsys.h>
 #include <kicad_string.h>
-#include <common.h>
+#include <common/common.h>
 #include <build_version.h>      // LEGACY_BOARD_FILE_VERSION
 #include <macros.h>
 #include <3d_struct.h>
 #include <wildcards_and_files_ext.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_module.h>

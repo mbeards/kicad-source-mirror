@@ -29,7 +29,7 @@
 #include <macros.h>
 #include <pgm_base.h>
 #include <project.h>
-#include <common.h>         // NAMELESS_PROJECT
+#include <common/common.h>         // NAMELESS_PROJECT
 #include <confirm.h>
 #include <kicad_string.h>
 #include <config_params.h>

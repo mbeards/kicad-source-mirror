@@ -36,7 +36,7 @@
 #include <layer_widget.h>
 
 #include <macros.h>
-#include <common.h>
+#include <common/common.h>
 #include <colors.h>
 #include <wx/colour.h>
 

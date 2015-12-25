@@ -28,7 +28,7 @@
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <class_board_design_settings.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <module_editor_frame.h>
 

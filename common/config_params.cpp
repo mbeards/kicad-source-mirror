@@ -26,7 +26,7 @@
 #include <fctsys.h>
 #include <gr_basic.h>
 #include <pgm_base.h>
-#include <common.h>
+#include <common/common.h>
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxstruct.h>

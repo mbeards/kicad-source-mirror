@@ -30,13 +30,13 @@
 #include <pgm_base.h>
 #include <gr_basic.h>
 #include <macros.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <drawtxt.h>
 #include <kicad_string.h>
 #include <class_drawpanel.h>
 #include <plot_common.h>
 #include <trigo.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <general.h>

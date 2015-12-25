@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <wxstruct.h>
 #include <dialog_helpers.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <macros.h>
 
 

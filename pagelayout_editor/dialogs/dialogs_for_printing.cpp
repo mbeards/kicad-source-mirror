@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <pl_editor_frame.h>
 #include <pl_editor_id.h>

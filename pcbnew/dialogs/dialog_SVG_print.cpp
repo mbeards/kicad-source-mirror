@@ -29,11 +29,11 @@
 
 #include <fctsys.h>
 #include <kiface_i.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <wxBasePcbFrame.h>
 #include <class_pcb_screen.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <convert_from_iu.h>
 #include <wildcards_and_files_ext.h>
 #include <macros.h>

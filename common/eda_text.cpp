@@ -40,7 +40,7 @@
     #include <sch_item_struct.h>        // for FMT_IU
 #elif defined( GERBVIEW )
 #elif defined( PL_EDITOR )
-    #include <base_units.h>
+    #include <common/base_units.h>
     #define FMT_IU Double2Str
 #else
 #error "Cannot resolve units formatting due to no definition of EESCHEMA or PCBNEW."

@@ -34,7 +34,7 @@
 #include <wxstruct.h>
 #include <bezier_curves.h>
 #include <richio.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <general.h>

@@ -27,9 +27,9 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <gerbview.h>
 #include <class_GERBER.h>

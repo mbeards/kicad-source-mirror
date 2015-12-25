@@ -100,7 +100,7 @@ DIALOG_SHIM::~DIALOG_SHIM()
 
 // our hashtable is an implementation secret, don't need or want it in a header file
 #include <hashtables.h>
-#include <base_struct.h>        // EDA_RECT
+#include <common/base_struct.h>        // EDA_RECT
 #include <typeinfo>
 
 static RECT_MAP class_map;

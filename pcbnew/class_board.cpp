@@ -34,13 +34,13 @@
 #include <algorithm>
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <kicad_string.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>
 #include <pcb_netlist.h>
 #include <reporter.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <ratsnest_data.h>
 #include <ratsnest_viewitem.h>
 #include <worksheet_viewitem.h>

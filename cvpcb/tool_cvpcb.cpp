@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <kiface_i.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <bitmaps.h>
 #include <cvpcb.h>

@@ -30,7 +30,7 @@
 #include <wx/wx.h>
 #include <wx/config.h>
 
-#include <common.h>
+#include <common/common.h>
 
 #include <pcb_arc.h>
 #include <pcb_copper_pour.h>

@@ -36,7 +36,7 @@
 #include <boost/interprocess/exceptions.hpp>
 
 #include <draw_frame.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <eda_text.h>                // EDA_DRAW_MODE_T
 #include <richio.h>
 #include <class_pcb_screen.h>

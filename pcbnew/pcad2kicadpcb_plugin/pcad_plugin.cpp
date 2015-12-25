@@ -37,7 +37,7 @@
 #include <s_expr_loader.h>
 #include <pcb.h>
 
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <fctsys.h>
 

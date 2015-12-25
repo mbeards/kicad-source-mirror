@@ -31,7 +31,7 @@
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <bitmaps.h>
 #include <macros.h>
 #include <id.h>
@@ -43,7 +43,7 @@
 #include <confirm.h>
 #include <kicad_device_context.h>
 #include <dialog_helpers.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <math/box2.h>
 
 #include <wx/fontdlg.h>

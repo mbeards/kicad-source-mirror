@@ -28,8 +28,8 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
-#include <base_units.h>
+#include <common/common.h>
+#include <common/base_units.h>
 #include <kiway.h>
 
 #include <general.h>

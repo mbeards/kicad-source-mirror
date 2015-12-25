@@ -30,7 +30,7 @@
 #include <kiface_i.h>
 #include <fp_lib_table.h>
 #include <id.h>
-#include <common.h>
+#include <common/common.h>
 #include <gestfich.h>
 #include <config_params.h>
 #include <wildcards_and_files_ext.h>

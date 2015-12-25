@@ -33,7 +33,7 @@
 
 #include <fctsys.h>
 #include <wxstruct.h>
-#include <common.h>
+#include <common/common.h>
 #include <colors.h>
 #include <macros.h>
 

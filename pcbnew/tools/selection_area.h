@@ -25,7 +25,7 @@
 #ifndef __SELECTION_AREA_H
 #define __SELECTION_AREA_H
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <layers_id_colors_and_visibility.h>
 #include <math/box2.h>
 

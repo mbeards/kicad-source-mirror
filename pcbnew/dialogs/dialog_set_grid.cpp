@@ -27,8 +27,8 @@
 
 #include <fctsys.h>
 #include <macros.h>
-#include <common.h>
-#include <base_units.h>
+#include <common/common.h>
+#include <common/base_units.h>
 #include <macros.h>
 
 #include <pcbnew.h>

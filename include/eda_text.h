@@ -31,9 +31,9 @@
 #define EDA_TEXT_H_
 
 #include <trigo.h>                  // NORMALIZE_ANGLE_POS( angle );
-#include <common.h>                 // wxStringSplit
+#include <common/common.h>                 // wxStringSplit
 #include <gr_basic.h>               // EDA_DRAW_MODE_T
-#include <base_struct.h>            // EDA_RECT
+#include <common/base_struct.h>            // EDA_RECT
 
 
 // Graphic Text justify:

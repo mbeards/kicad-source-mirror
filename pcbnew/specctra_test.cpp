@@ -35,7 +35,7 @@
 #include <cstdio>
 
 #include <specctra.h>
-#include <common.h>
+#include <common/common.h>
 
 
 using namespace DSN;

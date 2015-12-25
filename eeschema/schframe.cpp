@@ -33,7 +33,7 @@
 #include <class_drawpanel.h>
 #include <gestfich.h>
 #include <confirm.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 #include <html_messagebox.h>
 

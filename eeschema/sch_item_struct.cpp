@@ -27,9 +27,9 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <gr_basic.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <sch_item_struct.h>
 #include <class_sch_screen.h>
 #include <class_drawpanel.h>

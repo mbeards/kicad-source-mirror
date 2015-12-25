@@ -60,9 +60,9 @@
 %{
     #include <cstddef>
     #include <dlist.h>
-    #include <base_struct.h>
+    #include <common/base_struct.h>
     #include <class_eda_rect.h>
-    #include <common.h>
+    #include <common/common.h>
     #include <wx_python_helpers.h>
     #include <cstddef>
     #include <vector>

@@ -30,7 +30,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <printout_controler.h>
 #include <pcbnew.h>

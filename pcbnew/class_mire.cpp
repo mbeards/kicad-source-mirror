@@ -31,7 +31,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <kicad_string.h>
 #include <colors_selection.h>
@@ -41,7 +41,7 @@
 
 #include <class_board.h>
 #include <class_mire.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 PCB_TARGET::PCB_TARGET( BOARD_ITEM* aParent ) :

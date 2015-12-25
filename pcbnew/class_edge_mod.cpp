@@ -43,7 +43,7 @@
 #include <math_for_graphics.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_module.h>

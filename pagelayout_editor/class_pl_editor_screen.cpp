@@ -26,10 +26,10 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <class_pl_editor_screen.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <pl_editor_id.h>
 
 

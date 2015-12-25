@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <trigo.h>
 #include <gr_basic.h>

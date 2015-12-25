@@ -36,7 +36,7 @@
 #include <dialog_helpers.h>
 #include <kicad_device_context.h>
 #include <wxBasePcbFrame.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <msgpanel.h>
 
 #include <3d_viewer.h>

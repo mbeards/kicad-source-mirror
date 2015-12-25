@@ -28,7 +28,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_bitmap_base.h>
 
 #include <dialog_image_editor.h>

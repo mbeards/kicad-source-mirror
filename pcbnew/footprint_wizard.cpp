@@ -17,7 +17,7 @@
 #include "footprint_wizard_frame.h"
 #include <wildcards_and_files_ext.h>
 #include <dialogs/dialog_footprint_wizard_list.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 void FOOTPRINT_WIZARD_FRAME::Process_Special_Functions( wxCommandEvent& event )

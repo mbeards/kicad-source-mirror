@@ -27,7 +27,7 @@
 
 #include <geometry/seg.h>
 
-#include <common.h>
+#include <common/common.h>
 
 void EC_VERTICAL::Apply( EDIT_POINT& aHandle )
 {

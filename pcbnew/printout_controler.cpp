@@ -36,7 +36,7 @@
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <confirm.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <wxBasePcbFrame.h>
 #include <class_board.h>
 #include <pcbnew.h>

@@ -33,7 +33,7 @@
 #include <pgm_base.h>
 #include <confirm.h>
 
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <gestfich.h>
 

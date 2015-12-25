@@ -40,7 +40,7 @@
 #include <3d_struct.h>
 #include <3d_viewer.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <macros.h>
 #include <validators.h>
 #include <kicad_string.h>

@@ -25,7 +25,7 @@
 #ifndef __WX_UNIT_BINDER_H_
 #define __WX_UNIT_BINDER_H_
 
-#include <common.h>
+#include <common/common.h>
 #include <wx/spinbutt.h>
 
 class wxTextCtrl;

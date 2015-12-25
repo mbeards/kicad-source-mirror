@@ -25,7 +25,7 @@
 #ifndef WXUNITTEXT_H_
 #define WXUNITTEXT_H_
 
-#include <common.h>
+#include <common/common.h>
 #include <wx/spinbutt.h>
 
 namespace boost

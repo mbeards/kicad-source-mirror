@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <wxPcbStruct.h>
 #include <trigo.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <class_board_design_settings.h>
 
 #include <class_module.h>

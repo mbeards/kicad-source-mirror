@@ -33,13 +33,13 @@
 #include <fctsys.h>
 #include <macros.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <pcbnew.h>
 #include <drawtxt.h>
 #include <confirm.h>
 #include <wxBasePcbFrame.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_module.h>
 #include <class_text_mod.h>

@@ -30,8 +30,8 @@
 #include <fctsys.h>
 #include <trigo.h>
 #include <wxstruct.h>
-#include <base_struct.h>
-#include <common.h>
+#include <common/base_struct.h>
+#include <common/common.h>
 #include <plot_common.h>
 #include <macros.h>
 #include <kicad_string.h>

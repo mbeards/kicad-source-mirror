@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <pgm_base.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
 #include <confirm.h>

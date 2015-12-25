@@ -36,7 +36,7 @@
 #include <confirm.h>
 #include <class_sch_screen.h>
 #include <schframe.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <general.h>
 #include <sch_base_frame.h>

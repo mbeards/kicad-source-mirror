@@ -40,7 +40,7 @@
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <schframe.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <general.h>
 #include <class_library.h>

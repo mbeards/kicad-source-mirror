@@ -33,7 +33,7 @@
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
 #include <pcbstruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <reporter.h>
 #include <class_board.h>
 #include <pcbnew.h>

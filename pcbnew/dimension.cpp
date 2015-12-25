@@ -36,7 +36,7 @@
 #include <drawtxt.h>
 #include <dialog_helpers.h>
 #include <macros.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_pcb_text.h>

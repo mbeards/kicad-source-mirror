@@ -30,7 +30,7 @@
 #include <kiface_i.h>
 #include <confirm.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_zone.h>

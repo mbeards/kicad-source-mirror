@@ -23,7 +23,7 @@
  */
 
 #include "dialog_track_via_size.h"
-#include <base_units.h>
+#include <common/base_units.h>
 #include <confirm.h>
 #include <boost/optional.hpp>
 

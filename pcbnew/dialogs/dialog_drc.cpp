@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <dialog_drc.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <class_board_design_settings.h>
 #include <class_draw_panel_gal.h>
 

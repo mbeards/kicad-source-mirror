@@ -41,7 +41,7 @@
 #include <wxPcbStruct.h>
 #include <class_board_design_settings.h>
 #include <module_editor_frame.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_module.h>

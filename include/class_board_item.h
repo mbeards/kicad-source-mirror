@@ -31,7 +31,7 @@
 #define BOARD_ITEM_STRUCT_H
 
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <gr_basic.h>
 #include <layers_id_colors_and_visibility.h>
 

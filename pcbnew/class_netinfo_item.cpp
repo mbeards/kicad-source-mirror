@@ -31,14 +31,14 @@
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <wxBasePcbFrame.h>
-#include <common.h>
+#include <common/common.h>
 #include <kicad_string.h>
 #include <pcbnew.h>
 #include <colors_selection.h>
 #include <richio.h>
 #include <macros.h>
 #include <msgpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_module.h>

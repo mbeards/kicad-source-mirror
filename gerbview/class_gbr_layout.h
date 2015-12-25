@@ -35,7 +35,7 @@
 #include <dlist.h>
 
 #include <class_colors_design_settings.h>
-#include <common.h>                         // PAGE_INFO
+#include <common/common.h>                         // PAGE_INFO
 #include <gerbview.h>                       // GERBER_DRAWLAYERS_COUNT
 #include <class_title_block.h>
 #include <class_gerber_draw_item.h>

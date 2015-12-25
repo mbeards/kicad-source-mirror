@@ -31,8 +31,8 @@
 #ifndef STRUCT_3D_H
 #define STRUCT_3D_H
 
-#include <common.h>
-#include <base_struct.h>
+#include <common/common.h>
+#include <common/base_struct.h>
 #include <3d_material.h>
 #include <3d_types.h>
 #include <CBBox.h>

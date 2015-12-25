@@ -25,7 +25,7 @@
 #include <fctsys.h>
 #include <html_messagebox.h>
 #include <macros.h>
-#include <common.h>
+#include <common/common.h>
 
 
 HTML_MESSAGE_BOX::HTML_MESSAGE_BOX( wxWindow* parent, const wxString& aTitle,

@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <colors_selection.h>
 #include <wxBasePcbFrame.h>

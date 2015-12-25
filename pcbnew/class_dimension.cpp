@@ -41,7 +41,7 @@
 #include <class_board.h>
 #include <class_pcb_text.h>
 #include <class_dimension.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 DIMENSION::DIMENSION( BOARD_ITEM* aParent ) :

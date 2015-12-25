@@ -31,7 +31,7 @@
 #include <gr_basic.h>
 #include <macros.h>
 #include <class_drawpanel.h>
-#include <common.h>
+#include <common/common.h>
 #include <plot_common.h>
 
 #include <general.h>

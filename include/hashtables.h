@@ -24,7 +24,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <wx/string.h>
 
 // Three strategies for providing a portable hashtable are given.

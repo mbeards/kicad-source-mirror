@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <wx/wx.h>
 #include <wx/html/htmlwin.h>
 #include <wx/stockitem.h>

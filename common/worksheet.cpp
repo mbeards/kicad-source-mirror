@@ -33,7 +33,7 @@
 #include <fctsys.h>
 #include <pgm_base.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <class_base_screen.h>
 #include <drawtxt.h>

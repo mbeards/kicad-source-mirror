@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 #include <kiway.h>
-#include <common.h>
+#include <common/common.h>
 #include <confirm.h>
 #include <build_version.h>
 #include <macros.h>

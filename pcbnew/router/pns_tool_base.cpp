@@ -38,7 +38,7 @@
 #include <dialogs/dialog_pns_diff_pair_dimensions.h>
 #include <dialogs/dialog_pns_length_tuning_settings.h>
 #include <dialogs/dialog_track_via_size.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <tool/context_menu.h>
 #include <tools/common_actions.h>

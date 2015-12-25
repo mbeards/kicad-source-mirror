@@ -26,7 +26,7 @@
 #include <wx/sizer.h>
 #include <wx/textctrl.h>
 #include <limits>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <wx/valnum.h>
 
 #include <boost/optional.hpp>

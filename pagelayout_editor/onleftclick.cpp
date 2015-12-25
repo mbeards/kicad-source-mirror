@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <pl_editor_frame.h>
 #include <pl_editor_id.h>

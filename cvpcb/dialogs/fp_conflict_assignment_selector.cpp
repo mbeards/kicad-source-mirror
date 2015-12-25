@@ -26,7 +26,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <common.h>
+#include <common/common.h>
 
 #include <fp_conflict_assignment_selector.h>
 

@@ -30,7 +30,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <schframe.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <kiface_i.h>
 
 #include <sch_sheet.h>

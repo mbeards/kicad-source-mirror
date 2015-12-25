@@ -33,7 +33,7 @@
 #include <gestfich.h>
 #include <schframe.h>
 #include <invoke_sch_dialog.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <eeschema_id.h>
 #include <general.h>

@@ -28,7 +28,7 @@
  */
 
 #include <fctsys.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <plot_common.h>
 #include <worksheet.h>
 #include <class_base_screen.h>

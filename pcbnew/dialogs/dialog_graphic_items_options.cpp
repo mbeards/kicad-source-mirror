@@ -26,7 +26,7 @@
 
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <pcbnew_id.h>
 #include <module_editor_frame.h>

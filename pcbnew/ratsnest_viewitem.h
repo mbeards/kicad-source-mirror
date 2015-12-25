@@ -30,7 +30,7 @@
 #ifndef RATSNEST_VIEWITEM_H
 #define RATSNEST_VIEWITEM_H
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <math/vector2d.h>
 
 class GAL;

@@ -31,11 +31,11 @@
 
 #include <fctsys.h>
 #include <macros.h>
-#include <common.h>
-#include <base_struct.h>
+#include <common/common.h>
+#include <common/base_struct.h>
 #include <class_base_screen.h>
 #include <id.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 wxString BASE_SCREEN::m_PageLayoutDescrFileName;   // the name of the page layout descr file.
 

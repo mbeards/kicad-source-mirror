@@ -32,7 +32,7 @@
 #define  PANEL_WXSTRUCT_H
 
 #include <colors.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <gr_basic.h>
 
 

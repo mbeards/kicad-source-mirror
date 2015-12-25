@@ -31,7 +31,7 @@
 
 #include <fctsys.h>
 #include <gr_basic.h>
-#include <common.h>
+#include <common/common.h>
 #include <plot_common.h>
 #include <eda_text.h>               // EDA_TEXT_HJUSTIFY_T and EDA_TEXT_VJUSTIFY_T
 #include <trigo.h>

@@ -28,9 +28,9 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <plot_common.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <drawtxt.h>
 #include <trigo.h>
 #include <macros.h>

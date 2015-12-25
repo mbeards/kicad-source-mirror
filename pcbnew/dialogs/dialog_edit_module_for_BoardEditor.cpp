@@ -39,7 +39,7 @@
 #include <3d_struct.h>
 #include <3d_viewer.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_module.h>
 #include <class_text_mod.h>

@@ -26,7 +26,7 @@
 #define __TOOL_BASE_H
 
 #include <cassert>
-#include <base_struct.h>    // for KICAD_T
+#include <common/base_struct.h>    // for KICAD_T
 
 #include <tool/tool_event.h>
 #include <tool/tool_settings.h>

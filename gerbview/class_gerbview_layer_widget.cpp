@@ -30,7 +30,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <pcbstruct.h>
 #include <macros.h>

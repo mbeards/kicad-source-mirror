@@ -31,7 +31,7 @@
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <confirm.h>
-#include <common.h>
+#include <common/common.h>
 #include <gestfich.h>
 
 #include <gerbview.h>

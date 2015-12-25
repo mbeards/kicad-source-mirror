@@ -31,7 +31,7 @@
 #include <confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbplot.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <macros.h>
 #include <reporter.h>
 

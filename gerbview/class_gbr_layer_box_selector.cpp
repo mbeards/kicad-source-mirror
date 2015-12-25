@@ -29,7 +29,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <common.h>
+#include <common/common.h>
 #include <colors_selection.h>
 #include <layers_id_colors_and_visibility.h>
 #include <gerbview_frame.h>

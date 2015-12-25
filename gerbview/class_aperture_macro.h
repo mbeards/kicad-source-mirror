@@ -33,7 +33,7 @@
 #include <vector>
 #include <set>
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_am_param.h>
 
 /*

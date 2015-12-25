@@ -35,7 +35,7 @@
 #include <cmath>
 #include <vector>
 #include <layers_id_colors_and_visibility.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <bitmap2component.h>
 #include <geometry/shape_poly_set.h>

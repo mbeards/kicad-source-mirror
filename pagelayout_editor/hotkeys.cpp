@@ -26,7 +26,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <kicad_device_context.h>
 #include <id.h>
 

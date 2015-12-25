@@ -30,9 +30,9 @@
 #include <fctsys.h>
 #include <gr_basic.h>
 #include <draw_frame.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_base_screen.h>
 #include <class_drawpanel.h>
 #include <confirm.h>

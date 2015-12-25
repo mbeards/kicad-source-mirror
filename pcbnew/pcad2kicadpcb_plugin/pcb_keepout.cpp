@@ -29,7 +29,7 @@
 #include <wx/wx.h>
 #include <wx/config.h>
 
-#include <common.h>
+#include <common/common.h>
 
 #include <pcb_keepout.h>
 

@@ -28,7 +28,7 @@
 #include <fctsys.h>
 
 #include <wxstruct.h>
-#include <common.h>
+#include <common/common.h>
 #include <cvpcb.h>
 #include <class_drawpanel.h>
 #include <cvstruct.h>

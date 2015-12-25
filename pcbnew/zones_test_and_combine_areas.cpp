@@ -31,7 +31,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <confirm.h>
 #include <class_undoredo_container.h>
 

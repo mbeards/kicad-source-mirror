@@ -39,7 +39,7 @@
 #include <kicad_device_context.h>
 #include <hotkeys_basic.h>
 #include <menus_helpers.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <tool/tool_manager.h>
 
 

@@ -30,7 +30,7 @@
 #include <algorithm>
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_pl_editor_layout.h>
 
 PL_EDITOR_LAYOUT::PL_EDITOR_LAYOUT()

@@ -27,7 +27,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <layers_id_colors_and_visibility.h>
 
 #include <pcbnew.h>

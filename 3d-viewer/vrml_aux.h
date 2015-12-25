@@ -31,9 +31,9 @@
 #define _VRML_AUX_H
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #define GLM_FORCE_RADIANS
 #include <glm/glm.hpp>
 #include <vector>

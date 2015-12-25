@@ -34,7 +34,7 @@
 #include <PolyLine.h>
 #include <math_for_graphics.h>
 #include <trigo.h>
-#include <common.h>
+#include <common/common.h>
 
 
 class LINE_READER;

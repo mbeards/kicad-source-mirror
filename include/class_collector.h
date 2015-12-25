@@ -33,8 +33,8 @@
 #include <vector>
 
 #include <fctsys.h>
-#include <base_struct.h>    // SEARCH_RESULT
-#include <common.h>         // GetNewTimeStamp()
+#include <common/base_struct.h>    // SEARCH_RESULT
+#include <common/common.h>         // GetNewTimeStamp()
 
 
 class EDA_ITEM;

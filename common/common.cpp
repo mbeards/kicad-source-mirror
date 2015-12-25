@@ -31,12 +31,12 @@
 #include <gr_basic.h>
 #include <trigo.h>
 #include <wxstruct.h>
-#include <base_struct.h>
-#include <common.h>
+#include <common/base_struct.h>
+#include <common/common.h>
 #include <macros.h>
 #include <build_version.h>
 #include <confirm.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <reporter.h>
 
 #include <wx/process.h>

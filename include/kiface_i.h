@@ -26,7 +26,7 @@
 
 
 #include <kiway.h>
-#include <bin_mod.h>
+#include <common/bin_mod.h>
 
 
 /**

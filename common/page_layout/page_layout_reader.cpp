@@ -30,7 +30,7 @@
  */
 
 #include <fctsys.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <worksheet.h>
 #include <worksheet_shape_builder.h>
 #include <class_worksheet_dataitem.h>

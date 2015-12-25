@@ -32,7 +32,7 @@
 #include <macros.h>
 #include <class_drawpanel.h>
 #include <plot_common.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <eeschema_config.h>
 #include <general.h>
 #include <protos.h>

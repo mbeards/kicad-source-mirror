@@ -25,7 +25,7 @@
 #include <sch_base_frame.h>
 #include <viewlib_frame.h>
 #include <libeditframe.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <kiway.h>
 #include <class_drawpanel.h>
 

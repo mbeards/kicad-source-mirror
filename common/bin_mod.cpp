@@ -22,9 +22,9 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <bin_mod.h>
+#include <common/bin_mod.h>
 #include <online_help.h>
-#include <common.h>
+#include <common/common.h>
 
 
 BIN_MOD::BIN_MOD( const char* aName ) :

@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <wxstruct.h>
 #include <gr_basic.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <drawtxt.h>
 #include <kicad_string.h>
 #include <trigo.h>
@@ -41,7 +41,7 @@
 #include <macros.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 #include <class_pcb_text.h>

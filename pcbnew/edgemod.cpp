@@ -37,7 +37,7 @@
 #include <class_drawpanel.h>
 #include <confirm.h>
 #include <wxPcbStruct.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <module_editor_frame.h>
 #include <class_board.h>

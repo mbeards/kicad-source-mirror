@@ -33,7 +33,7 @@
 #include <class_drawpanel.h>
 #include <schframe.h>
 #include <id.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <general.h>
 #include <libeditframe.h>

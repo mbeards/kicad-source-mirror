@@ -27,12 +27,12 @@
 /* class_drc_item.cpp - DRC_ITEM class functions */
 /*************************************************/
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <pcbnew.h>
 #include <drc_stuff.h>
 #include <class_drc_item.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 
 wxString DRC_ITEM::GetErrorText() const

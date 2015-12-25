@@ -30,7 +30,7 @@
 #include <vector>
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <confirm.h>
 #include <macros.h>
 #include <kicad_string.h>

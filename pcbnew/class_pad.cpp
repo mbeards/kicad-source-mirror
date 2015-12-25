@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <PolyLine.h>
-#include <common.h>
+#include <common/common.h>
 #include <confirm.h>
 #include <kicad_string.h>
 #include <trigo.h>
@@ -38,7 +38,7 @@
 #include <wxstruct.h>
 #include <macros.h>
 #include <msgpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <pcbnew.h>
 #include <pcbnew_id.h>                      // ID_TRACK_BUTT

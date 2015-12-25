@@ -30,7 +30,7 @@
 #include <kiface_i.h>
 #include <pgm_base.h>
 
-#include <common.h>
+#include <common/common.h>
 
 /// Initialize aDst SEARCH_STACK with KIFACE (DSO) specific settings.
 /// A non-member function so it an be moved easily, plus it's nobody's business.

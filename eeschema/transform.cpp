@@ -25,7 +25,7 @@
 #include <macros.h>
 #include <trigo.h>
 #include <transform.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_eda_rect.h>
 
 

@@ -25,7 +25,7 @@
 
 #include <wx/wx.h>
 #include <pcb_calculator_datafile_lexer.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 
 class PCB_CALCULATOR_DATAFILE_PARSER;
 

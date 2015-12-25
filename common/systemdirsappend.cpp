@@ -25,7 +25,7 @@
 
 #include <wx/stdpaths.h>
 
-#include <common.h>
+#include <common/common.h>
 #include <search_stack.h>
 #include <pgm_base.h>
 #include <config.h>     // to define DEFAULT_INSTALL_PATH

@@ -29,7 +29,7 @@
 
 #include <fctsys.h>
 
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <bitmaps.h>
 #include <pl_editor_id.h>

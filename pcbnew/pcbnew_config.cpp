@@ -36,7 +36,7 @@
 #include <confirm.h>
 #include <gestfich.h>
 #include <xnode.h>
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <wxPcbStruct.h>
 #include <class_board_design_settings.h>

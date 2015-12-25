@@ -26,7 +26,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 
 #include <class_board.h>
 #include <class_module.h>

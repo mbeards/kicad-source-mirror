@@ -35,10 +35,10 @@
  */
 
 #include <macros.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_title_block.h>
-#include <common.h>
-#include <base_units.h>
+#include <common/common.h>
+#include <common/base_units.h>
 
 
 #if defined( PCBNEW ) || defined( CVPCB ) || defined( EESCHEMA ) || defined( GERBVIEW ) || defined( PL_EDITOR )

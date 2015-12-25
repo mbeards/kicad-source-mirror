@@ -60,7 +60,7 @@ Load() TODO's
 
 #include <eagle_plugin.h>
 
-#include <common.h>
+#include <common/common.h>
 #include <macros.h>
 #include <fctsys.h>
 #include <trigo.h>

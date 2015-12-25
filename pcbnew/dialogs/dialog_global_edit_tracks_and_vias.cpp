@@ -27,7 +27,7 @@
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <class_drawpanel.h>
-#include <base_units.h>
+#include <common/base_units.h>
 
 #include <class_board.h>
 

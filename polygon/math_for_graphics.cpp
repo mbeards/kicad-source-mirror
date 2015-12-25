@@ -5,7 +5,7 @@
 #include <cmath>
 #include <float.h>
 #include <limits.h>
-#include <common.h>
+#include <common/common.h>
 #include <cstdlib>      // for abs function on ints
 #include <math_for_graphics.h>
 

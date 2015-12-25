@@ -28,10 +28,10 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <wxBasePcbFrame.h>
-#include <base_units.h>
+#include <common/base_units.h>
 #include <kicad_string.h>
 #include <macros.h>
 

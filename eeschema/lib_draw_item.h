@@ -31,7 +31,7 @@
 #ifndef _LIB_ITEM_H_
 #define _LIB_ITEM_H_
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <transform.h>
 #include <gr_basic.h>
 

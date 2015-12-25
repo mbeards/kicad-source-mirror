@@ -29,7 +29,7 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
+#include <common/common.h>
 #include <pcbnew.h>
 
 #include <class_board.h>

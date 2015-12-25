@@ -32,7 +32,7 @@
 #define __INCLUDE__BLOCK_COMMANDE_H__
 
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_undoredo_container.h>
 #include <gr_basic.h>
 

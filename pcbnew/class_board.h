@@ -33,7 +33,7 @@
 
 #include <dlist.h>
 
-#include <common.h>                         // PAGE_INFO
+#include <common/common.h>                         // PAGE_INFO
 #include <layers_id_colors_and_visibility.h>
 #include <class_netinfo.h>
 #include <class_pad.h>

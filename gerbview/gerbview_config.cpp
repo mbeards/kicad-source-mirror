@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <macros.h>
 #include <id.h>
-#include <common.h>
+#include <common/common.h>
 #include <class_drawpanel.h>
 #include <gestfich.h>
 #include <config_params.h>

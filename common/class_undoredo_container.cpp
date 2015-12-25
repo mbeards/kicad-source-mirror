@@ -24,10 +24,10 @@
  */
 
 #include <fctsys.h>
-#include <common.h>
-#include <base_struct.h>
+#include <common/common.h>
+#include <common/base_struct.h>
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_undoredo_container.h>
 
 

@@ -1,10 +1,10 @@
 
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <boost/ptr_container/ptr_vector.hpp>
 #include <deque>
 #include <dlist.h>
 #include <time.h>
-#include <common.h>
+#include <common/common.h>
 
 #define TEST_NODES      100000000
 

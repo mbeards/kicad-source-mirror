@@ -32,10 +32,10 @@
 #define  CLASS_BASE_SCREEN_H_
 
 #include <draw_frame.h>
-#include <base_struct.h>
+#include <common/base_struct.h>
 #include <class_undoredo_container.h>
 #include <block_commande.h>
-#include <common.h>
+#include <common/common.h>
 #include <id.h>
 
 /**

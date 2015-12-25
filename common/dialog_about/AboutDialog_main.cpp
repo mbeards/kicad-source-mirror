@@ -37,7 +37,7 @@
  */
 #include <bitmaps.h>
 #include <wxstruct.h>
-#include <common.h>
+#include <common/common.h>
 #include <pgm_base.h>
 #include <build_version.h>
 
