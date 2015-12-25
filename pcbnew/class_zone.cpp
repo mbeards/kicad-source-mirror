@@ -28,7 +28,7 @@
  * @brief Implementation of class to handle copper zones.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxstruct.h>
 #include <trigo.h>
 #include <class_pcb_screen.h>

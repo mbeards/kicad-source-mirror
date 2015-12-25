@@ -26,7 +26,7 @@
  * @file viewlibs.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiway.h>
 #include <gr_basic.h>
 #include <pgm_base.h>

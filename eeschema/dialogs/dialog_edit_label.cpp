@@ -28,7 +28,7 @@
  * @brief Implementation of the label properties dialog.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wx/valgen.h>
 #include <schframe.h>
 #include <common/base_units.h>

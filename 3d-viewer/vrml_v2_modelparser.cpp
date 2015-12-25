@@ -29,7 +29,7 @@
  * @file vrml_v2_modelparser.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <vector>
 #include <common/macros.h>
 #include <kicad_string.h>

@@ -28,7 +28,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>

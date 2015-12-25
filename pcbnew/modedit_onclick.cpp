@@ -26,7 +26,7 @@
  * @file modedit_onclick.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 #include <3d_viewer.h>

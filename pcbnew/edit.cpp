@@ -29,7 +29,7 @@
  * @brief Edit PCB implementation.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>

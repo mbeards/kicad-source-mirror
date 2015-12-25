@@ -32,7 +32,7 @@
  */
 #include <vector>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <drawtxt.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

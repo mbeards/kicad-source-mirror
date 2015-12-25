@@ -28,7 +28,7 @@
 
 #include <wx/progdlg.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>

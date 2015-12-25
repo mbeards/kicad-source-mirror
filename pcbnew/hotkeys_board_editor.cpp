@@ -26,7 +26,7 @@
  * @file hotkeys_board_editor.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxPcbStruct.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

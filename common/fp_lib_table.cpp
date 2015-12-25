@@ -24,7 +24,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wx/config.h>      // wxExpandEnvVars()
 #include <wx/filename.h>
 #include <wx/stdpaths.h>

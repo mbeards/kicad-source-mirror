@@ -28,7 +28,7 @@
  * @brief BOARD_CONNECTED_ITEM class functions.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 
 #include <class_board.h>

@@ -28,7 +28,7 @@
  * @brief SCH_SHEET_PATH class implementation.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <general.h>
 #include <dlist.h>

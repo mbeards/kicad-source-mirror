@@ -28,7 +28,7 @@
  * @file drc.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxPcbStruct.h>
 #include <trigo.h>
 #include <common/base_units.h>

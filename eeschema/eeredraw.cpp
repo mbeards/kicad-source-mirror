@@ -27,7 +27,7 @@
  * @file eeredraw.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <schframe.h>

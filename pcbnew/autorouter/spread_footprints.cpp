@@ -36,7 +36,7 @@
 
 #include <algorithm>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <convert_to_biu.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

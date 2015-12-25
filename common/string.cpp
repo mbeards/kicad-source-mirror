@@ -26,7 +26,7 @@
  * @brief Some useful functions to handle strings.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <common/richio.h>                        // StrPrintf
 #include <kicad_string.h>

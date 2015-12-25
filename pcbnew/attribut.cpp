@@ -29,7 +29,7 @@
  * @brief Track attribute flags editing.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <gr_basic.h>
 #include <wxPcbStruct.h>

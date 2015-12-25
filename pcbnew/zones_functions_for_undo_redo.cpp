@@ -42,7 +42,7 @@
  * and ones they are modified (changes, deletion or addition)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>

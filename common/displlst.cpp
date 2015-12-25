@@ -27,7 +27,7 @@
  * @file displlst.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <draw_frame.h>
 #include <kicad_string.h>

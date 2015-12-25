@@ -31,7 +31,7 @@
  * @todo - Arc functions not compete but menus are ready to use.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>

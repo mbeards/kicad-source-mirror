@@ -28,7 +28,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/macros.h>
 #include <class_drawpanel.h>

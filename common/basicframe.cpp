@@ -37,7 +37,7 @@
 #include <wx/stdpaths.h>
 
 #include <build_version.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <online_help.h>

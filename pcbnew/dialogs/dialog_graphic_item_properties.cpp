@@ -34,7 +34,7 @@
  * items on edge layers are considered as graphic items
  * Pcb texts are not always graphic items and are not handled here
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <gr_basic.h>
 #include <common/confirm.h>

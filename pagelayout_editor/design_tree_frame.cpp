@@ -28,7 +28,7 @@
 
 #include <wx/imaglist.h>
 #include <wx/wupdlock.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <worksheet_shape_builder.h>
 #include <class_worksheet_dataitem.h>
 #include <pl_editor_id.h>

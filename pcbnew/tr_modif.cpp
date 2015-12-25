@@ -30,7 +30,7 @@
  * after a new track is craeted.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <wxPcbStruct.h>
 

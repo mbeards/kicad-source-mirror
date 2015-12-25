@@ -52,7 +52,7 @@
 #include <cmath>
 #include <sstream>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxPcbStruct.h>
 #include <trigo.h>
 

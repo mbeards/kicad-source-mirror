@@ -29,7 +29,7 @@
  * @brief PCB editor tool bars
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <help_common_strings.h>
 #include <dialog_helpers.h>

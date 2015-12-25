@@ -26,7 +26,7 @@
  * @file pcbnew/initpcb.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/confirm.h>
 #include <wxPcbStruct.h>
 

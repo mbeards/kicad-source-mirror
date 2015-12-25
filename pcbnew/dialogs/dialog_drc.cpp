@@ -27,7 +27,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <dialog_drc.h>
 #include <wxPcbStruct.h>
 #include <common/base_units.h>

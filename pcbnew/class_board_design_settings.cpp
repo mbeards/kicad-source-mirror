@@ -26,7 +26,7 @@
  * BOARD_DESIGN_SETTINGS class functions.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <layers_id_colors_and_visibility.h>
 

@@ -28,7 +28,7 @@
  * @file pcbnew/controle.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <pcbnew_id.h>

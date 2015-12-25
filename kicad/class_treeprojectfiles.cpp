@@ -27,7 +27,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <kicad.h>
 #include <tree_project_frame.h>

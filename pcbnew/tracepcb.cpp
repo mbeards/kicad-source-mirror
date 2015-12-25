@@ -29,7 +29,7 @@
  * @brief Functions to redraw the current board.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <common/base_units.h>

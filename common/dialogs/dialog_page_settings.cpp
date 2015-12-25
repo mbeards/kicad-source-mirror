@@ -25,7 +25,7 @@
  * @file dialog_page_settings.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>              // DIM()
 #include <common/common.h>
 #include <project.h>

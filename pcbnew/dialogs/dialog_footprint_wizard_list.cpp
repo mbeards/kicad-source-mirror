@@ -28,7 +28,7 @@
 
 #include <wx/grid.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <kiface_i.h>
 #include <dialog_footprint_wizard_list.h>

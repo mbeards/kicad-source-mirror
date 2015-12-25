@@ -27,7 +27,7 @@
  * @brief Class SCH_MARKER implementation
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxstruct.h>
 #include <class_drawpanel.h>
 #include <trigo.h>

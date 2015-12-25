@@ -26,7 +26,7 @@
 /* Dialog for selecting color from the palette of available colors.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/colors.h>
 

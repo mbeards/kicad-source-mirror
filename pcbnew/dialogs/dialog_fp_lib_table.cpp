@@ -34,7 +34,7 @@
 #include <set>
 #include <wx/regex.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <project.h>
 #include <3d_viewer.h>      // for KISYS3DMOD
 #include <dialog_fp_lib_table_base.h>

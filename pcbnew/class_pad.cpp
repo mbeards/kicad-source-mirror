@@ -28,7 +28,7 @@
  * D_PAD class implementation.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <PolyLine.h>
 #include <common/common.h>
 #include <common/confirm.h>

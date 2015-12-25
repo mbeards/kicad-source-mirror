@@ -26,7 +26,7 @@
 /* routines to handle bezier curves */
 /************************************/
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <bezier_curves.h>
 
 

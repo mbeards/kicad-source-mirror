@@ -33,7 +33,7 @@
 #include <boost/ptr_container/ptr_set.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <specctra_lexer.h>
 #include <pcbnew.h>
 

@@ -28,7 +28,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <common/confirm.h>

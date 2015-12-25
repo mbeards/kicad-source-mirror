@@ -10,7 +10,7 @@
  * Note: these ports must be enabled for firewall protection
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiface_i.h>
 #include <kiway_express.h>

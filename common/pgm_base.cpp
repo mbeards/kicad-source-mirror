@@ -31,7 +31,7 @@
  */
 
 #include <kicad_curl/kicad_curl.h> /* Include before any wx file */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wx/html/htmlwin.h>
 #include <wx/fs_zip.h>
 #include <wx/dir.h>

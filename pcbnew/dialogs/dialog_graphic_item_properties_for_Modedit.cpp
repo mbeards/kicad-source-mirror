@@ -33,7 +33,7 @@
  * used as graphic elements found on non copper layers in boards
  * Footprint texts are not graphic items and are not handled here
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <common/confirm.h>
 #include <class_drawpanel.h>

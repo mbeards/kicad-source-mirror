@@ -26,7 +26,7 @@
  * @brief  Module editor dialog box for editing module properties and characteristics.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <kiway.h>
 #include <common/confirm.h>

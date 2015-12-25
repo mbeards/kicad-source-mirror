@@ -28,7 +28,7 @@
  * @file pad_edition_functions.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 #include <trigo.h>

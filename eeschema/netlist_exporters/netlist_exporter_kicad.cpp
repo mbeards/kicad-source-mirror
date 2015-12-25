@@ -24,7 +24,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <build_version.h>
 #include <common/confirm.h>
 

@@ -27,7 +27,7 @@
  * @brief Implementation of the class SCH_COMPONENT.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <gr_basic.h>

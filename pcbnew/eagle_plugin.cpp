@@ -62,7 +62,7 @@ Load() TODO's
 
 #include <common/common.h>
 #include <common/macros.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <common/macros.h>
 #include <kicad_string.h>

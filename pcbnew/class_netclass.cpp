@@ -25,7 +25,7 @@
 
 #include <boost/make_shared.hpp>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <kicad_string.h>
 #include <pcbnew.h>

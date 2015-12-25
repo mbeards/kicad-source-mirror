@@ -32,7 +32,7 @@
 /* file class_marker_base.cpp
  */
 
-#include "fctsys.h"
+#include <common/fctsys.h>
 #include "gr_basic.h"
 #include "class_base_screen.h"
 #include <common/common.h>

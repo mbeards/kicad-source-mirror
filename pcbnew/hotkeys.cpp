@@ -26,7 +26,7 @@
  * @file pcbnew/hotkeys.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <modview_frame.h>

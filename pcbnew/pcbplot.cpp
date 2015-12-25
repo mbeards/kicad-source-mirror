@@ -27,7 +27,7 @@
  * @file pcbnew/pcbplot.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <plot_common.h>
 #include <common/confirm.h>
 #include <wxPcbStruct.h>

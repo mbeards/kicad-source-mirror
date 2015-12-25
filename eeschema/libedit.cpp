@@ -28,7 +28,7 @@
  * @brief Eeschema component library editor.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiway.h>
 #include <gr_basic.h>
 #include <common/macros.h>

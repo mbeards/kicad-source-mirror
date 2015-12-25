@@ -29,7 +29,7 @@
  * @brief Build the toolbars for the library browser.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <pcbnew_id.h>
 

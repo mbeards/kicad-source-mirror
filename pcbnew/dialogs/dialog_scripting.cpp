@@ -28,7 +28,7 @@
 
 
 #include <Python.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <dialog_scripting.h>

@@ -26,7 +26,7 @@
  * @file info3d_visu.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <common/common.h>
 

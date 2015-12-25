@@ -27,7 +27,7 @@
  * @file common.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <trigo.h>
 #include <wxstruct.h>

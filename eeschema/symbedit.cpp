@@ -28,7 +28,7 @@
  * @brief Functions to load from and save to file component libraries and symbols.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiway.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>

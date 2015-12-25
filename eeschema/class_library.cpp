@@ -27,7 +27,7 @@
  * @file class_library.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <gr_basic.h>
 #include <common/macros.h>

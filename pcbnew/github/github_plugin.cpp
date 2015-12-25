@@ -73,7 +73,7 @@ Vary: Accept-Encoding
 #include <wx/mstream.h>
 #include <wx/uri.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <io_mgr.h>
 #include <common/richio.h>

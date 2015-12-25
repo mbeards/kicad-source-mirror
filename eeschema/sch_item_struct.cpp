@@ -26,7 +26,7 @@
  * @file sch_item_struct.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <gr_basic.h>
 #include <common/base_struct.h>

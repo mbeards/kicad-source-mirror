@@ -26,7 +26,7 @@
  * to/from FreeRoute
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <common/confirm.h>
 #include <gestfich.h>

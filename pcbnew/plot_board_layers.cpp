@@ -29,7 +29,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <plot_common.h>
 #include <common/base_struct.h>

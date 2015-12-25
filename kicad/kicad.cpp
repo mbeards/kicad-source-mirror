@@ -29,7 +29,7 @@
 
 
 #include <common/macros.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wx/stdpaths.h>
 #include <kicad.h>
 #include <kiway.h>

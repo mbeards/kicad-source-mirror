@@ -28,7 +28,7 @@
  */
 
 #include <wx/wx.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <common/confirm.h>
 #include <pcbnew.h>

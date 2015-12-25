@@ -33,7 +33,7 @@
  *  search a component in libraries, a marker ...,
  *  in current sheet or whole the project
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

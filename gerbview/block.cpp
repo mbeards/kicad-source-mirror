@@ -28,7 +28,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

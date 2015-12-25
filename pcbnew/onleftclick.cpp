@@ -28,7 +28,7 @@
  * @brief Functions called when the left button is clicked or double clicked.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 #include <wxPcbStruct.h>

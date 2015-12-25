@@ -35,7 +35,7 @@
  * They can be renamed and can appear in reports
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/base_struct.h>
 #include <gr_basic.h>

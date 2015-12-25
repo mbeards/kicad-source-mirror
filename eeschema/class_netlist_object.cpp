@@ -28,7 +28,7 @@
  * @brief Class NETLIST_OBJECT to handle 1 item connected (in netlist and erc calculations)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <schframe.h>
 

@@ -28,7 +28,7 @@
  * @brief TEXT_MODULE class implementation.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <wxstruct.h>
 #include <trigo.h>

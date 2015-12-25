@@ -43,7 +43,7 @@
 #include <wx/docview.h>
 
 #include <common/colors.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <layers_id_colors_and_visibility.h>
 #include <frame_type.h>

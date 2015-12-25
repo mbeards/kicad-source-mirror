@@ -25,7 +25,7 @@
 
 #include <wx/stdpaths.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <pgm_base.h>
 #include <project.h>

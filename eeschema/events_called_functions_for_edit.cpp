@@ -26,7 +26,7 @@
  * @file events_called_functions.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <general.h>

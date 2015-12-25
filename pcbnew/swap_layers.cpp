@@ -27,7 +27,7 @@
  * @brief Dialog to swap layers.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <dialog_shim.h>

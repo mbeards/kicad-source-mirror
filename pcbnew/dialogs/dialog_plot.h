@@ -25,7 +25,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_board.h>
 #include <dialog_plot_base.h>
 #include <pcb_plot_params.h>

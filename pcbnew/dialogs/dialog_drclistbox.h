@@ -28,7 +28,7 @@
 
 #include <wx/htmllbox.h>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <class_drawpanel.h>
 #include <wxstruct.h>

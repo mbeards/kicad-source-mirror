@@ -27,7 +27,7 @@
  * @brief Implementation of the SCH_SHEET_PIN class.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <drawtxt.h>

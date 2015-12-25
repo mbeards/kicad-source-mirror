@@ -32,7 +32,7 @@
  *  the distance is the clearance between tracks)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <common/macros.h>

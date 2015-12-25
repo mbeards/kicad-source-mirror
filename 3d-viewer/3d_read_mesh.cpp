@@ -28,7 +28,7 @@
  * @file 3d_read_mesh.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/macros.h>
 #include <kicad_string.h>

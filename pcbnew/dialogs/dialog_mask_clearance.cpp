@@ -24,7 +24,7 @@
  * @file dialog_mask_clearance.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <class_board_design_settings.h>

@@ -29,7 +29,7 @@
  * @brief Right mouse button functions.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/macros.h>
 #include <common/base_units.h>

@@ -28,7 +28,7 @@
  * @brief Functions to edit targets (class #PCB_TARGET).
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <dialog_helpers.h>

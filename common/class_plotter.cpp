@@ -37,7 +37,7 @@
  * is not handled here.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <trigo.h>
 #include <wxstruct.h>

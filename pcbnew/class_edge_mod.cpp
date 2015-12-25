@@ -29,7 +29,7 @@
  * @brief EDGE_MODULE class definition.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <wxstruct.h>
 #include <trigo.h>

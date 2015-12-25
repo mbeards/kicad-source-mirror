@@ -27,7 +27,7 @@
  * @brief Class SCH_LINE implementation
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/macros.h>
 #include <class_drawpanel.h>

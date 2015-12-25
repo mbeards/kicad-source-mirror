@@ -28,7 +28,7 @@
  * @brief Editing of text on copper and technical layers (TEXTE_PCB class)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <pcbnew.h>

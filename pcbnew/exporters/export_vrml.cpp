@@ -25,7 +25,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kicad_string.h>
 #include <wxPcbStruct.h>
 #include <drawtxt.h>

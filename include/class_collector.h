@@ -32,7 +32,7 @@
 
 #include <vector>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/base_struct.h>    // SEARCH_RESULT
 #include <common/common.h>         // GetNewTimeStamp()
 

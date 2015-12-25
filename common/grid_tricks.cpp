@@ -23,7 +23,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/grid_tricks.h>
 #include <wx/tokenzr.h>
 #include <wx/arrstr.h>

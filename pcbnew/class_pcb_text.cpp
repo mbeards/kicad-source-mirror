@@ -28,7 +28,7 @@
  * @brief Class TEXTE_PCB texts on copper or technical layers implementation
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxstruct.h>
 #include <gr_basic.h>
 #include <common/base_struct.h>

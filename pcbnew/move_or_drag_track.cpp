@@ -29,7 +29,7 @@
  * @brief Track editing routines to move and drag track segments or node.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 #include <wxPcbStruct.h>

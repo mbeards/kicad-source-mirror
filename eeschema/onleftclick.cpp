@@ -27,7 +27,7 @@
  * @file eeschema/onleftclick.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <eeschema_id.h>
 #include <class_drawpanel.h>
 #include <schframe.h>

@@ -27,7 +27,7 @@
  * @brief Implementation of SCH_SHEET class.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <drawtxt.h>
 #include <trigo.h>

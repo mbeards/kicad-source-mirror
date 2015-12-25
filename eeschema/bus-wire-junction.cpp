@@ -27,7 +27,7 @@
  * @brief Code for editing buses, wires, and junctions.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <schframe.h>

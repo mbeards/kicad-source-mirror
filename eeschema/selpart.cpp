@@ -26,7 +26,7 @@
  * @file selpart.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/confirm.h>
 #include <pgm_base.h>

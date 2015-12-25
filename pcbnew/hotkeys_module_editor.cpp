@@ -26,7 +26,7 @@
  * @file hotkeys_module_editor.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <module_editor_frame.h>

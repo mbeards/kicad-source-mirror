@@ -29,7 +29,7 @@
  * @brief Pcbnew footprint (module) editor options.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 
 #include <pcbnew.h>

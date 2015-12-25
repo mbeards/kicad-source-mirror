@@ -28,7 +28,7 @@
  * @file basepcbframe.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <wxstruct.h>
 #include <common/confirm.h>

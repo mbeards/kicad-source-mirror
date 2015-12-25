@@ -28,7 +28,7 @@
  * @file class_dimension.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <gr_basic.h>
 #include <trigo.h>

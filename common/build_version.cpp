@@ -23,7 +23,7 @@
  */
 
 // Date for KiCad build version
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 // The include file version.h is always created even if the repo version cannot be
 // determined.  In this case KICAD_BUILD_VERSION will default to "no-bzr".

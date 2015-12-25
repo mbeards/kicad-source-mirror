@@ -33,7 +33,7 @@
  * @brief Automatic routing routines
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 
 #include <pcbnew.h>

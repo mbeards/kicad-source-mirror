@@ -26,7 +26,7 @@
  * @file sch_bitmap.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <trigo.h>
 #include <common/macros.h>

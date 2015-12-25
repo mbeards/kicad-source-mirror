@@ -27,7 +27,7 @@
  * @brief Label, global label and text creation and editing.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/base_struct.h>
 #include <drawtxt.h>

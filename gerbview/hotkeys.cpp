@@ -26,7 +26,7 @@
  * @file gerbview/hotkeys.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <kicad_device_context.h>
 #include <common/id.h>

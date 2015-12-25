@@ -90,7 +90,7 @@
  * flag_sweep : 0 = CCW, 1 = CW
  * The center of ellipse is automatically calculated.
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <wxstruct.h>
 #include <common/base_struct.h>

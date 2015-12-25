@@ -30,7 +30,7 @@
  * Manage zoom, grid step, and auto crop.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/id.h>
 #include <class_drawpanel.h>
 #include <view/view.h>

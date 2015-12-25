@@ -28,7 +28,7 @@
  * @file pcbnew_config.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <project.h>
 #include <class_drawpanel.h>

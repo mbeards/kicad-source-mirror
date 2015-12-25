@@ -28,7 +28,7 @@
  * @brief GerbView configuration.
 */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <common/id.h>
 #include <common/common.h>

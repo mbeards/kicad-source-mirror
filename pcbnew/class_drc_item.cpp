@@ -26,7 +26,7 @@
 /*************************************************/
 /* class_drc_item.cpp - DRC_ITEM class functions */
 /*************************************************/
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 
 #include <pcbnew.h>

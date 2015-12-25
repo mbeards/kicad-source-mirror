@@ -26,7 +26,7 @@
  * @file eda_dde.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <eda_dde.h>
 #include <draw_frame.h>
 #include <common/id.h>

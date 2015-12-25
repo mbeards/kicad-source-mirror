@@ -26,7 +26,7 @@
  * @file class_colors_design_settings.cpp
  * @brief Handle colors used to draw all items or layers.
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/colors.h>
 #include <common/macros.h>
 

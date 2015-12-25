@@ -29,7 +29,7 @@
  *        create, edit, and delete components.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 

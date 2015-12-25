@@ -39,7 +39,7 @@
 
 #include <common/common.h>
 #include <common/macros.h>
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 using namespace PCAD2KICAD;
 

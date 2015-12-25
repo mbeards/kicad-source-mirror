@@ -30,7 +30,7 @@
 
 #include <boost/bind.hpp>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <pcb_draw_panel_gal.h>
 #include <common/confirm.h>

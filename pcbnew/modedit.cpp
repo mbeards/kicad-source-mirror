@@ -25,7 +25,7 @@
  * @file modedit.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <kiway.h>
 #include <class_drawpanel.h>

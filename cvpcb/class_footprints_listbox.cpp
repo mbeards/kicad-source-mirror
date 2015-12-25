@@ -27,7 +27,7 @@
  * class to display the list of available footprints
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <wxstruct.h>
 #include <common/macros.h>
 #include <pgm_base.h>

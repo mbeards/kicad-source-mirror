@@ -29,7 +29,7 @@
  * MIRE class definition (targets for photo plots)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/common.h>
 #include <class_drawpanel.h>

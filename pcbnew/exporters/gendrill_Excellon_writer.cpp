@@ -34,7 +34,7 @@
  * and the CNC-7 manual.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <vector>
 

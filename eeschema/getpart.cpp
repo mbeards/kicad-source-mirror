@@ -28,7 +28,7 @@
  * @brief functions to get and place library components.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiway.h>
 #include <gr_basic.h>

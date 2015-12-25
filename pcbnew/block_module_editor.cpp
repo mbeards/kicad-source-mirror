@@ -29,7 +29,7 @@
  * @brief Footprint editor block handling implementation.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>

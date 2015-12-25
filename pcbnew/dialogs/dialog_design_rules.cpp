@@ -30,7 +30,7 @@
 
 /* functions relative to the design rules editor
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/base_units.h>
 #include <common/confirm.h>

@@ -38,7 +38,7 @@
 #include <vector>
 #include <algorithm>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>     // KiROUND
 
 #include <PolyLine.h>

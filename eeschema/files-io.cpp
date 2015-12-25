@@ -28,7 +28,7 @@
  * @file eeschema/files-io.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
 #include <gestfich.h>

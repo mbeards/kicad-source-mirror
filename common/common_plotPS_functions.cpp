@@ -27,7 +27,7 @@
  * @brief Kicad: Common plot Postscript Routines
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <wxstruct.h>
 #include <common/base_struct.h>

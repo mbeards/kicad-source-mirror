@@ -29,7 +29,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <wxPcbStruct.h>
 #include <pcbnew.h>

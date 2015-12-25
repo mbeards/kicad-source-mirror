@@ -29,7 +29,7 @@
  * @file pcbnew/menubar_modedit.cpp
  * @brief (Re)Create the main menubar for the module editor
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 
 #include <pcbnew.h>

@@ -27,7 +27,7 @@
  * @file tool_lib.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <hotkeys.h>
 #include <eeschema_id.h>
 

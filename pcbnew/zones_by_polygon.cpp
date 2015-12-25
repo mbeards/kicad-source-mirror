@@ -28,7 +28,7 @@
  * @file zones_by_polygon.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

@@ -26,7 +26,7 @@
  */
 #include <vector>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <common/macros.h>
 #include <common/common.h>

@@ -29,7 +29,7 @@
  * @brief Class and functions to handle a graphic segments.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <wxstruct.h>
 #include <gr_basic.h>

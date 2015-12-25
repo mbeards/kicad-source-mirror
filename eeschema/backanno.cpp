@@ -28,7 +28,7 @@
  * @brief Functions for backannotating footprint information.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>

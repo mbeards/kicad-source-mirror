@@ -2,7 +2,7 @@
 /*  dialog_get_component.cpp     */
 /*********************************/
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/macros.h>
 #include <draw_frame.h>

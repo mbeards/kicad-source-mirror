@@ -62,7 +62,7 @@
   * Feed Rate and Spindle Speed are just skipped because they are not used in a viewer
   */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/confirm.h>
 

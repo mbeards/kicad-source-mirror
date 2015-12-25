@@ -29,7 +29,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gestfich.h>
 #include <common/macros.h>
 

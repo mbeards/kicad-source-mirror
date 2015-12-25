@@ -27,7 +27,7 @@
  * @brief append a board to the currently edited board.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/confirm.h>
 #include <wxPcbStruct.h>
 #include <pcbnew.h>

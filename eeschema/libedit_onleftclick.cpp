@@ -28,7 +28,7 @@
  * @brief Eeschema library editor event handler for a mouse left button single or double click.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <eeschema_id.h>
 #include <msgpanel.h>

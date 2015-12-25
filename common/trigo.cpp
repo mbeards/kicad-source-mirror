@@ -27,7 +27,7 @@
  * @brief Trigonometric and geometric basic functions.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <trigo.h>
 #include <common/common.h>

@@ -28,7 +28,7 @@
  * @file editrack.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <trigo.h>
 #include <wxPcbStruct.h>

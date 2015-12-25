@@ -27,7 +27,7 @@
  * @file class_DisplayFootprintsFrame.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <common/common.h>
 #include <class_drawpanel.h>

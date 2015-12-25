@@ -24,7 +24,7 @@
 /**
  * @file 3d_canvas.cpp
 */
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <trigo.h>
 #include <project.h>
 #include <gestfich.h>

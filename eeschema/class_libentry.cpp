@@ -27,7 +27,7 @@
  * @file class_libentry.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <kicad_string.h>
 #include <class_drawpanel.h>

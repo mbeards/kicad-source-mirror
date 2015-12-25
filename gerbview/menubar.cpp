@@ -27,7 +27,7 @@
  * @file gerbview/menubar.cpp
  * @brief (Re)Create the main menubar for GerbView
  */
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <pgm_base.h>
 #include <kiface_i.h>

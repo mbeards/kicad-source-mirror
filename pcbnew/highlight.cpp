@@ -28,7 +28,7 @@
  * @brief Highlight nets.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <kicad_string.h>
 #include <wxPcbStruct.h>

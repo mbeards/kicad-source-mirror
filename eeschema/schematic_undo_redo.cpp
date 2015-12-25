@@ -27,7 +27,7 @@
  * @brief Eeschema undo and redo functions for schematic editor.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <schframe.h>
 

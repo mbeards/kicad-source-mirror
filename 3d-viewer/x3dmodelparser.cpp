@@ -26,7 +26,7 @@
  * @file x3dmodelparser.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 #include <info3d_visu.h>
 #include <wx/xml/xml.h>

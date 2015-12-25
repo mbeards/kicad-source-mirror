@@ -28,7 +28,7 @@
  *        lists of schematic items.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <schframe.h>

@@ -28,7 +28,7 @@
  * @brief Schematic component editing code.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

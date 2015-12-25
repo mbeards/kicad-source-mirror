@@ -33,7 +33,7 @@
 #include <algorithm>
 #include <vector>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kicad_string.h>
 #include <schframe.h>
 #include <sch_reference_list.h>

@@ -25,7 +25,7 @@
 /* Set up color Layers for Eeschema
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <draw_frame.h>
 #include <class_drawpanel.h>
 

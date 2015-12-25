@@ -35,7 +35,7 @@
  * and their documentation (comments and keywords)
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <common/macros.h>
 #include <pgm_base.h>

@@ -29,7 +29,7 @@
  * @brief Footprint editor tool bars
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 
 #include <pcbnew.h>
 #include <wxPcbStruct.h>

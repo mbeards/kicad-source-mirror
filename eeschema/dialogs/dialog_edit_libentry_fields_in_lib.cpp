@@ -26,7 +26,7 @@
 
 #include <algorithm>
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <kiway.h>
 #include <common/confirm.h>

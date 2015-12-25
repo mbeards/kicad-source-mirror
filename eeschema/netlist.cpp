@@ -27,7 +27,7 @@
  * @file eeschema/netlist.cpp
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <schframe.h>
 #include <common/confirm.h>
 #include <netlist_exporter_kicad.h>

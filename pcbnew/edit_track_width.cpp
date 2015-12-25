@@ -27,7 +27,7 @@
  * @brief Functions to modify sizes of segment, track, net, all vias and/or all tracks.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>

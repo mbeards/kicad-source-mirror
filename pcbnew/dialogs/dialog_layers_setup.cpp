@@ -24,7 +24,7 @@
  */
 
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/macros.h>
 
 #include <common/confirm.h>

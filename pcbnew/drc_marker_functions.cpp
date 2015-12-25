@@ -32,7 +32,7 @@
  * according to items and error code
 */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <common/common.h>
 #include <pcbnew.h>
 #include <class_board_design_settings.h>

@@ -28,7 +28,7 @@
  * @brief Create and edit the SCH_SHEET_PIN items.
  */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/macros.h>
 #include <class_drawpanel.h>

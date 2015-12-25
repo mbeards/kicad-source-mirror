@@ -29,7 +29,7 @@
  */
 
 // For compilers that support precompilation, includes "wx.h".
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <pgm_base.h>
 #include <common/confirm.h>
 

@@ -24,7 +24,7 @@
 
 /* File: dialog_print_for_modedit.cpp */
 
-#include <fctsys.h>
+#include <common/fctsys.h>
 #include <kiface_i.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
