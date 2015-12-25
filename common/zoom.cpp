@@ -31,7 +31,7 @@
  */
 
 #include <fctsys.h>
-#include <id.h>
+#include <common/id.h>
 #include <class_drawpanel.h>
 #include <view/view.h>
 #include <class_base_screen.h>

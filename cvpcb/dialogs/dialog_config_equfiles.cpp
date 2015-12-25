@@ -31,7 +31,7 @@
 #include <common/common.h>
 #include <confirm.h>
 #include <gestfich.h>
-#include <id.h>
+#include <common/id.h>
 #include <project.h>            // For PROJECT_VAR_NAME definition
 #include <fp_lib_table.h>       // For KISYSMOD definition
 

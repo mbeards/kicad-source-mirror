@@ -28,7 +28,7 @@
 #include "class_board.h"
 
 #include <wxPcbStruct.h>
-#include <id.h>
+#include <common/id.h>
 #include <common/macros.h>
 #include <pcbnew_id.h>
 #include <view/view_controls.h>

@@ -1,7 +1,7 @@
 #ifndef PCBNEW_ID_H_
 #define PCBNEW_ID_H_
 
-#include <id.h>
+#include <common/id.h>
 
 /**
  * Command IDs for the printed circuit board editor.

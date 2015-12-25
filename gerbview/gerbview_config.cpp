@@ -30,7 +30,7 @@
 
 #include <fctsys.h>
 #include <common/macros.h>
-#include <id.h>
+#include <common/id.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <gestfich.h>

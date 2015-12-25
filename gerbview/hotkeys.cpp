@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <kicad_device_context.h>
-#include <id.h>
+#include <common/id.h>
 
 #include <gerbview.h>
 #include <gerbview_frame.h>

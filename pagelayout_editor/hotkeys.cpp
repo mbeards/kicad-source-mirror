@@ -28,7 +28,7 @@
 #include <fctsys.h>
 #include <common/common.h>
 #include <kicad_device_context.h>
-#include <id.h>
+#include <common/id.h>
 
 #include <class_drawpanel.h>
 #include <pl_editor_frame.h>

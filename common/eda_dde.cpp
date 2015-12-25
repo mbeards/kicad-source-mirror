@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <eda_dde.h>
 #include <draw_frame.h>
-#include <id.h>
+#include <common/id.h>
 #include <common/common.h>
 #include <common/macros.h>
 

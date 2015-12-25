@@ -36,7 +36,7 @@
 #include <class_undoredo_container.h>
 #include <block_commande.h>
 #include <common/common.h>
-#include <id.h>
+#include <common/id.h>
 
 /**
  * Class GRID_TYPE

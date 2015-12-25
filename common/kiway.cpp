@@ -30,7 +30,7 @@
 #include <kiway_express.h>
 #include <pgm_base.h>
 #include <config.h>
-#include <id.h>
+#include <common/id.h>
 
 #include <wx/stdpaths.h>
 #include <wx/debug.h>

@@ -34,7 +34,7 @@
  */
 
 // Generic IDs:
-#include <id.h>
+#include <common/id.h>
 
 // specific IDs
 enum id_cvpcb_frm

@@ -47,7 +47,7 @@
 
 #include <dialog_erc.h>
 #include <erc.h>
-#include <id.h>
+#include <common/id.h>
 
 extern int           DiagErc[PIN_NMAX][PIN_NMAX];
 extern int           DefaultDiagErc[PIN_NMAX][PIN_NMAX];

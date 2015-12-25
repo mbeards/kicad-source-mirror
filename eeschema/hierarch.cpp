@@ -30,7 +30,7 @@
 #include <fctsys.h>
 #include <class_drawpanel.h>
 #include <confirm.h>
-#include <id.h>
+#include <common/id.h>
 #include <schframe.h>
 
 #include <general.h>

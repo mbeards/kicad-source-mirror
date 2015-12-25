@@ -24,7 +24,7 @@
 
 #include <fctsys.h>
 #include <class_drawpanel.h>
-#include <id.h>
+#include <common/id.h>
 
 #include <gerbview.h>
 #include <gerbview_frame.h>

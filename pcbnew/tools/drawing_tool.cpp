@@ -28,7 +28,7 @@
 #include <wxPcbStruct.h>
 #include <class_draw_panel_gal.h>
 #include <project.h>
-#include <id.h>
+#include <common/id.h>
 #include <pcbnew_id.h>
 #include <confirm.h>
 #include <dialog_edit_module_text.h>

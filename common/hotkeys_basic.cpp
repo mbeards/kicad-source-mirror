@@ -31,7 +31,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <hotkeys_basic.h>
-#include <id.h>
+#include <common/id.h>
 #include <confirm.h>
 #include <kicad_string.h>
 #include <gestfich.h>

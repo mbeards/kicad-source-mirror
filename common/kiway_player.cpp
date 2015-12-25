@@ -26,7 +26,7 @@
 #include <kiway_player.h>
 #include <kiway_express.h>
 #include <kiway.h>
-#include <id.h>
+#include <common/id.h>
 #include <common/macros.h>
 #include <typeinfo>
 #include <wx/utils.h>

@@ -33,7 +33,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <common/macros.h>
-#include <id.h>
+#include <common/id.h>
 #include <class_drawpanel.h>
 #include <class_draw_panel_gal.h>
 #include <class_base_screen.h>

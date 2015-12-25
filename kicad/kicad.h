@@ -37,7 +37,7 @@
 #include <wx/filename.h>
 #include <wx/process.h>
 
-#include <id.h>
+#include <common/id.h>
 #include <wxstruct.h>
 
 #define KICAD_MANAGER_FRAME_NAME   wxT( "KicadFrame" )

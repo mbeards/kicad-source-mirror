@@ -30,7 +30,7 @@
 #define __EESCHEMA_ID_H__
 
 
-#include <id.h>
+#include <common/id.h>
 
 
 /**

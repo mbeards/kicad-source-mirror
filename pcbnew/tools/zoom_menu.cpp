@@ -23,7 +23,7 @@
  */
 
 #include "zoom_menu.h"
-#include <id.h>
+#include <common/id.h>
 #include <draw_frame.h>
 #include <class_base_screen.h>
 #include <tools/common_actions.h>

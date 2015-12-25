@@ -29,7 +29,7 @@
 #include <fctsys.h>
 #include <kiface_i.h>
 #include <fp_lib_table.h>
-#include <id.h>
+#include <common/id.h>
 #include <common/common.h>
 #include <gestfich.h>
 #include <config_params.h>

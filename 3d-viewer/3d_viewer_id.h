@@ -12,7 +12,7 @@
  * Please change the value of ROOM_FOR_3D_VIEWER if too small.
  */
 
-#include <id.h>        // Generic Id.
+#include <common/id.h>        // Generic Id.
 
 enum id_3dview_frm
 {

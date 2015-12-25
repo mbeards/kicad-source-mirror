@@ -29,7 +29,7 @@
 #ifndef _PL_EDITOR_ID_H_
 #define _PL_EDITOR_ID_H_
 
-#include <id.h>
+#include <common/id.h>
 
 /**
  * Command IDs for the printed circuit board editor.
