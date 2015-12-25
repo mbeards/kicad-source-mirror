@@ -27,7 +27,7 @@
  */
 
 
-#include <kiway.h>
+#include <common/kiway.h>
 #include <boost/ptr_container/ptr_vector.hpp>
 
 
