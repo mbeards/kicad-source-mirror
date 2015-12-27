@@ -31,7 +31,7 @@
 
 
 #include <pcb_base_edit_frame.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <class_macros_record.h>
 #include <class_undoredo_container.h>
 #include <zones.h>

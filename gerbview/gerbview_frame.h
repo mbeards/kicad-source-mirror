@@ -31,7 +31,7 @@
 #define  WX_GERBER_STRUCT_H
 
 
-#include <config_params.h>
+#include <common/config_params.h>
 #include <draw_frame.h>
 
 #include <gerbview.h>

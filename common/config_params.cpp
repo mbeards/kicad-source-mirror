@@ -30,7 +30,7 @@
 #include <kicad_string.h>
 #include <gestfich.h>
 #include <wxstruct.h>
-#include <config_params.h>
+#include <common/config_params.h>
 
 #include <wx/apptrait.h>
 #include <wx/stdpaths.h>

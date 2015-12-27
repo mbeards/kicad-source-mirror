@@ -35,7 +35,7 @@
 #include <class_board_connected_item.h>
 #include <pad_shapes.h>
 #include <PolyLine.h>
-#include <config_params.h>       // PARAM_CFG_ARRAY
+#include <common/config_params.h>       // PARAM_CFG_ARRAY
 #include "zones.h"
 
 

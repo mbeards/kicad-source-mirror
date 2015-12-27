@@ -6,7 +6,7 @@
 #ifndef _PCBNEW_CONFIG_H_
 #define _PCBNEW_CONFIG_H_
 
-#include <config_params.h>
+#include <common/config_params.h>
 #include <colors_selection.h>
 
 /* Useful macro : */

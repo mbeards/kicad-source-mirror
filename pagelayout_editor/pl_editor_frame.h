@@ -30,7 +30,7 @@
 #define  _PL_EDITOR_FRAME_H
 
 
-#include <config_params.h>
+#include <common/config_params.h>
 #include <draw_frame.h>
 #include <class_drawpanel.h>
 #include <class_pl_editor_screen.h>

@@ -36,7 +36,7 @@
 #include <eda_doc.h>
 #include <wxstruct.h>
 #include <common/richio.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <wildcards_and_files_ext.h>
 #include <project_rescue.h>
 

@@ -35,7 +35,7 @@
 #include <footprint_info.h>
 
 #include <wxBasePcbFrame.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <autosel.h>
 
 

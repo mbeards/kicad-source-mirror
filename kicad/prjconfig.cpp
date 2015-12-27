@@ -34,7 +34,7 @@
 #include <common/confirm.h>
 #include <gestfich.h>
 #include <kicad.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <project_template.h>
 #include <tree_project_frame.h>
 #include <wildcards_and_files_ext.h>

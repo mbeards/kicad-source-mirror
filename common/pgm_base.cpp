@@ -44,7 +44,7 @@
 #include <pgm_base.h>
 #include <wxstruct.h>
 #include <common/macros.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <common/id.h>
 #include <build_version.h>
 #include <hotkeys_basic.h>

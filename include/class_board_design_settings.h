@@ -29,7 +29,7 @@
 #include <class_pad.h>
 #include <class_track.h>
 #include <class_netclass.h>
-#include <config_params.h>
+#include <common/config_params.h>
 
 // Some default values for the board editor and the fp editor (given in mm)
 #define DEFAULT_TEXT_MODULE_SIZE     1.0

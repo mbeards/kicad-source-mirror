@@ -32,7 +32,7 @@
 #include <common/id.h>
 #include <common/common.h>
 #include <gestfich.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <wildcards_and_files_ext.h>
 #include <fp_lib_table.h>
 #include <common/confirm.h>

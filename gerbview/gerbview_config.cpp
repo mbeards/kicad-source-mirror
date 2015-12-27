@@ -34,7 +34,7 @@
 #include <common/common.h>
 #include <class_drawpanel.h>
 #include <gestfich.h>
-#include <config_params.h>
+#include <common/config_params.h>
 #include <colors_selection.h>
 
 #include <gerbview.h>
