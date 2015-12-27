@@ -32,7 +32,7 @@
 #include <class_drawpanel.h>
 #include <wxBasePcbFrame.h>
 #include <common/base_units.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/macros.h>
 
 #include <pcbnew.h>

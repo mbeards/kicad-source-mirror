@@ -28,7 +28,7 @@
 
 
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <reporter.h>
 
 #include <pcb_netlist.h>

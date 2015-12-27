@@ -30,7 +30,7 @@
 
 #include <common/fctsys.h>
 #include <class_drawpanel.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <schframe.h>
 
 #include <netlist.h>

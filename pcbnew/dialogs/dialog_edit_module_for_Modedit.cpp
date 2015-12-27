@@ -43,7 +43,7 @@
 #include <common/base_units.h>
 #include <common/macros.h>
 #include <validators.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 #include <class_module.h>
 #include <class_text_mod.h>

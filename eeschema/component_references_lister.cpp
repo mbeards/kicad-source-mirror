@@ -34,7 +34,7 @@
 #include <vector>
 
 #include <common/fctsys.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <schframe.h>
 #include <sch_reference_list.h>
 #include <sch_component.h>

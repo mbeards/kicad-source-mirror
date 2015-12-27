@@ -30,7 +30,7 @@
 
 #include <common/fctsys.h>
 #include <class_drawpanel.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <wxPcbStruct.h>
 #include <kicad_device_context.h>
 #include <common/macros.h>

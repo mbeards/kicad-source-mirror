@@ -34,7 +34,7 @@
 #include <common/common.h>
 #include <plot_common.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 /* Forward declaration of the font width metrics
    (yes extern! this is the way to forward declare variables */

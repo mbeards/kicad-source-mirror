@@ -34,7 +34,7 @@
 #include <common/richio.h>
 #include <schframe.h>
 #include <plot_common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <msgpanel.h>
 
 #include <sch_sheet.h>

@@ -29,7 +29,7 @@
 
 #include <common/macros.h>     // TO_UTF8()
 #include <fpid.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 
 static inline bool isDigit( char c )

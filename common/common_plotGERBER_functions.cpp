@@ -35,7 +35,7 @@
 #include <common/common.h>
 #include <plot_common.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 #include <build_version.h>
 

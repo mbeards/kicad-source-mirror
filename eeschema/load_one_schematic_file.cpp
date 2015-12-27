@@ -30,7 +30,7 @@
 
 #include <common/fctsys.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <schframe.h>
 #include <common/richio.h>
 #include <project.h>

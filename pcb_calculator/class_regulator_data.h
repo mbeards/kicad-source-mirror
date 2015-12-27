@@ -29,7 +29,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
  */
 
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 // Helper class to store parameters for a regulator
 class REGULATOR_DATA

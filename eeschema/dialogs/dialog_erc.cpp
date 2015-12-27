@@ -30,7 +30,7 @@
 
 #include <common/fctsys.h>
 #include <class_drawpanel.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <pgm_base.h>
 #include <class_sch_screen.h>

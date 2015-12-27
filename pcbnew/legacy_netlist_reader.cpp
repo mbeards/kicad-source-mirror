@@ -29,7 +29,7 @@
 
 #include <common/fctsys.h>
 #include <common/richio.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 #include <pcb_netlist.h>
 #include <netlist_reader.h>

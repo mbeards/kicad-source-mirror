@@ -33,7 +33,7 @@
 #include <gr_basic.h>
 #include <common/base_struct.h>
 #include <drawtxt.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <trigo.h>
 #include <colors_selection.h>
 #include <common/richio.h>

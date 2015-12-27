@@ -32,7 +32,7 @@
 #include <class_drawpanel.h>
 #include <wxBasePcbFrame.h>
 #include <common/common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pcbnew.h>
 #include <colors_selection.h>
 #include <common/richio.h>

@@ -48,7 +48,7 @@
 #include <class_library.h>
 #include <sch_component.h>
 #include <sch_field.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 
 SCH_FIELD::SCH_FIELD( const wxPoint& aPos, int aFieldId, SCH_COMPONENT* aParent, wxString aName ) :

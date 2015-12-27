@@ -37,7 +37,7 @@
 #define GLM_FORCE_RADIANS
 #include <glm/glm.hpp>
 #include <vector>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <info3d_visu.h>
 #ifdef __WXMAC__
 #  ifdef __DARWIN__

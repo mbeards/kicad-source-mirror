@@ -32,7 +32,7 @@
 #include <common/macros.h>
 #include <common/base_struct.h>
 #include <drawtxt.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <class_drawpanel.h>
 #include <plot_common.h>
 #include <trigo.h>

@@ -31,7 +31,7 @@
 #include <project.h>
 #include <common/common.h>         // NAMELESS_PROJECT
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/config_params.h>
 #include <wildcards_and_files_ext.h>
 

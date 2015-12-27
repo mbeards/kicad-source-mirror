@@ -36,7 +36,7 @@
 #include <class_drawpanel.h>
 #include <class_pcb_screen.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <colors_selection.h>
 #include <common/richio.h>
 #include <common/macros.h>

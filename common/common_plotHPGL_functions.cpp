@@ -196,7 +196,7 @@
 #include <common/base_struct.h>
 #include <plot_common.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 // HPGL scale factor (1 PLU = 1/40mm = 25 micrometers)
 static const double PLUsPERDECIMIL = 0.102041;

@@ -32,7 +32,7 @@
 #include <common/base_struct.h>
 #include <plot_common.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <convert_basic_shapes_to_polygon.h>
 
 /**

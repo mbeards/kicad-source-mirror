@@ -34,7 +34,7 @@
 #include <boost/foreach.hpp>
 
 #include <common/ki_mutex.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 
 #define USE_FPI_LAZY            0   // 1:yes lazy,  0:no early

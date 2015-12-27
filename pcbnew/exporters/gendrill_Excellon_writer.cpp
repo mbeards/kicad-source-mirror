@@ -41,7 +41,7 @@
 #include <plot_common.h>
 #include <trigo.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <wxPcbStruct.h>
 #include <pgm_base.h>
 #include <build_version.h>

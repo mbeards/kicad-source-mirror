@@ -37,7 +37,7 @@
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <schframe.h>
 #include <common/base_units.h>

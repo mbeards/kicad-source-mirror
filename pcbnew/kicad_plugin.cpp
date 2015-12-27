@@ -24,7 +24,7 @@
  */
 
 #include <common/fctsys.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/common.h>
 #include <build_version.h>      // LEGACY_BOARD_FILE_VERSION
 #include <common/macros.h>

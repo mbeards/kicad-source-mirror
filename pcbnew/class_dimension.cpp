@@ -35,7 +35,7 @@
 #include <wxstruct.h>
 #include <class_drawpanel.h>
 #include <colors_selection.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/richio.h>
 
 #include <class_board.h>

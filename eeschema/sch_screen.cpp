@@ -32,7 +32,7 @@
 #include <common/fctsys.h>
 #include <gr_basic.h>
 #include <common/common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <eeschema_id.h>
 #include <pgm_base.h>
 #include <kiway.h>

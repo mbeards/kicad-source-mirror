@@ -33,7 +33,7 @@
 #include <common/common.h>
 #include <common/confirm.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <trigo.h>
 #include <gerbview.h>

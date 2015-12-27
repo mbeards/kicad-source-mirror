@@ -31,7 +31,7 @@
 #include <kiface_i.h>
 #include <gr_basic.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <eda_doc.h>
 #include <wxstruct.h>

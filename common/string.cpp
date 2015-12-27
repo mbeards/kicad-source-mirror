@@ -29,7 +29,7 @@
 #include <common/fctsys.h>
 #include <common/macros.h>
 #include <common/richio.h>                        // StrPrintf
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 
 /**

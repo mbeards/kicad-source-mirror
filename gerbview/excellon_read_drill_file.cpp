@@ -74,7 +74,7 @@
 #include <class_gerber_draw_item.h>
 #include <class_GERBER.h>
 #include <class_excellon.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <class_X2_gerber_attributes.h>
 
 #include <cmath>

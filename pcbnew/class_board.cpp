@@ -35,7 +35,7 @@
 
 #include <common/fctsys.h>
 #include <common/common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <wxBasePcbFrame.h>
 #include <msgpanel.h>
 #include <pcb_netlist.h>

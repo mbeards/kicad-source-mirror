@@ -29,7 +29,7 @@
  */
 
 #include <common/fctsys.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <pgm_base.h>
 #include <schframe.h>

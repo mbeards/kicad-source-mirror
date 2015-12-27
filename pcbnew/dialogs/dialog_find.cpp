@@ -27,7 +27,7 @@
 #include <gr_basic.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <wxPcbStruct.h>
 
 #include <class_board.h>

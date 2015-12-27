@@ -31,7 +31,7 @@
 #include <common/fctsys.h>
 #include <common/common.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pgm_base.h>
 #define GLM_FORCE_RADIANS
 #include <glm/gtc/matrix_transform.hpp>

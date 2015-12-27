@@ -29,7 +29,7 @@
 #include <common/fctsys.h>
 #include <class_drawpanel.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pcbnew.h>
 #include <wxPcbStruct.h>
 #include <common/macros.h>

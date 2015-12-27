@@ -33,7 +33,7 @@
 #include <gr_basic.h>
 #include <common/common.h>
 #include <class_drawpanel.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <colors_selection.h>
 #include <trigo.h>
 #include <common/macros.h>

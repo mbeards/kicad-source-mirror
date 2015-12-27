@@ -29,7 +29,7 @@
 
 #include <common/fctsys.h>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <class_drawpanel.h>
 #include <plot_common.h>
 #include <gr_basic.h>

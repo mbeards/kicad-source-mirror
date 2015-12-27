@@ -34,7 +34,7 @@
 #include <trigo.h>
 #include <class_drawpanel.h>
 #include <drawtxt.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <colors_selection.h>
 #include <common/richio.h>
 #include <common/macros.h>

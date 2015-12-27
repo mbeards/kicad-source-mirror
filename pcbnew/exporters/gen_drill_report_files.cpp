@@ -33,7 +33,7 @@
 #include <common/base_struct.h>
 #include <drawtxt.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/macros.h>
 
 #include <class_board.h>

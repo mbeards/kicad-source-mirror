@@ -31,7 +31,7 @@
 #include <common/fctsys.h>
 #include <vector>
 #include <common/macros.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <info3d_visu.h>
 
 #include "3d_struct.h"

@@ -30,7 +30,7 @@
 #include <common/fctsys.h>
 #include <common/macros.h>
 #include <draw_frame.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <dialog_helpers.h>
 
 EDA_LIST_DIALOG::EDA_LIST_DIALOG( EDA_DRAW_FRAME* aParent, const wxString& aTitle,

@@ -28,7 +28,7 @@
 
 #include <common/macros.h>
 #include <common/common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pgm_base.h>
 #include <pcb_calculator.h>
 #include <pcb_calculator_datafile_lexer.h>

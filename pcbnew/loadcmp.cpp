@@ -35,7 +35,7 @@
 #include <pcb_draw_panel_gal.h>
 #include <common/confirm.h>
 #include <eda_doc.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pgm_base.h>
 #include <kiway.h>
 #include <wxPcbStruct.h>

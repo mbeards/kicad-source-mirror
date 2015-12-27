@@ -26,7 +26,7 @@
 #ifndef NETLIST_EXPORTER_H
 #define NETLIST_EXPORTER_H
 
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 
 #include <class_libentry.h>
 #include <class_netlist_object.h>

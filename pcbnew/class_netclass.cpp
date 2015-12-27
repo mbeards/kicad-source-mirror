@@ -27,7 +27,7 @@
 
 #include <common/fctsys.h>
 #include <common/common.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <pcbnew.h>
 #include <common/richio.h>
 #include <common/macros.h>

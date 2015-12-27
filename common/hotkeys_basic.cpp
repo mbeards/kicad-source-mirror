@@ -33,7 +33,7 @@
 #include <hotkeys_basic.h>
 #include <common/id.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <gestfich.h>
 #include <wxstruct.h>
 #include <common/macros.h>

@@ -32,7 +32,7 @@
 #include <PolyLine.h>
 #include <common/common.h>
 #include <common/confirm.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <trigo.h>
 #include <common/richio.h>
 #include <wxstruct.h>

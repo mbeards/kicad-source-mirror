@@ -31,7 +31,7 @@
 #include <pgm_base.h>
 #include <class_drawpanel.h>
 #include <gr_basic.h>
-#include <kicad_string.h>
+#include <common/kicad_string.h>
 #include <common/richio.h>
 #include <schframe.h>
 #include <plot_common.h>
