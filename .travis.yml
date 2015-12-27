@@ -3,6 +3,7 @@ compiler:
     - gcc
 
 install:
+    - whoami
     - pwd
     - mkdir ~/cmake_prefix
     - cd ~/cmake_prefix
