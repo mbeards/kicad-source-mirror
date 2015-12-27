@@ -35,7 +35,7 @@
 #include <pcb_draw_panel_gal.h>
 #include <common/confirm.h>
 #include <gestfich.h>
-#include <xnode.h>
+#include <common/xnode.h>
 #include <common/common.h>
 #include <common/macros.h>
 #include <wxPcbStruct.h>

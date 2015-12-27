@@ -28,7 +28,7 @@
 
 #include <netlist_exporter.h>
 
-#include <xnode.h>      // also nests: <wx/xml/xml.h>
+#include <common/xnode.h>      // also nests: <wx/xml/xml.h>
 
 #define GENERIC_INTERMEDIATE_NETLIST_EXT wxT( "xml" )
 

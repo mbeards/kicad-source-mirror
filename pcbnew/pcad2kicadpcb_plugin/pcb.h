@@ -31,7 +31,7 @@
 #define pcb_H_
 
 #include <wx/wx.h>
-#include <xnode.h>
+#include <common/xnode.h>
 
 #include <pcb_module.h>
 #include <pcb_net.h>

@@ -38,7 +38,7 @@
 
 #include <3d_struct.h>
 #include <modelparsers.h>
-#include <xnode.h>
+#include <common/xnode.h>
 
 /**
  * Trace mask used to enable or disable the trace output of the X3D parser code.

@@ -32,7 +32,7 @@
 
 #include <wx/wx.h>
 #include <wx/xml/xml.h>
-#include <xnode.h>
+#include <common/xnode.h>
 
 namespace PCAD2KICAD
 {
