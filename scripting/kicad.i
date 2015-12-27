@@ -136,7 +136,7 @@
 %rename(utf8_to_charptr) operator char* () const;
 %rename(utf8_to_wxstring) operator wxString () const;
 
-#include <utf8.h>
+#include <common/utf8.h>
 %include <utf8.h>
 
 %extend UTF8

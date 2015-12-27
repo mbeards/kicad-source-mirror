@@ -25,7 +25,7 @@
 #ifndef SCH_SWEET_PARSER_H_
 #define SCH_SWEET_PARSER_H_
 
-#include <utf8.h>
+#include <common/utf8.h>
 #include <sweet_lexer.h>
 
 
