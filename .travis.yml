@@ -1,6 +1,7 @@
 language: cpp
 compiler:
     - gcc
+sudo: required
 
 install:
     - apt-get install -y zlib1g-dev freeglut3 bzr bzrtools libwxgtk-dev
