@@ -1,15 +1,13 @@
 language: cpp
 compiler:
     - gcc
-sudo: true
 
-# add Mrinal's cmake ppa
-before_install:
-    - yes | sudo add-apt-repository ppa:kalakris/cmake
-    - sudo apt-get update -qq
 install:
-    - sudo apt-get update -qq
-    - sudo apt-get install cmake
+    - mkdir ~/cmake_prefix
+    - cd ~/cmake_prefix
+    - wget http://www.cmake.org/files/v3.2/cmake-3.2.2-Linux-x86_64.tar.gz
+    - tar xf cmake-3.2.2-Linux-x86_64.tar.gz
+    - ls ~/cmake_prefix
 script:
 
     - mkdir build
