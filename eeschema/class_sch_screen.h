@@ -31,7 +31,7 @@
 #define CLASS_SCREEN_H
 
 #include <common/macros.h>
-#include <dlist.h>
+#include <common/dlist.h>
 #include <sch_item_struct.h>
 #include <common/class_base_screen.h>
 #include <class_title_block.h>

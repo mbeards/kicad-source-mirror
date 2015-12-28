@@ -32,7 +32,7 @@
 #define CLASS_GBR_LAYOUT_H
 
 
-#include <dlist.h>
+#include <common/dlist.h>
 
 #include <class_colors_design_settings.h>
 #include <common/common.h>                         // PAGE_INFO

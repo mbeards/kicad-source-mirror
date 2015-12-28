@@ -32,7 +32,7 @@
 #define MODULE_H_
 
 
-#include <dlist.h>
+#include <common/dlist.h>
 #include <layers_id_colors_and_visibility.h>       // ALL_LAYERS definition.
 #include <class_board_item.h>
 #include <fpid.h>

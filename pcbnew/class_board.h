@@ -31,7 +31,7 @@
 #define CLASS_BOARD_H_
 
 
-#include <dlist.h>
+#include <common/dlist.h>
 
 #include <common/common.h>                         // PAGE_INFO
 #include <layers_id_colors_and_visibility.h>

@@ -101,7 +101,7 @@
   #include <class_mire.h>
   #include <class_text_mod.h>
   #include <class_edge_mod.h>
-  #include <dlist.h>
+  #include <common/dlist.h>
   #include <class_zone_settings.h>
   #include <class_netclass.h>
   #include <class_netinfo.h>

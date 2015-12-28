@@ -31,7 +31,7 @@
 #include <common/fctsys.h>
 
 #include <general.h>
-#include <dlist.h>
+#include <common/dlist.h>
 #include <class_sch_screen.h>
 #include <sch_item_struct.h>
 

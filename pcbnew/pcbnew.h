@@ -32,7 +32,7 @@
 
 #include <common/fctsys.h>         // wxWidgets include.
 #include <common/base_struct.h>    // IS_DRAGGED and IN_EDIT definitions.
-#include <dlist.h>
+#include <common/dlist.h>
 #include <convert_to_biu.h> // to define DMils2iu() conversion function
 #include <layers_id_colors_and_visibility.h>
 
