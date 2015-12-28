@@ -384,7 +384,7 @@ wxString GetKicadConfigPath()
 }
 
 
-#include <ki_mutex.h>
+#include <common/ki_mutex.h>
 const wxString ExpandEnvVarSubstitutions( const wxString& aString )
 {
     // wxGetenv( wchar_t* ) is not re-entrant on linux.

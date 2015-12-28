@@ -635,7 +635,7 @@ const FP_LIB_TABLE::ROW* FP_LIB_TABLE::FindRow( const wxString& aNickname )
 // wxGetenv( wchar_t* ) is not re-entrant on linux.
 // Put a lock on multithreaded use of wxGetenv( wchar_t* ), called from wxEpandEnvVars(),
 // needed by bool ReadFootprintFiles( FP_LIB_TABLE* aTable, const wxString* aNickname = NULL );
-#include <ki_mutex.h>
+#include <common/ki_mutex.h>
 
 const wxString FP_LIB_TABLE::ExpandSubstitutions( const wxString& aString )
 {
